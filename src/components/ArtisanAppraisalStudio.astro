@@ -1611,14 +1611,39 @@
 
     // Compute Price
     async function computeFairPrice() {
-      // If values are zero, show zero state per user instruction
+      if (audioSuccessStrip) audioSuccessStrip.classList.add('hidden');
+      if (audioProcessingStrip) audioProcessingStrip.classList.add('hidden');
+
+      // Sync latest values from inputs in case artisan entered them
+      if (capsuleDaysInput && parseInt(capsuleDaysInput.value, 10) > 0) {
+        currentDays = parseInt(capsuleDaysInput.value, 10);
+      }
+      if (capsuleCostInput && parseInt(capsuleCostInput.value, 10) > 0) {
+        currentCost = parseInt(capsuleCostInput.value, 10);
+      }
+      if (capsuleCitySelect && capsuleCitySelect.value) {
+        currentRegion = capsuleCitySelect.value;
+      }
+
+      // If values are zero, provide helpful artisan starter defaults so calculate always produces result
       if (currentDays <= 0 && currentCost <= 0) {
-        resetToZero();
-        return;
+        currentDays = 4;
+        currentCost = 350;
+        if (capsuleDaysInput) capsuleDaysInput.value = 4;
+        if (capsuleCostInput) capsuleCostInput.value = 350;
+      } else if (currentDays <= 0) {
+        currentDays = 3;
+        if (capsuleDaysInput) capsuleDaysInput.value = 3;
+      } else if (currentCost <= 0) {
+        currentCost = 200;
+        if (capsuleCostInput) capsuleCostInput.value = 200;
       }
 
       if (!currentCategory) {
-        currentCategory = 'Dhokra Metal Craft';
+        currentCategory = 'Terracotta & Pottery';
+      }
+      if (!currentTitle) {
+        currentTitle = currentCategory;
       }
 
       const payload = {
@@ -1683,15 +1708,6 @@
           if (breakdownMaterials) breakdownMaterials.textContent = `₹${data.raw_material_with_wastage.toLocaleString('en-IN')}`;
           if (breakdownGi) breakdownGi.textContent = `+₹${data.gi_heritage_premium.toLocaleString('en-IN')}`;
           if (breakdownProfit) breakdownProfit.textContent = `+₹${data.artisan_profit_margin.toLocaleString('en-IN')}`;
-
-          if (evalGiBadge) {
-            evalGiBadge.textContent = data.metrics.gi_tag_eligible ? 'GI Tag Protected' : 'Standard Craft';
-            if (data.metrics.gi_tag_eligible) {
-              evalGiBadge.className = 'px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20';
-            } else {
-              evalGiBadge.className = 'px-3 py-1 rounded-full text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-700';
-            }
-          }
         }
       } catch (err) {
         console.warn('Pricing calculation error:', err);
@@ -1699,31 +1715,37 @@
     }
 
     if (promptInput) {
-      promptInput.addEventListener('keydown', (e) => {
+      promptInput.addEventListener('keydown', async (e) => {
         if (e.key === 'Enter' && !e.shiftKey) {
           e.preventDefault();
-          if (promptInput.value && promptInput.value.trim().length > 2) {
-            translateAndExtract(promptInput.value);
-          } else {
-            computeFairPrice();
-          }
+          if (estimateBtn) estimateBtn.click();
         }
       });
     }
 
     if (estimateBtn) {
-      estimateBtn.addEventListener('click', () => {
-        if (promptInput && promptInput.value && promptInput.value.trim().length > 2) {
-          translateAndExtract(promptInput.value);
-        } else {
-          if (currentDays === 0 && currentCost === 0) {
-            // If artisan hasn't set days/cost, set reasonable starter values
-            currentDays = 5;
-            currentCost = 400;
-            if (capsuleDaysInput) capsuleDaysInput.value = 5;
-            if (capsuleCostInput) capsuleCostInput.value = 400;
+      estimateBtn.addEventListener('click', async () => {
+        estimateBtn.disabled = true;
+        estimateBtn.classList.add('opacity-75');
+
+        try {
+          // If artisan typed or voice loaded prompt text and days/cost are still zero, extract entities
+          if (promptInput && promptInput.value && promptInput.value.trim().length > 2) {
+            if (currentDays <= 0 || currentCost <= 0) {
+              await translateAndExtract(promptInput.value);
+            }
           }
-          computeFairPrice();
+
+          await computeFairPrice();
+
+          // Scroll smoothly to valuation card
+          const card = document.getElementById('valuation-result-card');
+          if (card) {
+            card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        } finally {
+          estimateBtn.disabled = false;
+          estimateBtn.classList.remove('opacity-75');
         }
       });
     }
