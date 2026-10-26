@@ -46,8 +46,8 @@ export async function classifyCraftImage(
 
   // Baseline category detection from visual tone, filename and text
   const combinedContext = `${fileName || ''} ${promptText || ''}`.toLowerCase();
-  let detectedCategory = 'Dhokra Metal Craft';
-  let defaultTitle = 'Bastar Handcrafted Dhokra Metal Sculpture';
+  let detectedCategory = 'Terracotta & Pottery';
+  let defaultTitle = 'Handcrafted Artisan Heritage Craft';
 
   // Apply visual tone analysis prior
   if (visualTone === 'terracotta_pottery') {
@@ -89,16 +89,14 @@ export async function classifyCraftImage(
   }
 
   // Priority 1: Real Multimodal Vision AI Model (Runs when image is present)
-  if ((openRouterKey || geminiKey) && cleanBase64.length > 50) {
-    // 1A: OpenRouter Nemotron VL
-    if (openRouterKey) {
+  if (openRouterKey && cleanBase64.length > 50) {
+    const visionModels = ['nvidia/nemotron-3.5-super-vl:free', 'dots-studio/dots-3-note-preview:free'];
+    const promptDirective = promptText?.trim() ? `Artisan notes: "${promptText}". ` : '';
+
+    for (const model of visionModels) {
       try {
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 12000);
-
-        const promptDirective = promptText?.trim() 
-          ? `Artisan notes: "${promptText}". `
-          : '';
+        const timeoutId = setTimeout(() => controller.abort(), 8000);
 
         const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
           method: 'POST',
@@ -108,7 +106,7 @@ export async function classifyCraftImage(
           },
           signal: controller.signal,
           body: JSON.stringify({
-            model: 'nvidia/nemotron-3.5-super-vl:free',
+            model: model,
             messages: [
               {
                 role: 'user',
@@ -133,7 +131,7 @@ Return STRICTLY a raw JSON object with no markdown formatting and no backticks:
                   {
                     type: 'image_url',
                     image_url: {
-                      url: `data:image/jpeg;base64,{cleanBase64}`.replace('{cleanBase64}', cleanBase64)
+                      url: `data:image/jpeg;base64,${cleanBase64}`
                     }
                   }
                 ]
