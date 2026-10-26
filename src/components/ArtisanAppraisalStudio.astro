@@ -1,0 +1,1888 @@
+---
+// ArtisanAppraisalStudio.astro - Pure Tailwind CSS, Anti-AI Slop, Minimalist Dark/Light Studio
+---
+
+<section class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12 space-y-10">
+
+  <!-- Clean, Bold Hero Title (Anti-AI Slop: Direct and honest) -->
+  <div class="text-center pt-2 sm:pt-4">
+    <h1 id="i18n-hero-title" data-i18n="hero_title" class="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-neutral-900 dark:text-neutral-100 uppercase select-none leading-none">
+      KNOW YOUR CRAFT PRICE
+    </h1>
+  </div>
+
+  <!-- Minimal Input Capsule (Tailwind CSS: Clean, responsive, icon-driven, drag & drop enabled) -->
+  <div id="studio-input-capsule" class="relative bg-neutral-50 dark:bg-[#15171a] rounded-3xl border border-neutral-200 dark:border-neutral-800 p-4 sm:p-5 shadow-sm focus-within:border-blue-600 transition-all space-y-3">
+    
+    <!-- Drag and Drop Visual Overlay -->
+    <div id="capsule-drop-overlay" class="hidden absolute inset-0 rounded-3xl bg-blue-50/90 dark:bg-blue-950/85 border-2 border-dashed border-blue-600 z-20 flex flex-col items-center justify-center pointer-events-none transition-all">
+      <svg class="w-8 h-8 text-blue-600 mb-1 animate-bounce" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="17 8 12 3 7 8"/>
+        <line x1="12" y1="3" x2="12" y2="15"/>
+      </svg>
+      <span data-i18n="drop_photo_text" class="text-xs font-bold text-blue-600 dark:text-blue-400 tracking-wide">Drop craft photo here</span>
+    </div>
+
+    <!-- Attached Image Chip (Shown only when image is attached) -->
+    <div id="image-chip-container" class="hidden flex items-center gap-2.5 p-1.5 bg-white dark:bg-[#1e2025] rounded-xl border border-neutral-200 dark:border-neutral-700 w-fit max-w-full">
+      <img id="image-chip-preview" src="" alt="Craft" class="w-10 h-10 rounded-lg object-cover border border-neutral-200 dark:border-neutral-700" />
+      <div class="flex-1 min-w-0 pr-2">
+        <span id="image-chip-title" class="text-xs font-semibold text-neutral-900 dark:text-neutral-100 truncate block">Craft Attached</span>
+        <span id="image-chip-status" class="text-[10px] text-emerald-500 font-medium block">Ready</span>
+      </div>
+      <button 
+        type="button" 
+        id="remove-chip-btn" 
+        class="w-5 h-5 rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-100 flex items-center justify-center text-xs transition-colors cursor-pointer"
+        title="Remove"
+      >
+        ✕
+      </button>
+    </div>
+
+    <!-- Hidden File Input -->
+    <input type="file" id="craft-file-input" accept="image/*" class="hidden" />
+
+    <!-- Prompt / Speech Input -->
+    <div class="relative">
+      <textarea 
+        id="studio-prompt-input" 
+        data-i18n-placeholder="input_placeholder"
+        rows="2" 
+        class="w-full bg-transparent text-sm sm:text-base text-neutral-900 dark:text-neutral-100 placeholder-neutral-400 dark:placeholder-neutral-500 focus:outline-none resize-none leading-relaxed"
+        placeholder="Describe days, material cost, or tap mic to speak in any language..."
+      ></textarea>
+    </div>
+
+    <!-- Active Voice Wave Strip (Listening) -->
+    <div id="audio-wave-strip" class="hidden flex items-center gap-1.5 py-1 text-xs text-blue-600 dark:text-blue-400">
+      <span class="w-1 h-3 bg-blue-600 rounded-full animate-bounce"></span>
+      <span class="w-1 h-5 bg-blue-600 rounded-full animate-bounce [animation-delay:150ms]"></span>
+      <span class="w-1 h-2 bg-blue-600 rounded-full animate-bounce [animation-delay:300ms]"></span>
+      <span class="w-1 h-4 bg-blue-600 rounded-full animate-bounce [animation-delay:75ms]"></span>
+      <span id="listening-text" data-i18n="listening_text" class="font-mono text-xs ml-2">Listening... (Speak in any language)</span>
+    </div>
+
+    <!-- Voice Processing & Translation Indicator -->
+    <div id="audio-processing-strip" class="hidden flex items-center gap-2 py-1 text-xs text-blue-600 dark:text-blue-400">
+      <svg class="animate-spin w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+      </svg>
+      <span data-i18n="voice_processing_text" class="font-medium text-xs">Translating voice to English & extracting details...</span>
+    </div>
+
+    <!-- Voice Translation Success Notification -->
+    <div id="audio-success-strip" class="hidden flex items-center gap-1.5 py-1 text-xs text-emerald-600 dark:text-emerald-400">
+      <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      <span data-i18n="voice_success_text" class="font-medium text-xs">Voice translated to English and loaded! Click "Calculate Price" below.</span>
+    </div>
+
+    <!-- Controls Row: Upload + Mic + Days + City + Cost + Calculate -->
+    <div class="flex flex-wrap items-center justify-between gap-2.5 pt-2 border-t border-neutral-200 dark:border-neutral-800/80">
+      
+      <!-- Inputs Strip -->
+      <div class="flex flex-wrap items-center gap-2">
+        
+        <!-- Upload Icon Button -->
+        <button 
+          type="button" 
+          id="trigger-upload-btn"
+          class="w-9 h-9 rounded-full bg-white dark:bg-[#1e2025] hover:bg-neutral-100 dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700 flex items-center justify-center transition-colors cursor-pointer"
+          title="Attach or drop photo"
+        >
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="17 8 12 3 7 8"/>
+            <line x1="12" y1="3" x2="12" y2="15"/>
+          </svg>
+        </button>
+
+        <!-- Symmetrical Mic Icon Button -->
+        <button 
+          type="button" 
+          id="trigger-mic-btn"
+          class="relative w-9 h-9 rounded-full bg-white dark:bg-[#1e2025] hover:bg-neutral-100 dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700 flex items-center justify-center transition-colors cursor-pointer"
+          title="Speak in any language"
+        >
+          <svg id="mic-icon-svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+            <line x1="12" x2="12" y1="19" y2="22"/>
+            <line x1="8" x2="16" y1="22" y2="22"/>
+          </svg>
+          <span id="mic-pulse" class="hidden absolute -inset-1 rounded-full border border-blue-600 animate-ping opacity-75"></span>
+        </button>
+
+        <!-- Working Days Input (Default 0 per user instruction) -->
+        <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white dark:bg-[#1e2025] border border-neutral-200 dark:border-neutral-700 text-xs text-neutral-500 dark:text-neutral-400">
+          <span data-i18n="days_label" class="font-medium text-[11px]">Days:</span>
+          <input 
+            type="number" 
+            id="capsule-days-input" 
+            value="0" 
+            min="0" 
+            max="90"
+            class="w-10 bg-transparent text-neutral-900 dark:text-neutral-100 font-mono font-semibold text-xs focus:outline-none text-center" 
+          />
+        </div>
+
+        <!-- Comprehensive Cities List (Over 35+ Major Indian Craft Clusters) -->
+        <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white dark:bg-[#1e2025] border border-neutral-200 dark:border-neutral-700 text-xs text-neutral-500 dark:text-neutral-400">
+          <span data-i18n="city_label" class="font-medium text-[11px]">City:</span>
+          <select 
+            id="capsule-city-select"
+            class="bg-transparent text-neutral-900 dark:text-neutral-100 font-semibold text-xs focus:outline-none cursor-pointer pr-1 max-w-[150px] sm:max-w-none"
+          >
+            <optgroup label="Central & East India" class="bg-white dark:bg-[#1e2025] text-neutral-900 dark:text-neutral-100">
+              <option value="Bastar_CG">Bastar (CG)</option>
+              <option value="Kondagaon_CG">Kondagaon (CG)</option>
+              <option value="Raipur_CG">Raipur (CG)</option>
+              <option value="Bilaspur_CG">Bilaspur (CG)</option>
+              <option value="Raigarh_CG">Raigarh (CG)</option>
+              <option value="Champa_CG">Champa (CG)</option>
+              <option value="Madhubani_BR">Madhubani (BR)</option>
+              <option value="Bhagalpur_BR">Bhagalpur (BR)</option>
+              <option value="Shantiniketan_WB">Shantiniketan (WB)</option>
+              <option value="Bankura_WB">Bankura (WB)</option>
+              <option value="Bishnupur_WB">Bishnupur (WB)</option>
+              <option value="Murshidabad_WB">Murshidabad (WB)</option>
+              <option value="Puri_OD">Puri / Raghurajpur (OD)</option>
+              <option value="Cuttack_OD">Cuttack (OD)</option>
+              <option value="Sambalpur_OD">Sambalpur (OD)</option>
+            </optgroup>
+            <optgroup label="North India" class="bg-white dark:bg-[#1e2025] text-neutral-900 dark:text-neutral-100">
+              <option value="Varanasi_UP">Varanasi (UP)</option>
+              <option value="Lucknow_UP">Lucknow (UP)</option>
+              <option value="Bhadohi_UP">Bhadohi (UP)</option>
+              <option value="Moradabad_UP">Moradabad (UP)</option>
+              <option value="Saharanpur_UP">Saharanpur (UP)</option>
+              <option value="Firozabad_UP">Firozabad (UP)</option>
+              <option value="Agra_UP">Agra (UP)</option>
+              <option value="Khurja_UP">Khurja (UP)</option>
+              <option value="Jaipur_RJ">Jaipur (RJ)</option>
+              <option value="Jodhpur_RJ">Jodhpur (RJ)</option>
+              <option value="Udaipur_RJ">Udaipur (RJ)</option>
+              <option value="Barmer_RJ">Barmer (RJ)</option>
+              <option value="Srinagar_JK">Srinagar (JK)</option>
+              <option value="Anantnag_JK">Anantnag (JK)</option>
+              <option value="Kullu_HP">Kullu (HP)</option>
+            </optgroup>
+            <optgroup label="West & South India" class="bg-white dark:bg-[#1e2025] text-neutral-900 dark:text-neutral-100">
+              <option value="Kutch_GJ">Kutch / Bhuj (GJ)</option>
+              <option value="Patan_GJ">Patan (GJ)</option>
+              <option value="Surat_GJ">Surat (GJ)</option>
+              <option value="Maheshwar_MP">Maheshwar / Indore (MP)</option>
+              <option value="Chanderi_MP">Chanderi (MP)</option>
+              <option value="Bhopal_MP">Bhopal (MP)</option>
+              <option value="Kolhapur_MH">Kolhapur (MH)</option>
+              <option value="Paithan_MH">Paithan (MH)</option>
+              <option value="Kanchipuram_TN">Kanchipuram (TN)</option>
+              <option value="Thanjavur_TN">Thanjavur (TN)</option>
+              <option value="Madurai_TN">Madurai (TN)</option>
+              <option value="Mysore_KA">Mysore (KA)</option>
+              <option value="Channapatna_KA">Channapatna (KA)</option>
+              <option value="Bidar_KA">Bidar (KA)</option>
+              <option value="Hyderabad_TS">Hyderabad (TS)</option>
+              <option value="Warangal_TS">Warangal (TS)</option>
+              <option value="Pochampally_TS">Pochampally (TS)</option>
+            </optgroup>
+            <optgroup label="Other" class="bg-white dark:bg-[#1e2025] text-neutral-900 dark:text-neutral-100">
+              <option value="Rural_Cluster">General Rural Cluster</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <!-- Material Cost Input (Default 0 per user instruction) -->
+        <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white dark:bg-[#1e2025] border border-neutral-200 dark:border-neutral-700 text-xs text-neutral-500 dark:text-neutral-400">
+          <span data-i18n="cost_label" class="font-medium text-[11px]">Cost:</span>
+          <span class="font-mono text-neutral-400">₹</span>
+          <input 
+            type="number" 
+            id="capsule-cost-input" 
+            value="0" 
+            min="0" 
+            max="50000"
+            class="w-14 bg-transparent text-neutral-900 dark:text-neutral-100 font-mono font-semibold text-xs focus:outline-none" 
+          />
+        </div>
+
+      </div>
+
+      <!-- Calculate Price Button -->
+      <button 
+        type="button" 
+        id="estimate-price-btn"
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition-all active:scale-95 cursor-pointer ml-auto"
+      >
+        <span data-i18n="calc_btn">Calculate Price</span>
+        <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="5" y1="12" x2="19" y2="12"/>
+          <polyline points="12 5 19 12 12 19"/>
+        </svg>
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- Fair Valuation Output Section (Zeroed by default per user instruction) -->
+  <div id="valuation-result-card" class="bg-white dark:bg-[#15171a] rounded-3xl border border-neutral-200 dark:border-neutral-800 p-6 sm:p-8 space-y-6 shadow-sm">
+    
+    <!-- Header: Craft Identity + GI Badge -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-neutral-100 dark:border-neutral-800 pb-4">
+      <div>
+        <h2 id="eval-craft-name" class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 tracking-tight">
+          No Craft Selected
+        </h2>
+        <span id="eval-location-text" class="text-xs text-neutral-500 dark:text-neutral-400 mt-1 block">
+          Set working days and material cost or speak to calculate
+        </span>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <span id="eval-gi-badge" class="px-3 py-1 rounded-full text-xs font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-500 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-700">
+          Unappraised
+        </span>
+        <span data-i18n="producer_rate_badge" class="px-3 py-1 rounded-full text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-700">
+          Direct Producer Rate
+        </span>
+      </div>
+    </div>
+
+    <!-- Main Fair Price Metric Card -->
+    <div class="p-6 rounded-2xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-700/80 flex flex-col sm:flex-row sm:items-baseline justify-between gap-5">
+      <div>
+        <div data-i18n="fair_price_title" class="text-xs text-neutral-500 dark:text-neutral-400 uppercase tracking-wider font-semibold">Fair Direct Price</div>
+        <div class="text-4xl sm:text-5xl font-extrabold text-neutral-900 dark:text-neutral-100 font-mono tracking-tight mt-1.5" id="eval-fair-price">
+          ₹0
+        </div>
+        <div class="text-xs text-emerald-600 dark:text-emerald-400 mt-1.5 font-medium flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+          <span data-i18n="fair_share_sub">100% direct artisan share · Zero intermediary cut</span>
+        </div>
+      </div>
+
+      <div class="sm:text-right space-y-1 sm:border-l sm:border-neutral-200 sm:dark:border-neutral-800 sm:pl-6">
+        <div data-i18n="conf_interval_title" class="text-xs text-neutral-500 dark:text-neutral-400 uppercase tracking-wider font-semibold">95% Confidence Interval</div>
+        <div class="text-base sm:text-lg font-bold text-neutral-800 dark:text-neutral-200 font-mono" id="eval-fair-range">
+          ₹0 — ₹0
+        </div>
+        <div data-i18n="index_sub" class="text-[11px] text-neutral-400 dark:text-neutral-500">
+          Cluster wage & material index
+        </div>
+      </div>
+    </div>
+
+    <!-- Middleman vs Direct Price vs Retail Comparison -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+      
+      <!-- Middleman Exploitation -->
+      <div class="p-4 rounded-xl bg-red-500/5 border border-red-500/20 text-center">
+        <div data-i18n="middleman_title" class="text-xs font-semibold text-red-600 dark:text-red-400">Middleman Offer</div>
+        <div class="text-xl sm:text-2xl font-bold text-red-600 dark:text-red-400 mt-1 font-mono" id="eval-middleman-price">₹0</div>
+        <div id="eval-middleman-sub" class="text-[11px] text-red-500 font-medium mt-1">0% below fair value</div>
+      </div>
+
+      <!-- Fair Price (Recommended) -->
+      <div class="p-4 rounded-xl bg-blue-500/5 border-2 border-blue-600 dark:border-blue-500 text-center">
+        <div data-i18n="fair_direct_title" class="text-xs font-semibold text-blue-600 dark:text-blue-400">Fair Direct Price</div>
+        <div class="text-xl sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100 mt-1 font-mono" id="eval-fair-price-comp">₹0</div>
+        <div data-i18n="recommended_sub" class="text-[11px] text-blue-600 dark:text-blue-400 font-medium mt-1">Recommended artisan rate</div>
+      </div>
+
+      <!-- Urban Retail MRP -->
+      <div class="p-4 rounded-xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-700/80 text-center">
+        <div data-i18n="showroom_title" class="text-xs font-semibold text-neutral-600 dark:text-neutral-400">Showroom / Gallery MRP</div>
+        <div class="text-xl sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100 mt-1 font-mono" id="eval-showroom-price">₹0</div>
+        <div id="eval-showroom-sub" class="text-[11px] text-neutral-500 font-medium mt-1">City store markup (+0%)</div>
+      </div>
+
+    </div>
+
+    <!-- Cost Breakdown -->
+    <div class="space-y-2">
+      <div data-i18n="breakdown_title" class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">Cost Breakdown</div>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-xs">
+        
+        <div class="p-3.5 rounded-xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-800">
+          <div data-i18n="labor_title" class="text-neutral-500 dark:text-neutral-400 text-[11px]">Labor Compensation</div>
+          <div class="text-base font-bold text-neutral-900 dark:text-neutral-100 font-mono mt-1" id="breakdown-labor">₹0</div>
+          <div data-i18n="labor_sub" class="text-[10px] text-neutral-400 mt-0.5">Days × skilled wage</div>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-800">
+          <div data-i18n="materials_title" class="text-neutral-500 dark:text-neutral-400 text-[11px]">Material & Wastage</div>
+          <div class="text-base font-bold text-neutral-900 dark:text-neutral-100 font-mono mt-1" id="breakdown-materials">₹0</div>
+          <div data-i18n="materials_sub" class="text-[10px] text-neutral-400 mt-0.5">Raw cost + 15% wastage</div>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-800">
+          <div data-i18n="gi_title" class="text-neutral-500 dark:text-neutral-400 text-[11px]">GI Heritage Premium</div>
+          <div class="text-base font-bold text-blue-600 dark:text-blue-400 font-mono mt-1" id="breakdown-gi">₹0</div>
+          <div data-i18n="gi_sub" class="text-[10px] text-blue-500/80 mt-0.5">Cluster legal premium</div>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-800">
+          <div data-i18n="profit_title" class="text-neutral-500 dark:text-neutral-400 text-[11px]">Artisan Margin (25%)</div>
+          <div class="text-base font-bold text-emerald-600 dark:text-emerald-400 font-mono mt-1" id="breakdown-profit">₹0</div>
+          <div data-i18n="profit_sub" class="text-[10px] text-emerald-500/80 mt-0.5">Fair trade surplus</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="flex flex-col sm:flex-row items-center gap-3 pt-2">
+      <button 
+        type="button" 
+        id="save-to-database-btn"
+        class="w-full sm:flex-1 py-3 px-5 rounded-full bg-neutral-900 hover:bg-neutral-800 dark:bg-neutral-100 dark:hover:bg-white text-white dark:text-neutral-900 font-semibold text-xs flex items-center justify-center gap-2 transition-all active:scale-98 cursor-pointer shadow-sm"
+      >
+        <svg class="w-4 h-4 text-blue-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/>
+          <polyline points="17 21 17 13 7 13 7 21"/>
+          <polyline points="7 3 7 8 15 8"/>
+        </svg>
+        <span data-i18n="save_db_btn">Save to Database</span>
+      </button>
+
+      <button 
+        type="button" 
+        id="whatsapp-invoice-btn"
+        class="w-full sm:flex-1 py-3 px-5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs flex items-center justify-center gap-2 transition-all active:scale-98 cursor-pointer shadow-sm"
+      >
+        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+        </svg>
+        <span data-i18n="whatsapp_btn">Send on WhatsApp</span>
+      </button>
+    </div>
+
+    <div id="save-status-msg" class="hidden p-2.5 rounded-full text-xs font-semibold text-center bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20"></div>
+
+  </div>
+
+  <!-- Real-Time Recent Appraisals Slider (NO PHOTOS per user instruction) -->
+  <section id="recent-appraisals-section" class="space-y-4 pt-2">
+    
+    <div class="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 pb-3">
+      <h3 data-i18n="recent_title" class="text-base sm:text-lg font-bold text-neutral-900 dark:text-neutral-100 tracking-tight">
+        Recent Database Appraisals
+      </h3>
+      
+      <!-- Slider Pagination Controls -->
+      <div class="flex items-center gap-2">
+        <span id="slider-page-indicator" class="text-xs font-mono text-neutral-500 dark:text-neutral-400 bg-neutral-100 dark:bg-[#1b1d22] px-2.5 py-1 rounded-full border border-neutral-200 dark:border-neutral-700">
+          Page 1
+        </span>
+        <button 
+          type="button" 
+          id="slider-prev-btn"
+          class="w-7 h-7 rounded-full bg-neutral-100 dark:bg-[#1b1d22] hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-700 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-700 flex items-center justify-center text-xs transition-colors cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed"
+          title="Previous"
+          disabled
+        >
+          ←
+        </button>
+        <button 
+          type="button" 
+          id="slider-next-btn"
+          class="w-7 h-7 rounded-full bg-neutral-100 dark:bg-[#1b1d22] hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-700 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-700 flex items-center justify-center text-xs transition-colors cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed"
+          title="Next"
+        >
+          →
+        </button>
+      </div>
+    </div>
+
+    <!-- Clean Tailwind Table (WITHOUT PHOTOS) -->
+    <div class="overflow-x-auto rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-[#15171a]">
+      <table class="w-full text-xs text-left">
+        <thead class="bg-neutral-50 dark:bg-[#1b1d22] text-neutral-500 dark:text-neutral-400 border-b border-neutral-200 dark:border-neutral-800">
+          <tr>
+            <th data-i18n="table_craft" class="py-3 px-4 font-semibold">Craft</th>
+            <th data-i18n="table_cluster" class="py-3 px-4 font-semibold">City / Cluster</th>
+            <th data-i18n="table_labor" class="py-3 px-4 font-semibold">Labor</th>
+            <th data-i18n="table_material" class="py-3 px-4 font-semibold">Material</th>
+            <th data-i18n="table_fair_price" class="py-3 px-4 font-semibold">Fair Price</th>
+            <th data-i18n="table_middleman" class="py-3 px-4 font-semibold text-red-500">Middleman</th>
+            <th data-i18n="table_saved" class="py-3 px-4 font-semibold text-right">Saved</th>
+          </tr>
+        </thead>
+        <tbody id="db-appraisals-table-body" class="divide-y divide-neutral-100 dark:divide-neutral-800/80 text-neutral-700 dark:text-neutral-200">
+          <tr>
+            <td colspan="7" class="py-6 text-center text-neutral-400">
+              Loading records...
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+</section>
+
+<!-- Studio Script with Multi-Language Engine & Zero-Default Logic -->
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    // 13 Popular Languages Dictionary with Full Dynamic & Table i18n
+    const CRAFTFAIR_I18N = {
+      "en": {
+            "hero_title": "KNOW YOUR CRAFT PRICE",
+            "input_placeholder": "Describe days, material cost, or tap mic to speak in any language...",
+            "listening_text": "Listening... (Translating to English)",
+            "days_label": "Days:",
+            "city_label": "City:",
+            "cost_label": "Cost:",
+            "calc_btn": "Calculate Price",
+            "no_craft_selected": "No Craft Selected",
+            "set_days_sub": "Set working days and material cost or speak to calculate",
+            "unappraised": "Unappraised",
+            "producer_rate_badge": "Direct Producer Rate",
+            "fair_price_title": "Fair Direct Price",
+            "fair_share_sub": "100% direct artisan share · Zero intermediary cut",
+            "conf_interval_title": "95% Confidence Interval",
+            "index_sub": "Cluster wage & material index",
+            "middleman_title": "Middleman Offer",
+            "middleman_sub": "0% below fair value",
+            "fair_direct_title": "Fair Direct Price",
+            "recommended_sub": "Recommended artisan rate",
+            "showroom_title": "Showroom / Gallery MRP",
+            "showroom_sub": "City store markup (+0%)",
+            "breakdown_title": "Cost Breakdown",
+            "labor_title": "Labor Compensation",
+            "labor_sub": "Days × skilled wage",
+            "materials_title": "Material & Wastage",
+            "materials_sub": "Raw cost + 15% wastage",
+            "gi_title": "GI Heritage Premium",
+            "gi_sub": "Cluster legal premium",
+            "profit_title": "Artisan Margin (25%)",
+            "profit_sub": "Fair trade surplus",
+            "save_db_btn": "Save to Database",
+            "whatsapp_btn": "Send on WhatsApp",
+            "recent_title": "Recent Database Appraisals",
+            "saved_success": "✓ Saved to database",
+            "table_craft": "Craft",
+            "table_cluster": "City / Cluster",
+            "table_labor": "Labor",
+            "table_material": "Material",
+            "table_fair_price": "Fair Price",
+            "table_middleman": "Middleman",
+            "table_saved": "Saved",
+            "drop_photo_text": "Drop craft photo here",
+            "voice_processing_text": "Analyzing voice audio and translating to English...",
+            "voice_success_text": "✓ Voice captured & translated successfully",
+            "gi_tag_protected": "GI Tag Protected",
+            "standard_craft": "Standard Craft",
+            "below_fair_val": "{pct}% below fair value",
+            "city_markup": "City store markup (+{pct}%)",
+            "labor_summary": "{city} · Labor: {days} days @ ₹{rate}/day"
+      },
+      "hi": {
+            "hero_title": "अपने शिल्प का सही मूल्य जानें",
+            "input_placeholder": "काम के दिन, सामग्री लागत लिखें या किसी भी भाषा में बोलने के लिए माइक दबाएं...",
+            "listening_text": "सुन रहे हैं... (अंग्रेजी में अनुवाद हो रहा है)",
+            "days_label": "दिन:",
+            "city_label": "शहर:",
+            "cost_label": "लागत:",
+            "calc_btn": "मूल्य निकालें",
+            "no_craft_selected": "कोई शिल्प नहीं चुना गया",
+            "set_days_sub": "मूल्यांकन के लिए कार्य दिवस व सामग्री लागत दर्ज करें या बोलें",
+            "unappraised": "अमूल्यांकित",
+            "producer_rate_badge": "सीधी कारीगर दर",
+            "fair_price_title": "उचित प्रत्यक्ष मूल्य",
+            "fair_share_sub": "100% सीधे कारीगर का हिस्सा · बिचौलियों की कोई कटौती नहीं",
+            "conf_interval_title": "95% विश्वसनीयता अंतराल",
+            "index_sub": "क्लस्टर मजदूरी व सामग्री सूचकांक",
+            "middleman_title": "बिचौलिए की पेशकश",
+            "middleman_sub": "उचित मूल्य से 0% कम",
+            "fair_direct_title": "उचित प्रत्यक्ष मूल्य",
+            "recommended_sub": "अनुशंसित कारीगर दर",
+            "showroom_title": "शोरूम / गैलरी मूल्य",
+            "showroom_sub": "शहरी शोरूम मार्कअप (+0%)",
+            "breakdown_title": "लागत विवरण",
+            "labor_title": "श्रम पारिश्रमिक",
+            "labor_sub": "दिन × कुशल मजदूरी दर",
+            "materials_title": "कच्चा माल व छीलन",
+            "materials_sub": "सामग्री + 15% अपशिष्ट",
+            "gi_title": "जीआई विरासत प्रीमियम",
+            "gi_sub": "भौगोलिक संकेतक कानूनी प्रीमियम",
+            "profit_title": "कारीगर लाभ (25%)",
+            "profit_sub": "उचित व्यापार अधिशेष",
+            "save_db_btn": "डेटाबेस में सहेजें",
+            "whatsapp_btn": "व्हाट्सएप पर भेजें",
+            "recent_title": "हाल ही में सहेजे गए मूल्यांकन",
+            "saved_success": "✓ डेटाबेस में सहेजा गया",
+            "table_craft": "शिल्प",
+            "table_cluster": "शहर / क्लस्टर",
+            "table_labor": "श्रम",
+            "table_material": "सामग्री",
+            "table_fair_price": "उचित मूल्य",
+            "table_middleman": "बिचौलिए की दर",
+            "table_saved": "सहेजा गया",
+            "drop_photo_text": "यहाँ शिल्प का फोटो छोड़ें",
+            "voice_processing_text": "आवाज़ का विश्लेषण और अनुवाद हो रहा है...",
+            "voice_success_text": "✓ आवाज़ रिकॉर्ड और अनुवादित",
+            "gi_tag_protected": "जीआई टैग प्रमाणित",
+            "standard_craft": "मानक शिल्प",
+            "below_fair_val": "उचित मूल्य से {pct}% कम",
+            "city_markup": "शहरी शोरूम मार्कअप (+{pct}%)",
+            "labor_summary": "{city} · श्रम: {days} दिन @ ₹{rate}/दिन"
+      },
+      "bn": {
+            "hero_title": "আপনার শিল্পের ন্যায্য মূল্য জানুন",
+            "input_placeholder": "কাজের দিন, উপাদানের খরচ লিখুন বা যেকোনো ভাষায় কথা বলতে মাইকে চাপুন...",
+            "listening_text": "শুনছি... (ইংরেজিতে অনুবাদ হচ্ছে)",
+            "days_label": "দিন:",
+            "city_label": "শহর:",
+            "cost_label": "খরচ:",
+            "calc_btn": "মূল্য হিসাব করুন",
+            "no_craft_selected": "কোনো শিল্প নির্বাচন করা হয়নি",
+            "set_days_sub": "হিসাব করার জন্য কাজের দিন এবং উপাদানের খরচ দিন অথবা বলুন",
+            "unappraised": "মূল্যায়নহীন",
+            "producer_rate_badge": "সরাসরি প্রস্তুতকারক দর",
+            "fair_price_title": "ন্যায্য প্রত্যক্ষ মূল্য",
+            "fair_share_sub": "১০০% সরাসরি কারিগরের অংশ · মধ্যস্বত্বভোগীদের কোনো ভাগ নেই",
+            "conf_interval_title": "৯৫% আত্মবিশ্বাস পরিসীমা",
+            "index_sub": "ক্লাস্টার মজুরি ও উপাদান সূচক",
+            "middleman_title": "মধ্যস্বত্বভোগীর দর",
+            "middleman_sub": "ন্যায্য মূল্যের চেয়ে ০% কম",
+            "fair_direct_title": "ন্যায্য প্রত্যক্ষ মূল্য",
+            "recommended_sub": "প্রস্তাবিত কারিগর দর",
+            "showroom_title": "শোরুম / গ্যালারি মূল্য",
+            "showroom_sub": "শহুরে শোরুম মার্কআপ (+০%)",
+            "breakdown_title": "খরচের বিভাজন",
+            "labor_title": "শ্রম পারিশ্রমিক",
+            "labor_sub": "দিন × দক্ষ মজুরি",
+            "materials_title": "উপাদান ও অপচয়",
+            "materials_sub": "কাঁচামাল + ১৫% অপচয়",
+            "gi_title": "জিআই ঐতিহ্য প্রিমিয়াম",
+            "gi_sub": "ক্লাস্টার আইনগত প্রিমিয়াম",
+            "profit_title": "কারিগরের লাভ (২৫%)",
+            "profit_sub": "ন্যায্য বাণিজ্য উদ্বৃত্ত",
+            "save_db_btn": "ডাটাবেসে সংরক্ষণ করুন",
+            "whatsapp_btn": "হোয়াটসঅ্যাপে পাঠান",
+            "recent_title": "সম্প্রতি সংরক্ষিত মূল্যায়ন",
+            "saved_success": "✓ ডাটাবেসে সংরক্ষিত হয়েছে",
+            "table_craft": "শিল্প",
+            "table_cluster": "শহর / ক্লাস্টার",
+            "table_labor": "শ্রম",
+            "table_material": "উপাদান",
+            "table_fair_price": "ন্যায্য মূল্য",
+            "table_middleman": "মধ্যস্বত্বভোগী",
+            "table_saved": "সংরক্ষিত",
+            "drop_photo_text": "এখানে শিল্পের ছবি ড্রপ করুন",
+            "voice_processing_text": "ভয়েস বিশ্লেষণ এবং অনুবাদ করা হচ্ছে...",
+            "voice_success_text": "✓ ভয়েস সফলভাবে রেকর্ড ও অনূদিত হয়েছে",
+            "gi_tag_protected": "জিআই ট্যাগ সুরক্ষিত",
+            "standard_craft": "সাধারণ শিল্প",
+            "below_fair_val": "ন্যায্য মূল্যের চেয়ে {pct}% কম",
+            "city_markup": "শহুরে শোরুম মার্কআপ (+{pct}%)",
+            "labor_summary": "{city} · শ্রম: {days} দিন @ ₹{rate}/দিন"
+      },
+      "or": {
+            "hero_title": "ଆପଣଙ୍କ ଶିଳ୍ପର ଉଚିତ ମୂଲ୍ୟ ଜାଣନ୍ତୁ",
+            "input_placeholder": "କାର୍ଯ୍ୟ ଦିବସ, ସାମଗ୍ରୀ ଖର୍ଚ୍ଚ ଲେଖନ୍ତୁ କିମ୍ବା ଯେକୌଣସି ଭାଷାରେ କହିବାକୁ ମାଇକ୍ ଦବାନ୍ତୁ...",
+            "listening_text": "ଶୁଣୁଛୁ... (ଇଂରାଜୀରେ ଅନୁବାଦ ହେଉଛି)",
+            "days_label": "ଦିନ:",
+            "city_label": "ସହର:",
+            "cost_label": "ଖର୍ଚ୍ଚ:",
+            "calc_btn": "ମୂଲ୍ୟ ହିସାବ କରନ୍ତୁ",
+            "no_craft_selected": "କୌଣସି ଶିଳ୍ପ ଚୟନ ହୋଇନାହିଁ",
+            "set_days_sub": "ଗଣନା ପାଇଁ କାର୍ଯ୍ୟ ଦିବସ ଓ ସାମଗ୍ରୀ ଖର୍ଚ୍ଚ ଦିଅନ୍ତୁ କିମ୍ବା କୁହନ୍ତୁ",
+            "unappraised": "ଅମୂଲ୍ୟାଙ୍କିତ",
+            "producer_rate_badge": "ପ୍ରତ୍ୟକ୍ଷ କାରିଗର ଦର",
+            "fair_price_title": "ଉଚିତ ପ୍ରତ୍ୟକ୍ଷ ମୂଲ୍ୟ",
+            "fair_share_sub": "୧୦୦% ସିଧାସଳଖ କାରିଗରଙ୍କ ପ୍ରାପ୍ୟ · କୌଣସି ଦଲାଲ କଟୌତି ନାହିଁ",
+            "conf_interval_title": "୯୫% ନିର୍ଭରଯୋଗ୍ୟ ବ୍ୟବଧାନ",
+            "index_sub": "କ୍ଲଷ୍ଟର ମଜୁରୀ ଓ ସାମଗ୍ରୀ ସୂଚକାଙ୍କ",
+            "middleman_title": "ଦଲାଲଙ୍କ ଅଫର",
+            "middleman_sub": "ଉଚିତ ମୂଲ୍ୟରୁ ୦% କମ୍",
+            "fair_direct_title": "ଉଚିତ ପ୍ରତ୍ୟକ୍ଷ ମୂଲ୍ୟ",
+            "recommended_sub": "ଅନୁମୋଦିତ କାରିଗର ଦର",
+            "showroom_title": "ଶୋରୁମ୍ / ଗ୍ୟାଲେରୀ ମୂଲ୍ୟ",
+            "showroom_sub": "ଶୋରୁମ୍ ମାର୍କଅପ୍ (+୦%)",
+            "breakdown_title": "ଖର୍ଚ୍ଚ ବିବରଣୀ",
+            "labor_title": "ଶ୍ରମ ପାରିଶ୍ରମିକ",
+            "labor_sub": "ଦିନ × କୁଶଳୀ ମଜୁରୀ",
+            "materials_title": "ସାମଗ୍ରୀ ଓ ଅପଚୟ",
+            "materials_sub": "କଞ୍ଚାମାଲ + ୧୫% ଅପଚୟ",
+            "gi_title": "ଜିଆଇ ଐତିହ୍ୟ ପ୍ରିମିୟମ୍",
+            "gi_sub": "ଆଇନଗତ ଜିଆଇ ପ୍ରିମିୟମ୍",
+            "profit_title": "କାରିଗର ଲାଭ (୨୫%)",
+            "profit_sub": "ଉଚିତ ବାଣିଜ୍ୟ ବଳକା",
+            "save_db_btn": "ଡାଟାବେସରେ ସେଭ୍ କରନ୍ତୁ",
+            "whatsapp_btn": "ହ୍ୱାଟ୍ସଆପରେ ପଠାନ୍ତୁ",
+            "recent_title": "ସମ୍ପ୍ରତି ସେଭ୍ ହୋଇଥିବା ମୂଲ୍ୟାଙ୍କନ",
+            "saved_success": "✓ ଡାଟାବେସରେ ସେଭ୍ ହେଲା",
+            "table_craft": "ଶିଳ୍ପ",
+            "table_cluster": "ସହର / କ୍ଲଷ୍ଟର",
+            "table_labor": "ଶ୍ରମ",
+            "table_material": "ସାମଗ୍ରୀ",
+            "table_fair_price": "ଉଚିତ ମୂଲ୍ୟ",
+            "table_middleman": "ଦଲାଲ",
+            "table_saved": "ସେଭ୍ ହୋଇଛି",
+            "drop_photo_text": "ଏଠାରେ ଶିଳ୍ପର ଫଟୋ ଛାଡନ୍ତୁ",
+            "voice_processing_text": "ଭଏସ୍ ବିଶ୍ଳେଷଣ ଓ ଅନୁବାଦ ହେଉଛି...",
+            "voice_success_text": "✓ ଭଏସ୍ ସଫଳତାର ସହ ଅନୁବାଦ ହେଲା",
+            "gi_tag_protected": "ଜିଆଇ ଟ୍ୟାଗ୍ ସୁରକ୍ଷିତ",
+            "standard_craft": "ମାନକ ଶିଳ୍ପ",
+            "below_fair_val": "ଉଚିତ ମୂଲ୍ୟରୁ {pct}% କମ୍",
+            "city_markup": "ଶୋରୁମ୍ ମାର୍କଅପ୍ (+{pct}%)",
+            "labor_summary": "{city} · ଶ୍ରମ: {days} ଦିନ @ ₹{rate}/ଦିନ"
+      },
+      "te": {
+            "hero_title": "మీ చేతివృత్తి సరైన ధరను తెలుసుకోండి",
+            "input_placeholder": "పని దినాలు, పదార్థాల ఖర్చు రాయండి లేదా ఏ భాషలోనైనా మాట్లాడటానికి మైక్ నొక్కండి...",
+            "listening_text": "వింటున్నాము... (ఇంగ్లీషులోకి అనువదిస్తోంది)",
+            "days_label": "రోజులు:",
+            "city_label": "నగరం:",
+            "cost_label": "ఖర్చు:",
+            "calc_btn": "ధరను లెక్కించండి",
+            "no_craft_selected": "ఏ చేతివృత్తి ఎంపిక చేయబడలేదు",
+            "set_days_sub": "లెక్కించడానికి పని దినాలు, పదార్థాల ఖర్చు నమోదు చేయండి లేదా మాట్లాడండి",
+            "unappraised": "అంచనా వేయబడలేదు",
+            "producer_rate_badge": "ప్రత్యక్ష ఉత్పత్తిదారు రేటు",
+            "fair_price_title": "సరైన ప్రత్యక్ష ధర",
+            "fair_share_sub": "100% నేరుగా చేతివృత్తికారుడికే · దళారుల కోత లేదు",
+            "conf_interval_title": "95% ఖచ్చితత్వ పరిధి",
+            "index_sub": "క్లస్టర్ వేతనం & పదార్థాల సూచిక",
+            "middleman_title": "దళారీ ఇచ్చే ధర",
+            "middleman_sub": "సరైన ధర కంటే 0% తక్కువ",
+            "fair_direct_title": "సరైన ప్రత్యక్ష ధర",
+            "recommended_sub": "సిఫార్సు చేయబడిన కళాకారుల రేటు",
+            "showroom_title": "షోరూమ్ / గ్యాలరీ ధర",
+            "showroom_sub": "షోరూమ్ మార్కప్ (+0%)",
+            "breakdown_title": "ఖర్చుల వివరాలు",
+            "labor_title": "శ్రమ పరిహారం",
+            "labor_sub": "రోజులు × నైపుణ్య వేతనం",
+            "materials_title": "పదార్థాలు & వ్యర్థాలు",
+            "materials_sub": "ముడి ఖర్చు + 15% వ్యర్థం",
+            "gi_title": "జీఐ వారసత్వ ప్రీమియం",
+            "gi_sub": "క్లస్టర్ చట్టపరమైన ప్రీమియం",
+            "profit_title": "చేతివృత్తికారుడి లాభం (25%)",
+            "profit_sub": "సరైన వాణిజ్య మిగులు",
+            "save_db_btn": "డేటాబేస్‌లో భద్రపరచండి",
+            "whatsapp_btn": "వాట్సాప్‌లో పంపండి",
+            "recent_title": "ఇటీవల సేవ్ చేసిన అంచనాలు",
+            "saved_success": "✓ డేటాబేస్‌లో సేవ్ చేయబడింది",
+            "table_craft": "చేతివృత్తి",
+            "table_cluster": "నగరం / క్లస్టర్",
+            "table_labor": "శ్రమ",
+            "table_material": "పదార్థాలు",
+            "table_fair_price": "సరైన ధర",
+            "table_middleman": "దళారీ",
+            "table_saved": "సేవ్ చేయబడింది",
+            "drop_photo_text": "ఇక్కడ ఫోటోను డ్రాప్ చేయండి",
+            "voice_processing_text": "వాయిస్ ప్రాసెస్ అవుతోంది మరియు ఇంగ్లీషులోకి అనువదించబడుతోంది...",
+            "voice_success_text": "✓ వాయిస్ విజయవంతంగా అనువదించబడింది",
+            "gi_tag_protected": "జీఐ ట్యాగ్ రక్షితం",
+            "standard_craft": "ప్రామాణిక వృత్తి",
+            "below_fair_val": "సరైన ధర కంటే {pct}% తక్కువ",
+            "city_markup": "షోరూమ్ మార్కప్ (+{pct}%)",
+            "labor_summary": "{city} · శ్రమ: {days} రోజులు @ ₹{rate}/రోజు"
+      },
+      "ta": {
+            "hero_title": "உங்கள் கைவினைப் பொருளின் நியாயமான விலையை அறியுங்கள்",
+            "input_placeholder": "வேலை நாட்கள், மூலப்பொருள் செலவை உள்ளிடுக அல்லது பேச மைக் தட்டவும்...",
+            "listening_text": "கேட்கிறது... (ஆங்கிலத்தில் மொழிபெயர்க்கப்படுகிறது)",
+            "days_label": "நாட்கள்:",
+            "city_label": "நகரம்:",
+            "cost_label": "செலவு:",
+            "calc_btn": "விலையைக் கணக்கிடுங்கள்",
+            "no_craft_selected": "எந்த கைவினையும் தேர்ந்தெடுக்கப்படவில்லை",
+            "set_days_sub": "கணக்கிட வேலை நாட்கள் மற்றும் மூலப்பொருள் செலவை உள்ளிடுக அல்லது பேசவும்",
+            "unappraised": "மதிப்பிடப்படவில்லை",
+            "producer_rate_badge": "நேரடி உற்பத்தியாளர் கட்டணம்",
+            "fair_price_title": "நேரடி நியாய விலை",
+            "fair_share_sub": "100% நேரடியாக கைவினைஞருக்கு · இடைத்தரகர் கமிஷன் இல்லை",
+            "conf_interval_title": "95% நம்பகத்தன்மை வரம்பு",
+            "index_sub": "கூட்டு ஊதியம் & மூலப்பொருள் குறியீடு",
+            "middleman_title": "இடைத்தரகர் தரும் விலை",
+            "middleman_sub": "நியாய விலையை விட 0% குறைவு",
+            "fair_direct_title": "நேரடி நியாய விலை",
+            "recommended_sub": "பரிந்துரைக்கப்பட்ட கைவினைஞர் விலை",
+            "showroom_title": "ஷோரூம் / கேலரி விலை",
+            "showroom_sub": "ஷோரூம் மார்க்அப் (+0%)",
+            "breakdown_title": "செலவு விவரம்",
+            "labor_title": "உழைப்பு ஊதியம்",
+            "labor_sub": "நாட்கள் × திறமையான ஊதியம்",
+            "materials_title": "பொருட்கள் & வீணாதல்",
+            "materials_sub": "மூலப்பொருள் + 15% வீணாதல்",
+            "gi_title": "ஜிஐ பாரம்பரிய பிரீமியம்",
+            "gi_sub": "சட்டபூர்வ ஜிஐ பிரீமியம்",
+            "profit_title": "கைவினைஞர் லாபம் (25%)",
+            "profit_sub": "நியாயமான வர்த்தக உபரி",
+            "save_db_btn": "தரவுத்தளத்தில் சேமிக்கவும்",
+            "whatsapp_btn": "வாட்ஸ்அப்பில் அனுப்பவும்",
+            "recent_title": "சமீபத்தில் சேமிக்கப்பட்ட மதிப்பீடுகள்",
+            "saved_success": "✓ தரவுத்தளத்தில் சேமிக்கப்பட்டது",
+            "table_craft": "கைவினை",
+            "table_cluster": "நகரம் / மையம்",
+            "table_labor": "உழைப்பு",
+            "table_material": "மூலப்பொருள்",
+            "table_fair_price": "நியாய விலை",
+            "table_middleman": "இடைத்தரகர்",
+            "table_saved": "சேமிக்கப்பட்டது",
+            "drop_photo_text": "கைவினை புகைப்படத்தை இங்கே போடவும்",
+            "voice_processing_text": "குரல் செயலாக்கப்பட்டு ஆங்கிலத்தில் மொழிபெயர்க்கப்படுகிறது...",
+            "voice_success_text": "✓ குரல் வெற்றிகரமாக மொழிபெயர்க்கப்பட்டது",
+            "gi_tag_protected": "ஜிஐ குறிச்சொல் பெற்றது",
+            "standard_craft": "வழக்கமான கைவினை",
+            "below_fair_val": "நியாய விலையை விட {pct}% குறைவு",
+            "city_markup": "ஷோரூம் மார்க்அப் (+{pct}%)",
+            "labor_summary": "{city} · உழைப்பு: {days} நாட்கள் @ ₹{rate}/நாள்"
+      },
+      "kn": {
+            "hero_title": "ನಿಮ್ಮ ಕರಕುಶಲತೆಯ ನ್ಯಾಯಯುತ ಬೆಲೆಯನ್ನು ತಿಳಿಯಿರಿ",
+            "input_placeholder": "ಕೆಲಸದ ದಿನಗಳು, ಸಾಮಗ್ರಿ ವೆಚ್ಚವನ್ನು ನಮೂದಿಸಿ ಅಥವಾ ಮಾತನಾಡಲು ಮೈಕ್ ಒತ್ತಿ...",
+            "listening_text": "ಆಲಿಸುತ್ತಿದೆ... (ಇಂಗ್ಲಿಷ್‌ಗೆ ಅನುವಾದಿಸಲಾಗುತ್ತಿದೆ)",
+            "days_label": "ದಿನಗಳು:",
+            "city_label": "ನಗರ:",
+            "cost_label": "ವೆಚ್ಚ:",
+            "calc_btn": "ಬೆಲೆ ಲೆಕ್ಕಹಾಕಿ",
+            "no_craft_selected": "ಯಾವುದೇ ಕರಕುಶಲತೆ ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ",
+            "set_days_sub": "ಲೆಕ್ಕಹಾಕಲು ಕೆಲಸದ ದಿನಗಳು ಮತ್ತು ಸಾಮಗ್ರಿ ವೆಚ್ಚವನ್ನು ನಮೂದಿಸಿ ಅಥವಾ ಮಾತನಾಡಿ",
+            "unappraised": "ಮೌಲ್ಯಮಾಪನ ಮಾಡಲಾಗಿಲ್ಲ",
+            "producer_rate_badge": "ನೇರ ಉತ್ಪಾದಕರ ದರ",
+            "fair_price_title": "ನ್ಯಾಯಯುತ ನೇರ ಬೆಲೆ",
+            "fair_share_sub": "100% ನೇರವಾಗಿ ಕುಶಲಕರ್ಮಿಗಳಿಗೆ · ಮಧ್ಯವರ್ತಿಗಳಿಲ್ಲ",
+            "conf_interval_title": "95% ನಿಖರತೆಯ ವ್ಯಾಪ್ತಿ",
+            "index_sub": "ಕ್ಲಸ್ಟರ್ ವೇತನ ಮತ್ತು ಸಾಮಗ್ರಿ ಸೂಚ್ಯಂಕ",
+            "middleman_title": "ಮಧ್ಯವರ್ತಿ ನೀಡುವ ಬೆಲೆ",
+            "middleman_sub": "ನ್ಯಾಯಯುತ ಬೆಲೆಗಿಂತ 0% ಕಡಿಮೆ",
+            "fair_direct_title": "ನ್ಯಾಯಯುತ ನೇರ ಬೆಲೆ",
+            "recommended_sub": "ಶಿಫಾರಸು ಮಾಡಿದ ಕುಶಲಕರ್ಮಿ ದರ",
+            "showroom_title": "ಶೋರೂಮ್ / ಗ್ಯಾಲರಿ ಬೆಲೆ",
+            "showroom_sub": "ಶೋರೂಮ್ ಮಾರ್ಕ್ಅಪ್ (+0%)",
+            "breakdown_title": "ವೆಚ್ಚದ ವಿವರ",
+            "labor_title": "ಶ್ರಮದ ವೇತನ",
+            "labor_sub": "ದಿನಗಳು × ನುರಿತ ವೇತನ",
+            "materials_title": "ಸಾಮಗ್ರಿ ಮತ್ತು ನಷ್ಟ",
+            "materials_sub": "ಕಚ್ಚಾ ವೆಚ್ಚ + 15% ನಷ್ಟ",
+            "gi_title": "ಜಿಐ ಪರಂಪರೆ ಪ್ರೀಮಿಯಂ",
+            "gi_sub": "ಕಾನೂನುಬದ್ಧ ಜಿಐ ಪ್ರೀಮಿಯಂ",
+            "profit_title": "ಕುಶಲಕರ್ಮಿ ಲಾಭ (25%)",
+            "profit_sub": "ನ್ಯಾಯಯುತ ವ್ಯಾಪಾರ ಲಾಭ",
+            "save_db_btn": "ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಉಳಿಸಿ",
+            "whatsapp_btn": "ವಾಟ್ಸಾಪ್‌ನಲ್ಲಿ ಕಳುಹಿಸಿ",
+            "recent_title": "ಇತ್ತೀಚೆಗೆ ಉಳಿಸಿದ ಮೌಲ್ಯಮಾಪನಗಳು",
+            "saved_success": "✓ ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ",
+            "table_craft": "ಕರಕುಶಲ",
+            "table_cluster": "ನಗರ / ಕ್ಲಸ್ಟರ್",
+            "table_labor": "ಶ್ರಮ",
+            "table_material": "ಸಾಮಗ್ರಿ",
+            "table_fair_price": "ನ್ಯಾಯಯುತ ಬೆಲೆ",
+            "table_middleman": "ಮಧ್ಯವರ್ತಿ",
+            "table_saved": "ಉಳಿಸಲಾಗಿದೆ",
+            "drop_photo_text": "ಕರಕುಶಲ ಫೋಟೋವನ್ನು ಇಲ್ಲಿ ಡ್ರಾಪ್ ಮಾಡಿ",
+            "voice_processing_text": "ಧ್ವನಿಯನ್ನು ವಿಶ್ಲೇಷಿಸಿ ಇಂಗ್ಲಿಷ್‌ಗೆ ಅನುವಾದಿಸಲಾಗುತ್ತಿದೆ...",
+            "voice_success_text": "✓ ಧ್ವನಿ ಯಶಸ್ವಿಯಾಗಿ ಸೆರೆಹಿಡಿಯಲಾಗಿದೆ ಮತ್ತು ಅನುವಾದಿಸಲಾಗಿದೆ",
+            "gi_tag_protected": "ಜಿಐ ಟ್ಯಾಗ್ ರಕ್ಷಿತ",
+            "standard_craft": "ಸಾಮಾನ್ಯ ಕರಕುಶಲ",
+            "below_fair_val": "ನ್ಯಾಯಯುತ ಬೆಲೆಗಿಂತ {pct}% ಕಡಿಮೆ",
+            "city_markup": "ಶೋರೂಮ್ ಮಾರ್ಕ್ಅಪ್ (+{pct}%)",
+            "labor_summary": "{city} · ಶ್ರಮ: {days} ದಿನಗಳು @ ₹{rate}/ದಿನ"
+      },
+      "mr": {
+            "hero_title": "आपल्या कलेचे योग्य मूल्य जाणून घ्या",
+            "input_placeholder": "कामाचे दिवस, साहित्याचा खर्च टाका किंवा बोलण्यासाठी माइक दाबा...",
+            "listening_text": "ऐकत आहे... (इंग्रजीत अनुवाद सुरू आहे)",
+            "days_label": "दिवस:",
+            "city_label": "शहर:",
+            "cost_label": "खर्च:",
+            "calc_btn": "किंमत काढा",
+            "no_craft_selected": "कोणतीही कला निवडली नाही",
+            "set_days_sub": "गणना करण्यासाठी कामाचे दिवस आणि साहित्याचा खर्च टाका किंवा बोला",
+            "unappraised": "मूल्यमापन बाकी",
+            "producer_rate_badge": "थेट कारागीर दर",
+            "fair_price_title": "योग्य थेट किंमत",
+            "fair_share_sub": "100% थेट कारागिराचा वाटा · मध्यस्थांची कोणतीही कपात नाही",
+            "conf_interval_title": "95% अचूकता मर्यादा",
+            "index_sub": "क्लस्टर मजुरी व साहित्य निर्देशांक",
+            "middleman_title": "मध्यस्थाची ऑफर",
+            "middleman_sub": "योग्य मूल्यापेक्षा 0% कमी",
+            "fair_direct_title": "योग्य थेट किंमत",
+            "recommended_sub": "शिफारस केलेला कारागीर दर",
+            "showroom_title": "शोरूम / गॅलरी किंमत",
+            "showroom_sub": "शोरूम मार्कअप (+0%)",
+            "breakdown_title": "खर्च तपशील",
+            "labor_title": "श्रम मोबदला",
+            "labor_sub": "दिवस × कुशल मजुरी",
+            "materials_title": "साहित्य व नासाडी",
+            "materials_sub": "कच्चा माल + 15% वाया",
+            "gi_title": "जीआय वारसा प्रीमियम",
+            "gi_sub": "कायदेशीर जीआय प्रीमियम",
+            "profit_title": "कारागिराचा नफा (25%)",
+            "profit_sub": "वाजवी व्यापार नफा",
+            "save_db_btn": "डेटाबेसमध्ये जतन करा",
+            "whatsapp_btn": "व्हॉट्सॲपवर पाठवा",
+            "recent_title": "नुकतेच जतन केलेले मूल्यमापन",
+            "saved_success": "✓ डेटाबेसमध्ये जतन केले",
+            "table_craft": "कला / हस्तकला",
+            "table_cluster": "शहर / क्लस्टर",
+            "table_labor": "श्रम",
+            "table_material": "साहित्य",
+            "table_fair_price": "योग्य किंमत",
+            "table_middleman": "मध्यस्थ",
+            "table_saved": "जतन केले",
+            "drop_photo_text": "येथे हस्तकलेचा फोटो टाका",
+            "voice_processing_text": "आवाजाचे विश्लेषण आणि इंग्रजीत अनुवाद सुरू आहे...",
+            "voice_success_text": "✓ आवाज यशस्वीरित्या अनुवादित झाला",
+            "gi_tag_protected": "जीआय टॅग संरक्षित",
+            "standard_craft": "मानक हस्तकला",
+            "below_fair_val": "योग्य मूल्यापेक्षा {pct}% कमी",
+            "city_markup": "शोरूम मार्कअप (+{pct}%)",
+            "labor_summary": "{city} · श्रम: {days} दिवस @ ₹{rate}/दिवस"
+      },
+      "gu": {
+            "hero_title": "તમારી હસ્તકલાની વાજબી કિંમત જાણો",
+            "input_placeholder": "કામના દિવસો, સામગ્રી ખર્ચ દાખલ કરો અથવા બોલવા માટે માઇક દબાવો...",
+            "listening_text": "સાંભળી રહ્યું છે... (અંગ્રેજીમાં અનુવાદ થઈ રહ્યો છે)",
+            "days_label": "દિવસો:",
+            "city_label": "શહેર:",
+            "cost_label": "ખર્ચ:",
+            "calc_btn": "કિંમત ગણો",
+            "no_craft_selected": "કોઈ હસ્તકલા પસંદ કરેલ નથી",
+            "set_days_sub": "ગણતરી કરવા માટે કામના દિવસો અને સામગ્રી ખર્ચ દાખલ કરો અથવા બોલો",
+            "unappraised": "અનઆંકણીય",
+            "producer_rate_badge": "પ્રત્યક્ષ કારીગર દર",
+            "fair_price_title": "વાજબી પ્રત્યક્ષ કિંમત",
+            "fair_share_sub": "100% સીધો કારીગરનો હિસ્સો · વચેટિયાઓની કોઈ કપાત નહીં",
+            "conf_interval_title": "95% ચોક્કસતા અંતરાલ",
+            "index_sub": "ક્લસ્ટર મજૂરી અને સામગ્રી સૂચકાંક",
+            "middleman_title": "વચેટિયાની ઑફર",
+            "middleman_sub": "વાજબી મૂલ્ય કરતાં 0% ઓછું",
+            "fair_direct_title": "વાજબી પ્રત્યક્ષ કિંમત",
+            "recommended_sub": "ભલામણ કરેલ કારીગર દર",
+            "showroom_title": "શોરૂમ / ગેલેરી કિંમત",
+            "showroom_sub": "શોરૂમ માર્કઅપ (+0%)",
+            "breakdown_title": "ખર્ચ વિગતો",
+            "labor_title": "શ્રમ મહેનતાણું",
+            "labor_sub": "દિવસો × કુશળ વેતન",
+            "materials_title": "સામગ્રી અને બગાડ",
+            "materials_sub": "કાચી સામગ્રી + 15% બગાડ",
+            "gi_title": "જીઆઈ વિરાસત પ્રીમિયમ",
+            "gi_sub": "કાનૂની જીઆઈ પ્રીમિયમ",
+            "profit_title": "કારીગર નફો (25%)",
+            "profit_sub": "વાજબી વેપાર નફો",
+            "save_db_btn": "ડેટાબેઝમાં સાચવો",
+            "whatsapp_btn": "વોટ્સએપ પર મોકલો",
+            "recent_title": "તાજેતરમાં સાચવેલ મૂલ્યાંકન",
+            "saved_success": "✓ ડેટાબેઝમાં સાચવવામાં આવ્યું",
+            "table_craft": "હસ્તકલા",
+            "table_cluster": "શહેર / ક્લસ્ટર",
+            "table_labor": "શ્રમ",
+            "table_material": "સામગ્રી",
+            "table_fair_price": "વાજબી કિંમત",
+            "table_middleman": "વચેટિયા",
+            "table_saved": "સાચવેલ",
+            "drop_photo_text": "અહીં હસ્તકલાનો ફોટો મૂકો",
+            "voice_processing_text": "અવાજનું વિશ્લેષણ અને અંગ્રેજીમાં અનુવાદ થઈ રહ્યું છે...",
+            "voice_success_text": "✓ અવાજ સફળતાપૂર્વક રેકોર્ડ થયો",
+            "gi_tag_protected": "જીઆઈ ટેગ સુરક્ષિત",
+            "standard_craft": "સામાન્ય હસ્તકલા",
+            "below_fair_val": "વાજબી મૂલ્ય કરતાં {pct}% ઓછું",
+            "city_markup": "શોરૂમ માર્કઅપ (+{pct}%)",
+            "labor_summary": "{city} · શ્રમ: {days} દિવસો @ ₹{rate}/દિવસ"
+      },
+      "pa": {
+            "hero_title": "ਆਪਣੀ ਦਸਤਕਾਰੀ ਦਾ ਵਾਜਬ ਮੁੱਲ ਜਾਣੋ",
+            "input_placeholder": "ਕੰਮ ਦੇ ਦਿਨ, ਸਮੱਗਰੀ ਦੀ ਲਾਗਤ ਦਰਜ ਕਰੋ ਜਾਂ ਬੋਲਣ ਲਈ ਮਾਈਕ ਦਬਾਓ...",
+            "listening_text": "ਸੁਣ ਰਿਹਾ ਹੈ... (ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਅਨੁਵਾਦ ਹੋ ਰਿਹਾ ਹੈ)",
+            "days_label": "ਦਿਨ:",
+            "city_label": "ਸ਼ਹਿਰ:",
+            "cost_label": "ਲਾਗਤ:",
+            "calc_btn": "ਮੁੱਲ ਕੱਢੋ",
+            "no_craft_selected": "ਕੋਈ ਸ਼ਿਲਪ ਨਹੀਂ ਚੁਣਿਆ ਗਿਆ",
+            "set_days_sub": "ਗਣਨਾ ਲਈ ਕੰਮ ਦੇ ਦਿਨ ਅਤੇ ਸਮੱਗਰੀ ਦੀ ਲਾਗਤ ਦਰਜ ਕਰੋ ਜਾਂ ਬੋਲੋ",
+            "unappraised": "ਗ਼ੈਰ-ਮੁਲਾਂਕਣਿਤ",
+            "producer_rate_badge": "ਸਿੱਧੀ ਕਾਰੀਗਰ ਦਰ",
+            "fair_price_title": "ਵਾਜਬ ਸਿੱਧਾ ਮੁੱਲ",
+            "fair_share_sub": "100% ਸਿੱਧਾ ਕਾਰੀਗਰ ਦਾ ਹਿੱਸਾ · ਵਿਚੋਲਿਆਂ ਦੀ ਕੋਈ ਕਟੌਤੀ ਨਹੀਂ",
+            "conf_interval_title": "95% ਭਰੋਸੇਯੋਗਤਾ ਅੰਤਰਾਲ",
+            "index_sub": "ਕਲੱਸਟਰ ਮਜ਼ਦੂਰੀ ਅਤੇ ਸਮੱਗਰੀ ਸੂਚਕਾਂਕ",
+            "middleman_title": "ਵਿਚੋਲੇ ਦੀ ਪੇਸ਼ਕਸ਼",
+            "middleman_sub": "ਵਾਜਬ ਮੁੱਲ ਤੋਂ 0% ਘੱਟ",
+            "fair_direct_title": "ਵਾਜਬ ਸਿੱਧਾ ਮੁੱਲ",
+            "recommended_sub": "ਸਿਫ਼ਾਰਸ਼ ਕੀਤੀ ਕਾਰੀਗਰ ਦਰ",
+            "showroom_title": "ਸ਼ੋਰੂਮ / ਗੈਲਰੀ ਮੁੱਲ",
+            "showroom_sub": "ਸ਼ਹਿਰੀ ਸ਼ੋਰੂਮ ਮਾਰਕਅੱਪ (+0%)",
+            "breakdown_title": "ਲਾਗਤ ਵੇਰਵਾ",
+            "labor_title": "ਮਜ਼ਦੂਰੀ ਮੁਆਵਜ਼ਾ",
+            "labor_sub": "ਦਿਨ × ਹੁਨਰਮੰਦ ਮਜ਼ਦੂਰੀ",
+            "materials_title": "ਸਮੱਗਰੀ ਅਤੇ ਨੁਕਸਾਨ",
+            "materials_sub": "ਕੱਚੀ ਲਾਗਤ + 15% ਨੁਕਸਾਨ",
+            "gi_title": "ਜੀਆਈ ਵਿਰਾਸਤ ਪ੍ਰੀਮੀਅਮ",
+            "gi_sub": "ਕਾਨੂੰਨੀ ਜੀਆਈ ਪ੍ਰੀਮੀਅਮ",
+            "profit_title": "ਕਾਰੀਗਰ ਮੁਨਾਫ਼ਾ (25%)",
+            "profit_sub": "ਵਾਜਬ ਵਪਾਰ ਮੁਨਾਫ਼ਾ",
+            "save_db_btn": "ਡੇਟਾਬੇਸ ਵਿੱਚ ਸੰਭਾਲੋ",
+            "whatsapp_btn": "ਵਟਸਐਪ 'ਤੇ ਭੇਜੋ",
+            "recent_title": "ਹਾਲ ਹੀ ਵਿੱਚ ਸੰਭਾਲੇ ਮੁਲਾਂਕਣ",
+            "saved_success": "✓ ਡੇਟਾਬੇਸ ਵਿੱਚ ਸੰਭਾਲਿਆ ਗਿਆ",
+            "table_craft": "ਸ਼ਿਲਪ",
+            "table_cluster": "ਸ਼ਹਿਰ / ਕਲੱਸਟਰ",
+            "table_labor": "ਮਜ਼ਦੂਰੀ",
+            "table_material": "ਸਮੱਗਰੀ",
+            "table_fair_price": "ਵਾਜਬ ਮੁੱਲ",
+            "table_middleman": "ਵਿਚੋਲਾ",
+            "table_saved": "ਸੰਭਾਲਿਆ",
+            "drop_photo_text": "ਇੱਥੇ ਫੋਟੋ ਸੁੱਟੋ",
+            "voice_processing_text": "ਆਵਾਜ਼ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਅੰਗਰੇਜ਼ੀ ਅਨੁਵਾਦ ਹੋ ਰਿਹਾ ਹੈ...",
+            "voice_success_text": "✓ ਆਵਾਜ਼ ਸਫਲਤਾਪੂਰਵਕ ਰਿਕਾਰਡ ਹੋਈ",
+            "gi_tag_protected": "ਜੀਆਈ ਟੈਗ ਪ੍ਰਮਾਣਿਤ",
+            "standard_craft": "ਆਮ ਸ਼ਿਲਪ",
+            "below_fair_val": "ਵਾਜਬ ਮੁੱਲ ਤੋਂ {pct}% ਘੱਟ",
+            "city_markup": "ਸ਼ੋਰੂਮ ਮਾਰਕਅੱਪ (+{pct}%)",
+            "labor_summary": "{city} · ਮਜ਼ਦੂਰੀ: {days} ਦਿਨ @ ₹{rate}/ਦਿਨ"
+      },
+      "ml": {
+            "hero_title": "നിങ്ങളുടെ കരകൗശലത്തിന് അർഹമായ വില അറിയൂ",
+            "input_placeholder": "ജോലി ദിനങ്ങൾ, വസ്തുക്കളുടെ വില നൽകുക അല്ലെങ്കിൽ സംസാരിക്കാൻ മൈക്ക് അമർത്തുക...",
+            "listening_text": "ശ്രദ്ധിക്കുന്നു... (ഇംഗ്ലീഷിലേക്ക് വിവർത്തനം ചെയ്യുന്നു)",
+            "days_label": "ദിവസങ്ങൾ:",
+            "city_label": "നഗരം:",
+            "cost_label": "ചിലവ്:",
+            "calc_btn": "വില കണക്കാക്കുക",
+            "no_craft_selected": "കരകൗശല വസ്തു തിരഞ്ഞെടുത്തിട്ടില്ല",
+            "set_days_sub": "കണക്കാക്കാൻ ജോലി ദിവസങ്ങളും അസംസ്കൃത വസ്തുക്കളുടെ ചിലവും നൽകുക അല്ലെങ്കിൽ സംസാരിക്കുക",
+            "unappraised": "വിലയിരുത്തിയിട്ടില്ല",
+            "producer_rate_badge": "നേരിട്ടുള്ള ഉത്പാദക നിരക്ക്",
+            "fair_price_title": "ന്യായമായ നേരിട്ടുള്ള വില",
+            "fair_share_sub": "100% നേരിട്ട് കരകൗശല വിദഗ്ദ്ധന് · ഇടനിലക്കാരുടെ കമ്മീഷൻ ഇല്ല",
+            "conf_interval_title": "95% കൃത്യതാ പരിധി",
+            "index_sub": "ക്ലസ്റ്റർ വേതനവും അസംസ്കൃത വസ്തുക്കളുടെ സൂചികയും",
+            "middleman_title": "ഇടനിലക്കാരന്റെ വാഗ്ദാനം",
+            "middleman_sub": "ന്യായമായ വിലയേക്കാൾ 0% കുറവ്",
+            "fair_direct_title": "ന്യായമായ നേരിട്ടുള്ള വില",
+            "recommended_sub": "ശുപാർശ ചെയ്യുന്ന നിരക്ക്",
+            "showroom_title": "ഷോറൂം / ഗാലറി വില",
+            "showroom_sub": "ഷോറൂം മാർക്ക്അപ്പ് (+0%)",
+            "breakdown_title": "ചിലവ് വിവരങ്ങൾ",
+            "labor_title": "തൊഴിൽ വേതനം",
+            "labor_sub": "ദിവസങ്ങൾ × വിദഗ്ദ്ധ വേതനം",
+            "materials_title": "വസ്തുക്കളും പാഴാകലും",
+            "materials_sub": "യഥാർത്ഥ ചിലവ് + 15% പാഴാകൽ",
+            "gi_title": "ജിഐ പൈതൃക പ്രീമിയം",
+            "gi_sub": "നിയമപരമായ ജിഐ പ്രീമിയം",
+            "profit_title": "കരകൗശല വിദഗ്ദ്ധന്റെ ലാഭം (25%)",
+            "profit_sub": "ന്യായമായ വ്യാപാര ലാഭം",
+            "save_db_btn": "ഡാറ്റാബേസിൽ സൂക്ഷിക്കുക",
+            "whatsapp_btn": "വാട്സാപ്പിൽ അയക്കുക",
+            "recent_title": "അടുത്തിടെ സൂക്ഷിച്ച വിലയിരുത്തലുകൾ",
+            "saved_success": "✓ ഡാറ്റാബേസിൽ സൂക്ഷിച്ചു",
+            "table_craft": "കരകൗശലം",
+            "table_cluster": "നഗരം / ക്ലസ്റ്റർ",
+            "table_labor": "തൊഴിൽ",
+            "table_material": "വസ്തുക്കൾ",
+            "table_fair_price": "ന്യായമായ വില",
+            "table_middleman": "ഇടനിലക്കാരൻ",
+            "table_saved": "സൂക്ഷിച്ചു",
+            "drop_photo_text": "ഫോട്ടോ ഇവിടെ ഡ്രോപ്പ് ചെയ്യുക",
+            "voice_processing_text": "ശബ്ദം വിശകലനം ചെയ്ത് ഇംഗ്ലീഷിലേക്ക് വിവർത്തനം ചെയ്യുന്നു...",
+            "voice_success_text": "✓ ശബ്ദം വിജയകരമായി വിവർത്തനം ചെയ്തു",
+            "gi_tag_protected": "ജിഐ ടാഗ് സംരക്ഷിതം",
+            "standard_craft": "സാധാരണ കരകൗശലം",
+            "below_fair_val": "ന്യായമായ വിലയേക്കാൾ {pct}% കുറവ്",
+            "city_markup": "ഷോറൂം മാർക്ക്അപ്പ് (+{pct}%)",
+            "labor_summary": "{city} · തൊഴിൽ: {days} ദിവസങ്ങൾ @ ₹{rate}/ദിവസം"
+      },
+      "ur": {
+            "hero_title": "اپنی دستکاری کی صحیح قیمت جانیں",
+            "input_placeholder": "کام کے دن، خام مال کی لاگت درج کریں یا بولنے کے لیے مائیک دبائیں...",
+            "listening_text": "سن رہے ہیں... (انگریزی میں ترجمہ ہو رہا ہے)",
+            "days_label": "دن:",
+            "city_label": "شہر:",
+            "cost_label": "لاگت:",
+            "calc_btn": "قیمت معلوم کریں",
+            "no_craft_selected": "کوئی دستکاری منتخب نہیں کی گئی",
+            "set_days_sub": "حساب کے لیے کام کے دن اور خام مال کی لاگت درج کریں یا بولیں",
+            "unappraised": "غیر تخمینہ شدہ",
+            "producer_rate_badge": "براہ راست کاریگر ریٹ",
+            "fair_price_title": "منصفانہ براہ راست قیمت",
+            "fair_share_sub": "100% براہ راست کاریگر کا حصہ · دلالوں کی کوئی کٹوتی نہیں",
+            "conf_interval_title": "95% اعتماد کا وقفہ",
+            "index_sub": "کلسٹر اجرت اور مواد کا انڈیکس",
+            "middleman_title": "دلال کی پیشکش",
+            "middleman_sub": "منصفانہ قیمت سے 0% کم",
+            "fair_direct_title": "منصفانہ براہ راست قیمت",
+            "recommended_sub": "تجویز کردہ کاریگر ریٹ",
+            "showroom_title": "شوروم / گیلری قیمت",
+            "showroom_sub": "شوروم مارک اپ (+0%)",
+            "breakdown_title": "لاگت کی تفصیل",
+            "labor_title": "مزدوری کا معاوضہ",
+            "labor_sub": "دن × ہنر مندانہ اجرت",
+            "materials_title": "خام مال اور ضیاع",
+            "materials_sub": "خام لاگت + 15% ضیاع",
+            "gi_title": "جی آئی ورثہ پریمیم",
+            "gi_sub": "قانونی جی آئی پریمیم",
+            "profit_title": "کاریگر کا منافع (25%)",
+            "profit_sub": "منصفانہ تجارتی منافع",
+            "save_db_btn": "ڈیٹا بیس میں محفوظ کریں",
+            "whatsapp_btn": "واٹس ایپ پر بھیجیں",
+            "recent_title": "حالیہ محفوظ شدہ تخمینے",
+            "saved_success": "✓ ڈیٹا بیس میں محفوظ کر لیا گیا",
+            "table_craft": "دستکاری",
+            "table_cluster": "شہر / کلسٹر",
+            "table_labor": "مزدوری",
+            "table_material": "خام مال",
+            "table_fair_price": "منصفانہ قیمت",
+            "table_middleman": "دلال",
+            "table_saved": "محفوظ",
+            "drop_photo_text": "دستکاری کی تصویر یہاں ڈالیں",
+            "voice_processing_text": "آواز کا تجزیہ اور انگریزی میں ترجمہ ہو رہا ہے...",
+            "voice_success_text": "✓ آواز ریکارڈ اور ترجمہ ہو گئی",
+            "gi_tag_protected": "جی آئی مصدقہ",
+            "standard_craft": "عام دستکاری",
+            "below_fair_val": "منصفانہ قیمت سے {pct}% کم",
+            "city_markup": "شوروم مارک اپ (+{pct}%)",
+            "labor_summary": "{city} · مزدوری: {days} دن @ ₹{rate}/دن"
+      },
+      "as": {
+            "hero_title": "আপোনাৰ শিল্পৰ সঠিক মূল্য জানক",
+            "input_placeholder": "কামৰ দিন, সামগ্ৰীৰ খৰচ দিয়ক বা যিকোনো ভাষাত কবলৈ মাইকত টিপক...",
+            "listening_text": "শুনি আছোঁ... (ইংৰাজীলৈ অনুবাদ হৈ আছে)",
+            "days_label": "দিন:",
+            "city_label": "চহৰ:",
+            "cost_label": "খৰচ:",
+            "calc_btn": "মূল্য গণনা কৰক",
+            "no_craft_selected": "কোনো শিল্প বাছনি কৰা হোৱা নাই",
+            "set_days_sub": "গণনাৰ বাবে কামৰ দিন আৰু সামগ্ৰীৰ খৰচ দিয়ক বা কওক",
+            "unappraised": "অমূল্যায়িত",
+            "producer_rate_badge": "পোনপটীয়া কাৰিকৰী মূল্য",
+            "fair_price_title": "ন্যায্য প্ৰত্যক্ষ মূল্য",
+            "fair_share_sub": "১০০% পোনপটীয়াভাৱে শিল্পীৰ অংশ · কোনো মধ্যভোগীৰ ভাগ নাই",
+            "conf_interval_title": "৯৫% নিৰ্ভৰযোগ্য পৰিসীমা",
+            "index_sub": "মজুৰি আৰু সামগ্ৰী সূচক",
+            "middleman_title": "মধ্যভোগীৰ অফাৰ",
+            "middleman_sub": "ন্যায্য মূল্যতকৈ ০% কম",
+            "fair_direct_title": "ন্যায্য প্ৰত্যক্ষ মূল্য",
+            "recommended_sub": "প্ৰস্তাবিত কাৰিকৰী মূল্য",
+            "showroom_title": "শ্বৰুম / গেলেৰী মূল্য",
+            "showroom_sub": "শ্বৰুম মাৰ্কআপ (+০%)",
+            "breakdown_title": "খৰচৰ বিৱৰণ",
+            "labor_title": "শ্ৰম পাৰিশ্ৰমিক",
+            "labor_sub": "দিন × নিপুণ মজুৰি",
+            "materials_title": "সামগ্ৰী আৰু অপচয়",
+            "materials_sub": "কেঁচা খৰচ + ১৫% অপচয়",
+            "gi_title": "জিআই ঐতিহ্য প্ৰিমিয়াম",
+            "gi_sub": "আইনগত জিআই প্ৰিমিয়াম",
+            "profit_title": "শিল্পীৰ লাভ (২৫%)",
+            "profit_sub": "ন্যায্য বাণিজ্যৰ লাভ",
+            "save_db_btn": "ডাটাবেছত সংৰক্ষণ কৰক",
+            "whatsapp_btn": "হোৱাটছএপত পঠাওক",
+            "recent_title": "শেহতীয়াকৈ সংৰক্ষণ কৰা মূল্যায়ন",
+            "saved_success": "✓ ডাটাবেছত সংৰক্ষণ কৰা হ'ল",
+            "table_craft": "শিল্প",
+            "table_cluster": "চহৰ / ক্লাষ্টাৰ",
+            "table_labor": "শ্ৰম",
+            "table_material": "সামগ্ৰী",
+            "table_fair_price": "ন্যায্য মূল্য",
+            "table_middleman": "দালাল",
+            "table_saved": "সংৰক্ষিত",
+            "drop_photo_text": "শিল্পৰ ফটো ইয়াত এৰক",
+            "voice_processing_text": "ভয়েচ বিশ্লেষণ আৰু ইংৰাজীলৈ অনুবাদ হৈ আছে...",
+            "voice_success_text": "✓ ভয়েচ সফলতাৰে অনুবাদ হ'ল",
+            "gi_tag_protected": "জিআই টেগ সুৰক্ষিত",
+            "standard_craft": "সাধাৰণ শিল্প",
+            "below_fair_val": "ন্যায্য মূল্যতকৈ {pct}% কম",
+            "city_markup": "শ্বৰুম মাৰ্কআপ (+{pct}%)",
+            "labor_summary": "{city} · শ্ৰম: {days} দিন @ ₹{rate}/দিন"
+      }
+};
+
+    // Speech Rec Language Tags
+    const LANG_SPEECH_MAP = {
+      en: 'en-IN',
+      hi: 'hi-IN',
+      bn: 'bn-IN',
+      or: 'or-IN',
+      te: 'te-IN',
+      ta: 'ta-IN',
+      kn: 'kn-IN',
+      mr: 'mr-IN',
+      gu: 'gu-IN',
+      pa: 'pa-IN',
+      ml: 'ml-IN',
+      ur: 'ur-IN',
+      as: 'as-IN'
+    };
+
+    let currentLang = localStorage.getItem('craftfair_lang') || 'en';
+
+    function getI18n(key) {
+      const dict = CRAFTFAIR_I18N[currentLang] || CRAFTFAIR_I18N['en'];
+      return dict[key] || (CRAFTFAIR_I18N['en'] && CRAFTFAIR_I18N['en'][key]) || '';
+    }
+
+    function applyLanguage(lang) {
+      currentLang = lang || 'en';
+      const dict = CRAFTFAIR_I18N[currentLang] || CRAFTFAIR_I18N['en'];
+
+      // 1. Static text elements
+      document.querySelectorAll('[data-i18n]').forEach((el) => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) el.textContent = dict[key];
+      });
+
+      // 2. Input placeholders
+      document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        if (dict[key]) el.setAttribute('placeholder', dict[key]);
+      });
+
+      // 3. Dynamic evaluation labels
+      if (currentPrediction) {
+        const data = currentPrediction;
+        if (evalCraftName) evalCraftName.textContent = currentTitle || currentCategory || dict['no_craft_selected'];
+        
+        const cleanCity = currentRegion.replace(/_/g, ' ');
+        const dailyRate = currentDays > 0 ? Math.round(data.labour_compensation / (currentDays * (1 + (currentComplexity - 1) * 0.065))) : 400;
+        const laborTpl = dict['labor_summary'] || '{city} · Labor: {days} days @ ₹{rate}/day';
+        if (evalLocationText) {
+          evalLocationText.textContent = laborTpl
+            .replace('{city}', cleanCity)
+            .replace('{days}', currentDays)
+            .replace('{rate}', dailyRate);
+        }
+
+        if (evalMiddlemanSub) {
+          const pct = data.fair_price > 0 ? Math.round(((data.fair_price - data.middleman_exploitation_price) / data.fair_price) * 100) : 0;
+          const mmTpl = dict['below_fair_val'] || '{pct}% below fair value';
+          evalMiddlemanSub.textContent = mmTpl.replace('{pct}', pct);
+        }
+
+        if (evalShowroomSub) {
+          const pct = data.fair_price > 0 ? Math.round(((data.urban_showroom_mrp - data.fair_price) / data.fair_price) * 100) : 0;
+          const srTpl = dict['city_markup'] || 'City store markup (+{pct}%)';
+          evalShowroomSub.textContent = srTpl.replace('{pct}', pct);
+        }
+
+        if (evalGiBadge) {
+          evalGiBadge.textContent = data.metrics.gi_tag_eligible 
+            ? (dict['gi_tag_protected'] || 'GI Tag Protected') 
+            : (dict['standard_craft'] || 'Standard Craft');
+        }
+      } else {
+        // Zero-default state: completely update all dynamic labels in newly selected language
+        if (evalCraftName) evalCraftName.textContent = currentTitle || currentCategory || dict['no_craft_selected'];
+        if (evalLocationText) evalLocationText.textContent = dict['set_days_sub'];
+        if (evalGiBadge) evalGiBadge.textContent = dict['unappraised'];
+        if (evalMiddlemanSub) evalMiddlemanSub.textContent = dict['middleman_sub'];
+        if (evalShowroomSub) evalShowroomSub.textContent = dict['showroom_sub'];
+      }
+    }
+
+    // Elements
+    const fileInput = document.getElementById('craft-file-input');
+    const triggerUploadBtn = document.getElementById('trigger-upload-btn');
+    const triggerMicBtn = document.getElementById('trigger-mic-btn');
+    const micPulse = document.getElementById('mic-pulse');
+    const audioWaveStrip = document.getElementById('audio-wave-strip');
+    const promptInput = document.getElementById('studio-prompt-input');
+
+    const imageChipContainer = document.getElementById('image-chip-container');
+    const imageChipPreview = document.getElementById('image-chip-preview');
+    const imageChipTitle = document.getElementById('image-chip-title');
+    const imageChipStatus = document.getElementById('image-chip-status');
+    const removeChipBtn = document.getElementById('remove-chip-btn');
+
+    const capsuleDaysInput = document.getElementById('capsule-days-input');
+    const capsuleCitySelect = document.getElementById('capsule-city-select');
+    const capsuleCostInput = document.getElementById('capsule-cost-input');
+
+    const estimateBtn = document.getElementById('estimate-price-btn');
+    const saveDbBtn = document.getElementById('save-to-database-btn');
+    const whatsappBtn = document.getElementById('whatsapp-invoice-btn');
+    const saveStatusMsg = document.getElementById('save-status-msg');
+
+    const evalCraftName = document.getElementById('eval-craft-name');
+    const evalLocationText = document.getElementById('eval-location-text');
+    const evalGiBadge = document.getElementById('eval-gi-badge');
+    const evalFairPrice = document.getElementById('eval-fair-price');
+    const evalFairRange = document.getElementById('eval-fair-range');
+    const evalFairPriceComp = document.getElementById('eval-fair-price-comp');
+    const evalMiddlemanPrice = document.getElementById('eval-middleman-price');
+    const evalMiddlemanSub = document.getElementById('eval-middleman-sub');
+    const evalShowroomPrice = document.getElementById('eval-showroom-price');
+    const evalShowroomSub = document.getElementById('eval-showroom-sub');
+    const breakdownLabor = document.getElementById('breakdown-labor');
+    const breakdownMaterials = document.getElementById('breakdown-materials');
+    const breakdownGi = document.getElementById('breakdown-gi');
+    const breakdownProfit = document.getElementById('breakdown-profit');
+
+    const tableBody = document.getElementById('db-appraisals-table-body');
+    const sliderPrevBtn = document.getElementById('slider-prev-btn');
+    const sliderNextBtn = document.getElementById('slider-next-btn');
+    const sliderPageIndicator = document.getElementById('slider-page-indicator');
+
+    // Default All Values to Zero per user instruction
+    let currentCategory = '';
+    let currentTitle = '';
+    let currentDays = parseInt(capsuleDaysInput ? capsuleDaysInput.value : 0, 10) || 0;
+    let currentCost = parseInt(capsuleCostInput ? capsuleCostInput.value : 0, 10) || 0;
+    let currentRegion = capsuleCitySelect ? capsuleCitySelect.value : 'Bastar_CG';
+    let currentComplexity = 8;
+    let currentPhotoBase64 = '';
+    let currentPrediction = null;
+    let isRecording = false;
+    let speechRecognition = null;
+    let mediaRecorder = null;
+    let recordedChunks = [];
+
+    // Slider State
+    const ITEMS_PER_SLIDE = 5;
+    let databaseRecords = [];
+    let currentSlideIndex = 0;
+
+    // Listen for global navbar language changes
+    window.addEventListener('craftfair:language-change', (e) => {
+      applyLanguage(e.detail.lang);
+    });
+
+    // Zero-State Display Reset
+    function resetToZero() {
+      if (evalCraftName) evalCraftName.textContent = currentTitle || currentCategory || getI18n('no_craft_selected');
+      if (evalLocationText) evalLocationText.textContent = getI18n('set_days_sub');
+      if (evalGiBadge) evalGiBadge.textContent = getI18n('unappraised');
+      if (evalFairPrice) evalFairPrice.textContent = '₹0';
+      if (evalFairRange) evalFairRange.textContent = '₹0 — ₹0';
+      if (evalFairPriceComp) evalFairPriceComp.textContent = '₹0';
+      if (evalMiddlemanPrice) evalMiddlemanPrice.textContent = '₹0';
+      if (evalMiddlemanSub) evalMiddlemanSub.textContent = getI18n('middleman_sub');
+      if (evalShowroomPrice) evalShowroomPrice.textContent = '₹0';
+      if (evalShowroomSub) evalShowroomSub.textContent = getI18n('showroom_sub');
+      if (breakdownLabor) breakdownLabor.textContent = '₹0';
+      if (breakdownMaterials) breakdownMaterials.textContent = '₹0';
+      if (breakdownGi) breakdownGi.textContent = '₹0';
+      if (breakdownProfit) breakdownProfit.textContent = '₹0';
+      currentPrediction = null;
+    }
+
+    // Days / City / Cost Listeners (No automatic price calculation until "Calculate Price" clicked)
+    if (capsuleDaysInput) {
+      capsuleDaysInput.addEventListener('input', (e) => {
+        currentDays = parseInt(e.target.value, 10) || 0;
+      });
+    }
+
+    if (capsuleCitySelect) {
+      capsuleCitySelect.addEventListener('change', (e) => {
+        currentRegion = e.target.value;
+      });
+    }
+
+    if (capsuleCostInput) {
+      capsuleCostInput.addEventListener('input', (e) => {
+        currentCost = parseInt(e.target.value, 10) || 0;
+      });
+    }
+
+    // Shared Craft Image Processor (Used for both File Upload and Drag-and-Drop)
+    async function handleCraftImageFile(file) {
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = async (event) => {
+        const rawDataUrl = event.target.result;
+        imageChipTitle.textContent = file.name || 'Craft Photo';
+        imageChipStatus.textContent = 'Vision AI analyzing...';
+        imageChipContainer.classList.remove('hidden');
+
+        // Client-side image resize to 512px max to ensure fast vision AI response (<50KB)
+        const img = new Image();
+        img.onload = async () => {
+          const maxDim = 512;
+          let w = img.width;
+          let h = img.height;
+          if (w > maxDim || h > maxDim) {
+            if (w > h) {
+              h = Math.round((h * maxDim) / w);
+              w = maxDim;
+            } else {
+              w = Math.round((w * maxDim) / h);
+              h = maxDim;
+            }
+          }
+          const canvas = document.createElement('canvas');
+          canvas.width = w;
+          canvas.height = h;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0, w, h);
+          const compressedBase64 = canvas.toDataURL('image/jpeg', 0.85);
+
+          currentPhotoBase64 = compressedBase64;
+          imageChipPreview.src = compressedBase64;
+
+          // Sample canvas pixel color tone for robust craft prior
+          let visualTone = 'unknown';
+          try {
+            const imgData = ctx.getImageData(0, 0, w, h);
+            const d = imgData.data;
+            let totalR = 0, totalG = 0, totalB = 0, count = 0;
+            const step = Math.max(1, Math.floor(d.length / (4 * 1000)));
+            for (let i = 0; i < d.length; i += step * 4) {
+              totalR += d[i];
+              totalG += d[i+1];
+              totalB += d[i+2];
+              count++;
+            }
+            const avgR = totalR / count;
+            const avgG = totalG / count;
+            const avgB = totalB / count;
+
+            if (avgR > avgB + 20 && avgR > avgG + 10 && avgR > 85) {
+              visualTone = 'terracotta_pottery';
+            } else if (avgR < 75 && avgG < 75 && avgB < 75) {
+              visualTone = 'wrought_iron';
+            } else if (avgR > 130 && avgG > 110 && avgB < 100) {
+              visualTone = (avgR - avgB > 50) ? 'dhokra_metal' : 'bamboo_cane';
+            }
+          } catch (e) {
+            console.warn('Tone detection err:', e);
+          }
+
+          try {
+            const res = await fetch('/api/classify-craft', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ 
+                image: currentPhotoBase64, 
+                fileName: file.name,
+                promptText: promptInput ? promptInput.value : '',
+                visualTone: visualTone
+              })
+            });
+
+            if (res.ok) {
+              const data = await res.json();
+              currentCategory = data.craft_category || 'Terracotta & Pottery';
+              currentTitle = data.suggested_title || currentCategory;
+              currentDays = data.estimated_labour_days || 4;
+              currentCost = data.estimated_material_cost || 250;
+              currentComplexity = data.complexity_score || 7;
+              if (data.gi_region && capsuleCitySelect) {
+                const match = Array.from(capsuleCitySelect.options).find(opt => opt.value.toLowerCase().includes(data.gi_region.toLowerCase()));
+                if (match) currentRegion = match.value;
+              }
+
+              if (capsuleDaysInput) capsuleDaysInput.value = currentDays;
+              if (capsuleCostInput) capsuleCostInput.value = currentCost;
+              if (capsuleCitySelect) capsuleCitySelect.value = currentRegion;
+
+              imageChipStatus.textContent = currentTitle;
+              if (evalCraftName) evalCraftName.textContent = currentTitle;
+              if (promptInput && !promptInput.value.includes(currentTitle)) {
+                promptInput.value = `${currentTitle} (${currentDays} days, ₹${currentCost} cost)`;
+              }
+              // Do NOT auto-compute price per user instruction; user clicks "Calculate Price"
+            } else {
+              imageChipStatus.textContent = 'Craft attached';
+            }
+          } catch (err) {
+            console.warn('Vision analysis error:', err);
+            imageChipStatus.textContent = currentTitle || 'Attached';
+          }
+        };
+        img.src = rawDataUrl;
+      };
+      reader.readAsDataURL(file);
+    }
+
+    // Upload Trigger Button
+    if (triggerUploadBtn && fileInput) {
+      triggerUploadBtn.addEventListener('click', () => fileInput.click());
+    }
+
+    if (fileInput) {
+      fileInput.addEventListener('change', async (e) => {
+        const file = e.target.files?.[0];
+        if (file) handleCraftImageFile(file);
+      });
+    }
+
+    // Drag and Drop Craft Photo directly onto Capsule
+    const inputCapsule = document.getElementById('studio-input-capsule');
+    const dropOverlay = document.getElementById('capsule-drop-overlay');
+
+    if (inputCapsule && dropOverlay) {
+      ['dragenter', 'dragover'].forEach(eventName => {
+        inputCapsule.addEventListener(eventName, (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          dropOverlay.classList.remove('hidden');
+        });
+      });
+
+      ['dragleave', 'dragend'].forEach(eventName => {
+        inputCapsule.addEventListener(eventName, (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          if (!inputCapsule.contains(e.relatedTarget)) {
+            dropOverlay.classList.add('hidden');
+          }
+        });
+      });
+
+      inputCapsule.addEventListener('drop', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        dropOverlay.classList.add('hidden');
+        const file = e.dataTransfer?.files?.[0];
+        if (file && file.type.startsWith('image/')) {
+          handleCraftImageFile(file);
+        }
+      });
+    }
+
+    if (removeChipBtn) {
+      removeChipBtn.addEventListener('click', () => {
+        fileInput.value = '';
+        currentPhotoBase64 = '';
+        imageChipPreview.src = '';
+        imageChipContainer.classList.add('hidden');
+      });
+    }
+
+    // Voice Capture & Translation Feedback
+    const SpeechRecClass = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const audioProcessingStrip = document.getElementById('audio-processing-strip');
+    const audioSuccessStrip = document.getElementById('audio-success-strip');
+
+    if (triggerMicBtn) {
+      triggerMicBtn.addEventListener('click', async () => {
+        if (!isRecording) {
+          isRecording = true;
+          triggerMicBtn.classList.add('text-blue-600', 'border-blue-600');
+          micPulse.classList.remove('hidden');
+          audioWaveStrip.classList.remove('hidden');
+          if (audioProcessingStrip) audioProcessingStrip.classList.add('hidden');
+          if (audioSuccessStrip) audioSuccessStrip.classList.add('hidden');
+
+          if (SpeechRecClass) {
+            try {
+              speechRecognition = new SpeechRecClass();
+              speechRecognition.continuous = true;
+              speechRecognition.interimResults = true;
+              speechRecognition.lang = LANG_SPEECH_MAP[currentLang] || 'hi-IN';
+
+              speechRecognition.onresult = (evt) => {
+                let liveText = '';
+                for (let i = evt.resultIndex; i < evt.results.length; ++i) {
+                  liveText += evt.results[i][0].transcript;
+                }
+                if (liveText.trim()) {
+                  promptInput.value = liveText;
+                }
+              };
+              speechRecognition.start();
+            } catch (e) {
+              console.warn('SpeechRec err:', e);
+            }
+          }
+
+          if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+            try {
+              const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+              mediaRecorder = new MediaRecorder(stream);
+              recordedChunks = [];
+              mediaRecorder.ondataavailable = (ev) => {
+                if (ev.data.size > 0) recordedChunks.push(ev.data);
+              };
+              mediaRecorder.onstop = async () => {
+                const blob = new Blob(recordedChunks, { type: 'audio/webm' });
+                if (promptInput.value && promptInput.value.length > 2) {
+                  translateAndExtract(promptInput.value);
+                } else {
+                  if (audioProcessingStrip) audioProcessingStrip.classList.remove('hidden');
+                  try {
+                    const transRes = await fetch('/api/voice-transcribe', {
+                      method: 'POST',
+                      headers: { 'Content-Type': 'audio/webm' },
+                      body: blob
+                    });
+                    if (transRes.ok) {
+                      const transData = await transRes.json();
+                      const eng = transData.english_translation || transData.transcription;
+                      if (eng) {
+                        promptInput.value = eng;
+                        applyExtractedEntities(transData.extracted_entities);
+                        if (audioSuccessStrip) {
+                          audioSuccessStrip.classList.remove('hidden');
+                          setTimeout(() => audioSuccessStrip.classList.add('hidden'), 4000);
+                        }
+                      }
+                    }
+                  } catch (wErr) {
+                    console.warn('Whisper err:', wErr);
+                  } finally {
+                    if (audioProcessingStrip) audioProcessingStrip.classList.add('hidden');
+                  }
+                }
+              };
+              mediaRecorder.start();
+            } catch (mErr) {
+              console.warn('Mic err:', mErr);
+            }
+          }
+        } else {
+          isRecording = false;
+          triggerMicBtn.classList.remove('text-blue-600', 'border-blue-600');
+          micPulse.classList.add('hidden');
+          audioWaveStrip.classList.add('hidden');
+
+          if (speechRecognition) {
+            try { speechRecognition.stop(); } catch (_) {}
+          }
+          if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+            try { mediaRecorder.stop(); } catch (_) {}
+          }
+
+          if (promptInput.value && promptInput.value.trim().length > 1) {
+            translateAndExtract(promptInput.value);
+          }
+        }
+      });
+    }
+
+    async function translateAndExtract(text) {
+      if (!text || !text.trim()) {
+        if (audioProcessingStrip) audioProcessingStrip.classList.add('hidden');
+        return;
+      }
+      if (audioProcessingStrip) audioProcessingStrip.classList.remove('hidden');
+      if (audioSuccessStrip) audioSuccessStrip.classList.add('hidden');
+      if (estimateBtn) estimateBtn.classList.add('opacity-75');
+
+      try {
+        const res = await fetch('/api/voice-transcribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ transcript: text })
+        });
+        if (res.ok) {
+          const data = await res.json();
+          if (data.english_translation) {
+            promptInput.value = data.english_translation;
+          }
+          applyExtractedEntities(data.extracted_entities);
+          if (audioSuccessStrip) {
+            audioSuccessStrip.classList.remove('hidden');
+            setTimeout(() => {
+              audioSuccessStrip.classList.add('hidden');
+            }, 4000);
+          }
+        }
+      } catch (err) {
+        console.warn('Translation err:', err);
+      } finally {
+        if (audioProcessingStrip) audioProcessingStrip.classList.add('hidden');
+        if (estimateBtn) estimateBtn.classList.remove('opacity-75');
+      }
+    }
+
+    function applyExtractedEntities(ent) {
+      if (!ent) return;
+      if (ent.craft_category) {
+        // If image is attached, preserve the photo-detected title unless speech explicitly names another craft
+        if (!currentPhotoBase64) {
+          currentCategory = ent.craft_category;
+          currentTitle = ent.suggested_title || ent.craft_category;
+          if (evalCraftName) evalCraftName.textContent = currentTitle;
+        }
+      }
+      if (ent.labour_days && ent.labour_days > 0) {
+        currentDays = ent.labour_days;
+        if (capsuleDaysInput) capsuleDaysInput.value = currentDays;
+      }
+      if (ent.raw_material_cost && ent.raw_material_cost > 0) {
+        currentCost = ent.raw_material_cost;
+        if (capsuleCostInput) capsuleCostInput.value = currentCost;
+      }
+      if (ent.region) {
+        currentRegion = ent.region;
+        if (capsuleCitySelect) capsuleCitySelect.value = currentRegion;
+      }
+      // Note: Do NOT auto-compute price; wait for user to click "Calculate Price"
+    }
+
+    // Compute Price
+    async function computeFairPrice() {
+      // If values are zero, show zero state per user instruction
+      if (currentDays <= 0 && currentCost <= 0) {
+        resetToZero();
+        return;
+      }
+
+      if (!currentCategory) {
+        currentCategory = 'Dhokra Metal Craft';
+      }
+
+      const payload = {
+        craft_category: currentCategory,
+        region: currentRegion,
+        labour_days: currentDays,
+        raw_material_cost: currentCost,
+        complexity_score: currentComplexity,
+        season_multiplier: 1.0
+      };
+
+      try {
+        const res = await fetch('/api/predict-price', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (res.ok) {
+          const data = await res.json();
+          currentPrediction = data;
+
+          if (evalCraftName) evalCraftName.textContent = currentTitle || currentCategory;
+          const dict = CRAFTFAIR_I18N[currentLang] || CRAFTFAIR_I18N['en'];
+          const cleanCity = currentRegion.replace(/_/g, ' ');
+          const dailyRate = currentDays > 0 ? Math.round(data.labour_compensation / (currentDays * (1 + (currentComplexity - 1) * 0.065))) : 400;
+          const laborTpl = dict['labor_summary'] || '{city} · Labor: {days} days @ ₹{rate}/day';
+          if (evalLocationText) {
+            evalLocationText.textContent = laborTpl
+              .replace('{city}', cleanCity)
+              .replace('{days}', currentDays)
+              .replace('{rate}', dailyRate);
+          }
+
+          if (evalFairPrice) evalFairPrice.textContent = `₹${data.fair_price.toLocaleString('en-IN')}`;
+          if (evalFairRange) evalFairRange.textContent = `₹${data.price_min_bound.toLocaleString('en-IN')} — ₹${data.price_max_bound.toLocaleString('en-IN')}`;
+          if (evalFairPriceComp) evalFairPriceComp.textContent = `₹${data.fair_price.toLocaleString('en-IN')}`;
+          if (evalMiddlemanPrice) evalMiddlemanPrice.textContent = `₹${data.middleman_exploitation_price.toLocaleString('en-IN')}`;
+          if (evalMiddlemanSub) {
+            const pct = data.fair_price > 0 ? Math.round(((data.fair_price - data.middleman_exploitation_price) / data.fair_price) * 100) : 0;
+            const mmTpl = dict['below_fair_val'] || '{pct}% below fair value';
+            evalMiddlemanSub.textContent = mmTpl.replace('{pct}', pct);
+          }
+          if (evalShowroomPrice) evalShowroomPrice.textContent = `₹${data.urban_showroom_mrp.toLocaleString('en-IN')}`;
+          if (evalShowroomSub) {
+            const pct = data.fair_price > 0 ? Math.round(((data.urban_showroom_mrp - data.fair_price) / data.fair_price) * 100) : 0;
+            const srTpl = dict['city_markup'] || 'City store markup (+{pct}%)';
+            evalShowroomSub.textContent = srTpl.replace('{pct}', pct);
+          }
+
+          if (evalGiBadge) {
+            evalGiBadge.textContent = data.metrics.gi_tag_eligible 
+              ? (dict['gi_tag_protected'] || 'GI Tag Protected') 
+              : (dict['standard_craft'] || 'Standard Craft');
+            if (data.metrics.gi_tag_eligible) {
+              evalGiBadge.className = 'px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20';
+            } else {
+              evalGiBadge.className = 'px-3 py-1 rounded-full text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-700';
+            }
+          }
+          if (breakdownLabor) breakdownLabor.textContent = `₹${data.labour_compensation.toLocaleString('en-IN')}`;
+          if (breakdownMaterials) breakdownMaterials.textContent = `₹${data.raw_material_with_wastage.toLocaleString('en-IN')}`;
+          if (breakdownGi) breakdownGi.textContent = `+₹${data.gi_heritage_premium.toLocaleString('en-IN')}`;
+          if (breakdownProfit) breakdownProfit.textContent = `+₹${data.artisan_profit_margin.toLocaleString('en-IN')}`;
+
+          if (evalGiBadge) {
+            evalGiBadge.textContent = data.metrics.gi_tag_eligible ? 'GI Tag Protected' : 'Standard Craft';
+            if (data.metrics.gi_tag_eligible) {
+              evalGiBadge.className = 'px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20';
+            } else {
+              evalGiBadge.className = 'px-3 py-1 rounded-full text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-700';
+            }
+          }
+        }
+      } catch (err) {
+        console.warn('Pricing calculation error:', err);
+      }
+    }
+
+    if (promptInput) {
+      promptInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          if (promptInput.value && promptInput.value.trim().length > 2) {
+            translateAndExtract(promptInput.value);
+          } else {
+            computeFairPrice();
+          }
+        }
+      });
+    }
+
+    if (estimateBtn) {
+      estimateBtn.addEventListener('click', () => {
+        if (promptInput && promptInput.value && promptInput.value.trim().length > 2) {
+          translateAndExtract(promptInput.value);
+        } else {
+          if (currentDays === 0 && currentCost === 0) {
+            // If artisan hasn't set days/cost, set reasonable starter values
+            currentDays = 5;
+            currentCost = 400;
+            if (capsuleDaysInput) capsuleDaysInput.value = 5;
+            if (capsuleCostInput) capsuleCostInput.value = 400;
+          }
+          computeFairPrice();
+        }
+      });
+    }
+
+    // Save to Database
+    if (saveDbBtn) {
+      saveDbBtn.addEventListener('click', async () => {
+        if (!currentPrediction) await computeFairPrice();
+        if (!currentPrediction || currentPrediction.fair_price === 0) return;
+
+        saveDbBtn.disabled = true;
+        saveDbBtn.classList.add('opacity-70');
+
+        const listingItem = {
+          title: `Handcrafted ${currentCategory || 'Craft Item'}`,
+          category: currentCategory || 'Dhokra Metal Craft',
+          craft_region: currentRegion,
+          labour_days: currentDays,
+          raw_cost: currentCost,
+          fair_price: currentPrediction.fair_price,
+          middleman_price: currentPrediction.middleman_exploitation_price,
+          image_url: currentPhotoBase64 || 'https://images.unsplash.com/photo-1606744888344-493238955de0?auto=format&fit=crop&w=400&q=80',
+          complexity_score: currentComplexity,
+          gi_tag: currentPrediction.metrics.gi_tag_eligible,
+          created_at: new Date().toISOString()
+        };
+
+        try {
+          const res = await fetch('/api/catalog', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(listingItem)
+          });
+
+          if (res.ok) {
+            saveStatusMsg.textContent = getI18n('saved_success') || '✓ Saved to database';
+            saveStatusMsg.classList.remove('hidden');
+            setTimeout(() => saveStatusMsg.classList.add('hidden'), 3000);
+            fetchRecentAppraisals();
+          }
+        } catch (err) {
+          console.warn('Save error:', err);
+        } finally {
+          saveDbBtn.disabled = false;
+          saveDbBtn.classList.remove('opacity-70');
+        }
+      });
+    }
+
+    // WhatsApp Invoice
+    if (whatsappBtn) {
+      whatsappBtn.addEventListener('click', () => {
+        const price = currentPrediction ? currentPrediction.fair_price : 0;
+        const msg = 
+`*CraftFair AI Fair Price Quote*
+Craft: ${currentCategory || 'Artisan Craft'}
+City: ${currentRegion.replace(/_/g, ' ')}
+Labor: ${currentDays} Days
+Artisan Fair Price: ₹${price.toLocaleString('en-IN')}
+
+Direct artisan rate based on cluster wage and materials.`;
+
+        window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`, '_blank');
+      });
+    }
+
+    // Slider Pagination
+    async function fetchRecentAppraisals() {
+      try {
+        const res = await fetch('/api/catalog');
+        if (res.ok) {
+          databaseRecords = await res.json();
+          currentSlideIndex = 0;
+          renderSliderPage();
+        }
+      } catch (err) {
+        console.warn('Fetch appraisals error:', err);
+      }
+    }
+
+    function renderSliderPage() {
+      if (!tableBody) return;
+      if (!databaseRecords || databaseRecords.length === 0) {
+        tableBody.innerHTML = `
+          <tr>
+            <td colspan="7" class="py-6 text-center text-neutral-400">
+              No saved records yet.
+            </td>
+          </tr>
+        `;
+        if (sliderPageIndicator) sliderPageIndicator.textContent = '0 Records';
+        if (sliderPrevBtn) sliderPrevBtn.disabled = true;
+        if (sliderNextBtn) sliderNextBtn.disabled = true;
+        return;
+      }
+
+      const totalPages = Math.ceil(databaseRecords.length / ITEMS_PER_SLIDE);
+      if (currentSlideIndex >= totalPages) currentSlideIndex = totalPages - 1;
+      if (currentSlideIndex < 0) currentSlideIndex = 0;
+
+      const start = currentSlideIndex * ITEMS_PER_SLIDE;
+      const end = Math.min(start + ITEMS_PER_SLIDE, databaseRecords.length);
+      const visibleItems = databaseRecords.slice(start, end);
+
+      if (sliderPageIndicator) {
+        sliderPageIndicator.textContent = `${start + 1}–${end} of ${databaseRecords.length}`;
+      }
+      if (sliderPrevBtn) sliderPrevBtn.disabled = currentSlideIndex === 0;
+      if (sliderNextBtn) sliderNextBtn.disabled = currentSlideIndex >= totalPages - 1;
+
+      tableBody.innerHTML = visibleItems.map((it) => {
+        const title = it.title || it.title_en || 'Handcrafted Item';
+        const category = it.category || it.craft_category || 'Craft';
+        const region = (it.craft_region || it.region || 'Bastar').replace(/_/g, ' ');
+        const days = it.labour_days || 0;
+        const cost = it.raw_cost || it.raw_material_cost || 0;
+        const fairPrice = it.fair_price || 0;
+        const middleman = it.middleman_price || Math.round(fairPrice * 0.36);
+        const timeAgo = it.created_at ? new Date(it.created_at).toLocaleDateString('en-IN', { month: 'short', day: 'numeric' }) : 'Saved';
+
+        return `
+          <tr class="hover:bg-neutral-50 dark:hover:bg-[#1a1c22] transition-colors">
+            <td class="py-3 px-4">
+              <div class="font-semibold text-neutral-900 dark:text-neutral-100 line-clamp-1">${title}</div>
+              <div class="text-[11px] text-neutral-500">${category}</div>
+            </td>
+            <td class="py-3 px-4 font-mono text-[11px] text-neutral-500">${region}</td>
+            <td class="py-3 px-4 font-mono text-[11px] text-neutral-900 dark:text-neutral-100">${days}d</td>
+            <td class="py-3 px-4 font-mono text-[11px] text-neutral-500">₹${cost}</td>
+            <td class="py-3 px-4 font-mono font-bold text-sm text-emerald-600 dark:text-emerald-400">₹${Number(fairPrice).toLocaleString('en-IN')}</td>
+            <td class="py-3 px-4 font-mono text-xs text-red-500 line-through">₹${Number(middleman).toLocaleString('en-IN')}</td>
+            <td class="py-3 px-4 font-mono text-[11px] text-neutral-400 text-right">${timeAgo}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    if (sliderPrevBtn) {
+      sliderPrevBtn.addEventListener('click', () => {
+        if (currentSlideIndex > 0) {
+          currentSlideIndex--;
+          renderSliderPage();
+        }
+      });
+    }
+
+    if (sliderNextBtn) {
+      sliderNextBtn.addEventListener('click', () => {
+        const totalPages = Math.ceil(databaseRecords.length / ITEMS_PER_SLIDE);
+        if (currentSlideIndex < totalPages - 1) {
+          currentSlideIndex++;
+          renderSliderPage();
+        }
+      });
+    }
+
+    // Initialize Language and Zero State
+    applyLanguage(currentLang);
+    resetToZero();
+    fetchRecentAppraisals();
+  });
+</script>

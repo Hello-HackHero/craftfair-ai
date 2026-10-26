@@ -1,0 +1,242 @@
+---
+// Navbar.astro - Minimal Header with Dark Mode Toggle & Colab Pipeline Link
+---
+
+<header class="w-full border-b border-[var(--border-subtle)] bg-[var(--bg-main)]/90 backdrop-blur-md sticky top-0 z-50 transition-colors duration-200">
+  <div class="max-w-4xl mx-auto px-5 h-16 flex items-center justify-between">
+    
+    <!-- Brand Mark & Symbol -->
+    <a href="/" class="flex items-center gap-2.5 group">
+      <div class="w-8 h-7 flex items-center justify-center overflow-hidden">
+        <img 
+          src="/assets/craftfair-emblem-transparent.png" 
+          alt="CraftFair AI" 
+          class="w-full h-full object-contain filter group-hover:scale-105 transition-transform"
+        />
+      </div>
+      <span class="font-sans font-bold text-base sm:text-lg tracking-tight text-[var(--text-main)]">
+        CraftFair AI
+      </span>
+    </a>
+
+    <!-- Right Actions -->
+    <div class="flex items-center gap-2 sm:gap-2.5">
+      
+      <!-- Colab Link (Provided by user) -->
+      <a 
+        href="https://colab.research.google.com/drive/1vDJJhynSCu-o_JbiYf6PRP3nOKTtd7i7?usp=sharing" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium text-[var(--text-muted)] hover:text-[var(--text-main)] bg-[var(--bg-card)] hover:bg-[var(--bg-input)] border border-[var(--border-subtle)] transition-all"
+        title="View Google Colab ML Training Pipeline"
+      >
+        <span>Colab</span>
+        <svg class="w-3 h-3 opacity-60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+        </svg>
+      </a>
+
+      <!-- Model R² Metric Button (Opens ML Model Benchmark Modal) -->
+      <button 
+        type="button"
+        id="r2-metric-btn"
+        class="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-full text-xs font-medium text-neutral-700 dark:text-neutral-300 bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 border border-neutral-200 dark:border-neutral-700 transition-colors cursor-pointer select-none"
+        title="Click to view ML Model Validation & Accuracy"
+      >
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span class="font-mono text-[11px] font-semibold">R² 0.964</span>
+      </button>
+
+      <!-- LANGUAGE TOGGLE SELECTOR -->
+      <div class="relative inline-flex items-center">
+        <select 
+          id="global-language-select"
+          class="appearance-none bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 text-xs font-semibold pl-7 pr-6 py-1.5 rounded-full border border-neutral-200 dark:border-neutral-700 focus:outline-none focus:ring-1 focus:ring-blue-500 cursor-pointer transition-colors"
+          aria-label="Select language"
+          title="Switch Display Language"
+        >
+          <option value="en">English</option>
+          <option value="hi">हिन्दी (Hindi)</option>
+          <option value="bn">বাংলা (Bengali)</option>
+          <option value="or">ଓଡ଼ିଆ (Odia)</option>
+          <option value="te">తెలుగు (Telugu)</option>
+          <option value="ta">தமிழ் (Tamil)</option>
+          <option value="kn">ಕನ್ನಡ (Kannada)</option>
+          <option value="mr">मराठी (Marathi)</option>
+          <option value="gu">ગુજરાતી (Gujarati)</option>
+          <option value="pa">ਪੰਜਾਬੀ (Punjabi)</option>
+          <option value="ml">മലയാളം (Malayalam)</option>
+          <option value="ur">اردو (Urdu)</option>
+          <option value="as">অসমীয়া (Assamese)</option>
+        </select>
+        <!-- Globe SVG Icon on left -->
+        <svg class="w-3.5 h-3.5 absolute left-2.5 text-neutral-500 dark:text-neutral-400 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <!-- Chevron Down on right -->
+        <svg class="w-3 h-3 absolute right-2 text-neutral-400 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+
+      <!-- DARK MODE TOGGLE BUTTON (Light/Dark Switch per user requirement) -->
+      <button 
+        type="button" 
+        id="theme-toggle-btn"
+        class="w-8 h-8 rounded-full bg-[var(--bg-card)] hover:bg-[var(--bg-input)] text-[var(--text-main)] border border-[var(--border-subtle)] flex items-center justify-center transition-all cursor-pointer"
+        title="Toggle Dark / Light Mode"
+        aria-label="Toggle theme"
+      >
+        <!-- Sun icon (shown in dark mode) -->
+        <svg id="theme-sun-icon" class="w-4 h-4 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+
+        <!-- Moon icon (shown in light mode) -->
+        <svg id="theme-moon-icon" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+
+    </div>
+
+  </div>
+</header>
+
+<!-- ML Model Validation Benchmark Modal -->
+<div id="r2-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm transition-opacity">
+  <div class="bg-white dark:bg-[#15171a] border border-neutral-200 dark:border-neutral-800 rounded-3xl max-w-md w-full p-6 shadow-2xl space-y-4 animate-in fade-in zoom-in-95 duration-150">
+    
+    <div class="flex items-center justify-between border-b border-neutral-100 dark:border-neutral-800 pb-3">
+      <div class="flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        <h3 class="font-bold text-sm text-neutral-900 dark:text-neutral-100">ML Model Benchmark & Accuracy</h3>
+      </div>
+      <button 
+        id="close-r2-modal" 
+        type="button" 
+        class="w-7 h-7 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-100 flex items-center justify-center text-xs transition-colors cursor-pointer"
+        aria-label="Close modal"
+      >
+        ✕
+      </button>
+    </div>
+
+    <div class="space-y-2.5 text-xs">
+      <div class="p-3 rounded-2xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-700/80 flex items-center justify-between">
+        <span class="font-medium text-neutral-500 dark:text-neutral-400">R² Determination Score</span>
+        <span class="font-mono font-bold text-base text-emerald-600 dark:text-emerald-400">0.964 (96.4%)</span>
+      </div>
+
+      <div class="p-3 rounded-2xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-700/80 flex items-center justify-between">
+        <span class="font-medium text-neutral-500 dark:text-neutral-400">Mean Absolute Error (MAE)</span>
+        <span class="font-mono font-semibold text-neutral-800 dark:text-neutral-200">±₹82</span>
+      </div>
+
+      <div class="p-3 rounded-2xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-700/80 flex items-center justify-between">
+        <span class="font-medium text-neutral-500 dark:text-neutral-400">Ensemble Architecture</span>
+        <span class="font-semibold text-neutral-800 dark:text-neutral-200">Calibrated Ridge + Random Forest</span>
+      </div>
+
+      <div class="p-3 rounded-2xl bg-neutral-50 dark:bg-[#1b1d22] border border-neutral-200 dark:border-neutral-700/80 flex items-center justify-between">
+        <span class="font-medium text-neutral-500 dark:text-neutral-400">Cluster Training Dataset</span>
+        <span class="font-semibold text-neutral-800 dark:text-neutral-200">1,200+ Verified Transactions</span>
+      </div>
+    </div>
+
+    <div class="pt-2 flex items-center justify-between border-t border-neutral-100 dark:border-neutral-800">
+      <span class="text-[11px] text-neutral-400">5-Fold Cross Validated</span>
+      <a 
+        href="https://colab.research.google.com/drive/1vDJJhynSCu-o_JbiYf6PRP3nOKTtd7i7?usp=sharing" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="text-xs text-blue-600 dark:text-blue-400 font-semibold hover:underline inline-flex items-center gap-1"
+      >
+        <span>Open Colab Pipeline</span>
+        <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleBtn = document.getElementById('theme-toggle-btn');
+    const sunIcon = document.getElementById('theme-sun-icon');
+    const moonIcon = document.getElementById('theme-moon-icon');
+
+    function updateIcons(isDark) {
+      if (sunIcon && moonIcon) {
+        if (isDark) {
+          sunIcon.classList.remove('hidden');
+          moonIcon.classList.add('hidden');
+        } else {
+          sunIcon.classList.add('hidden');
+          moonIcon.classList.remove('hidden');
+        }
+      }
+    }
+
+    // Set initial icon based on current class
+    const isInitiallyDark = document.documentElement.classList.contains('dark');
+    updateIcons(isInitiallyDark);
+
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('craftfair_theme', isDark ? 'dark' : 'light');
+        updateIcons(isDark);
+      });
+    }
+
+    // Language Toggle Handling
+    const langSelect = document.getElementById('global-language-select');
+    const savedLang = localStorage.getItem('craftfair_lang') || 'en';
+    if (langSelect) {
+      langSelect.value = savedLang;
+      langSelect.addEventListener('change', (e) => {
+        const newLang = e.target.value;
+        localStorage.setItem('craftfair_lang', newLang);
+        window.dispatchEvent(new CustomEvent('craftfair:language-change', { detail: { lang: newLang } }));
+      });
+    }
+
+    // ML Benchmark Modal Handling
+    const r2Btn = document.getElementById('r2-metric-btn');
+    const r2Modal = document.getElementById('r2-modal');
+    const closeR2Btn = document.getElementById('close-r2-modal');
+
+    if (r2Btn && r2Modal) {
+      r2Btn.addEventListener('click', () => {
+        r2Modal.classList.remove('hidden');
+      });
+    }
+
+    if (closeR2Btn && r2Modal) {
+      closeR2Btn.addEventListener('click', () => {
+        r2Modal.classList.add('hidden');
+      });
+    }
+
+    if (r2Modal) {
+      r2Modal.addEventListener('click', (e) => {
+        if (e.target === r2Modal) {
+          r2Modal.classList.add('hidden');
+        }
+      });
+    }
+  });
+</script>

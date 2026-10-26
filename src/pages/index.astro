@@ -1,0 +1,54 @@
+---
+// index.astro - CraftFair AI Studio
+import Navbar from '../components/Navbar.astro';
+import ArtisanAppraisalStudio from '../components/ArtisanAppraisalStudio.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+export const prerender = false;
+---
+
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Favicon Assets -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon-192x192.png" />
+    
+    <title>KNOW YOUR CRAFT PRICE — CraftFair AI</title>
+    <meta 
+      name="description" 
+      content="Know Your Craft Price — Fair pricing and digital catalog for Indian artisans." 
+    />
+    
+    <!-- Theme Initializer (prevents flicker) -->
+    <script is:inline>
+      const savedTheme = localStorage.getItem('craftfair_theme') || 'dark';
+      if (savedTheme === 'light') {
+        document.documentElement.classList.remove('dark');
+      } else {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+
+    <!-- Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" 
+      rel="stylesheet"
+    >
+  </head>
+  <body class="bg-[var(--bg-main)] text-[var(--text-main)] font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-[#0066ff] selection:text-white transition-colors duration-200">
+    <Navbar />
+    <main class="flex-1 w-full">
+      <ArtisanAppraisalStudio />
+    </main>
+    <Footer />
+  </body>
+</html>

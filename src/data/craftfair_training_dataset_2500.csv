@@ -1,0 +1,2501 @@
+craft_category,region,labour_days,raw_material_cost,complexity_score,state_wage,gi_multiplier,season_multiplier,online_comp_median,verified_fair_price
+Kosa & Handloom Silk,Rural_Cluster,11,1195,7,380,1.0,1.0,4800,6892.0
+Terracotta & Pottery,Rural_Cluster,4,971,10,380,1.0,1.14,1400,3923.0
+Wood Carving & Tribal Art,Raipur_CG,8,1615,8,440,1.15,1.0,2700,7247.0
+Kosa & Handloom Silk,Raipur_CG,6,352,6,440,1.22,1.0,4800,5108.0
+Terracotta & Pottery,Jaipur_RJ,10,1599,6,460,1.12,1.0,1400,7939.0
+Terracotta & Pottery,Varanasi_UP,7,1367,10,430,1.12,1.0,1400,6312.0
+Wood Carving & Tribal Art,Jaipur_RJ,7,120,3,460,1.15,1.0,2700,4012.0
+Wood Carving & Tribal Art,Raipur_CG,4,191,9,440,1.15,1.14,2700,3938.0
+Kosa & Handloom Silk,Rural_Cluster,8,134,8,380,1.0,1.0,4800,5146.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,6,1229,6,520,1.0,1.0,2400,5017.0
+Bamboo & Cane Craft,Raipur_CG,12,261,4,440,1.08,1.14,1150,6570.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,9,395,7,430,1.16,1.0,2400,5914.0
+Bamboo & Cane Craft,Rural_Cluster,8,316,6,380,1.0,1.0,1150,3496.0
+Wood Carving & Tribal Art,Bastar_CG,9,620,10,400,1.15,1.0,2700,6266.0
+Terracotta & Pottery,Jaipur_RJ,1,491,5,460,1.12,1.14,1400,1755.0
+Bamboo & Cane Craft,Bastar_CG,12,234,3,400,1.08,1.0,1150,4942.0
+Bamboo & Cane Craft,Bastar_CG,7,506,8,400,1.08,1.0,1150,4364.0
+Terracotta & Pottery,Jaipur_RJ,1,712,9,460,1.12,1.14,1400,2443.0
+Dhokra Metal Craft,Rural_Cluster,10,602,9,380,1.0,1.0,3200,5985.0
+Terracotta & Pottery,Bastar_CG,4,1120,10,400,1.12,1.14,1400,4525.0
+Wood Carving & Tribal Art,Rural_Cluster,11,640,6,380,1.0,1.14,2700,6766.0
+Kosa & Handloom Silk,Raipur_CG,10,656,8,440,1.22,1.0,4800,8529.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,12,1743,6,430,1.16,1.0,2400,8663.0
+Kosa & Handloom Silk,Bastar_CG,7,289,3,400,1.22,1.0,4800,4974.0
+Terracotta & Pottery,Tier1_Metro,9,727,7,520,1.0,1.14,1400,6820.0
+Dhokra Metal Craft,Tier1_Metro,5,1348,5,520,1.0,1.0,3200,4857.0
+Terracotta & Pottery,Tier1_Metro,8,1356,6,520,1.0,1.0,1400,6001.0
+Dhokra Metal Craft,Rural_Cluster,1,1051,3,380,1.0,1.0,3200,2245.0
+Bamboo & Cane Craft,Raipur_CG,12,1689,9,440,1.08,1.0,1150,8784.0
+Bamboo & Cane Craft,Rural_Cluster,12,829,10,380,1.0,1.0,1150,6732.0
+Kosa & Handloom Silk,Jaipur_RJ,8,222,3,460,1.22,1.14,4800,6563.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,11,1634,10,520,1.0,1.14,2400,10014.0
+Dhokra Metal Craft,Varanasi_UP,11,1449,10,430,1.18,1.0,3200,10446.0
+Terracotta & Pottery,Raipur_CG,3,1634,5,440,1.12,1.0,1400,3961.0
+Kosa & Handloom Silk,Bastar_CG,1,1763,9,400,1.22,1.14,4800,5142.0
+Dhokra Metal Craft,Raipur_CG,7,1538,8,440,1.18,1.14,3200,7634.0
+Kosa & Handloom Silk,Raipur_CG,9,1695,3,440,1.22,1.0,4800,7619.0
+Dhokra Metal Craft,Bastar_CG,3,1782,10,400,1.18,1.14,3200,6303.0
+Kosa & Handloom Silk,Tier1_Metro,8,1796,10,520,1.0,1.14,4800,10002.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,3,252,7,400,1.16,1.0,2400,2780.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,2,921,5,440,1.16,1.14,2400,3286.0
+Dhokra Metal Craft,Tier1_Metro,5,915,6,520,1.0,1.0,3200,4419.0
+Terracotta & Pottery,Bastar_CG,1,787,6,400,1.12,1.0,1400,1802.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,6,1488,5,520,1.0,1.14,2400,6058.0
+Terracotta & Pottery,Jaipur_RJ,2,1400,8,460,1.12,1.0,1400,3641.0
+Kosa & Handloom Silk,Rural_Cluster,3,1639,5,380,1.0,1.14,4800,4827.0
+Dhokra Metal Craft,Varanasi_UP,12,257,7,430,1.18,1.0,3200,7685.0
+Wood Carving & Tribal Art,Rural_Cluster,1,401,7,380,1.0,1.0,2700,1825.0
+Kosa & Handloom Silk,Bastar_CG,4,290,7,400,1.22,1.0,4800,3946.0
+Bamboo & Cane Craft,Bastar_CG,10,665,4,400,1.08,1.14,1150,5685.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,6,1786,4,440,1.16,1.0,2400,5310.0
+Dhokra Metal Craft,Bastar_CG,11,345,10,400,1.18,1.0,3200,7153.0
+Bamboo & Cane Craft,Raipur_CG,3,1020,10,440,1.08,1.14,1150,3938.0
+Wood Carving & Tribal Art,Varanasi_UP,1,611,8,430,1.15,1.14,2700,2924.0
+Kosa & Handloom Silk,Jaipur_RJ,7,1266,6,460,1.22,1.0,4800,7670.0
+Terracotta & Pottery,Bastar_CG,10,674,8,400,1.12,1.0,1400,5929.0
+Bamboo & Cane Craft,Raipur_CG,6,404,6,440,1.08,1.0,1150,3659.0
+Wood Carving & Tribal Art,Bastar_CG,8,1176,6,400,1.15,1.0,2700,5443.0
+Wood Carving & Tribal Art,Varanasi_UP,6,976,10,430,1.15,1.0,2700,6330.0
+Kosa & Handloom Silk,Rural_Cluster,2,735,4,380,1.0,1.0,4800,3128.0
+Dhokra Metal Craft,Jaipur_RJ,12,1181,9,460,1.18,1.0,3200,10784.0
+Dhokra Metal Craft,Raipur_CG,10,612,9,440,1.18,1.0,3200,7462.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,9,587,7,520,1.0,1.0,2400,6801.0
+Terracotta & Pottery,Varanasi_UP,10,1779,5,430,1.12,1.14,1400,8318.0
+Dhokra Metal Craft,Rural_Cluster,14,1343,7,380,1.0,1.0,3200,8253.0
+Kosa & Handloom Silk,Bastar_CG,14,456,9,400,1.22,1.0,4800,10074.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,901,6,380,1.0,1.0,2400,3297.0
+Dhokra Metal Craft,Rural_Cluster,13,615,10,380,1.0,1.0,3200,8337.0
+Bamboo & Cane Craft,Bastar_CG,12,995,10,400,1.08,1.14,1150,7940.0
+Kosa & Handloom Silk,Bastar_CG,1,1056,5,400,1.22,1.14,4800,3874.0
+Kosa & Handloom Silk,Jaipur_RJ,1,1540,10,460,1.22,1.14,4800,5150.0
+Dhokra Metal Craft,Raipur_CG,8,704,4,440,1.18,1.14,3200,6003.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,716,9,440,1.16,1.0,2400,3708.0
+Wood Carving & Tribal Art,Varanasi_UP,9,1400,7,430,1.15,1.0,2700,7720.0
+Bamboo & Cane Craft,Rural_Cluster,9,1019,10,380,1.0,1.0,1150,5433.0
+Dhokra Metal Craft,Tier1_Metro,5,1492,9,520,1.0,1.14,3200,6605.0
+Dhokra Metal Craft,Jaipur_RJ,9,1396,3,460,1.18,1.0,3200,6544.0
+Terracotta & Pottery,Jaipur_RJ,1,1735,6,460,1.12,1.14,1400,3708.0
+Terracotta & Pottery,Varanasi_UP,9,554,6,430,1.12,1.14,1400,6048.0
+Wood Carving & Tribal Art,Rural_Cluster,3,495,3,380,1.0,1.0,2700,2411.0
+Wood Carving & Tribal Art,Varanasi_UP,5,1274,10,430,1.15,1.14,2700,6311.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,5,1286,9,440,1.16,1.0,2400,5278.0
+Terracotta & Pottery,Raipur_CG,12,1132,4,440,1.12,1.14,1400,7843.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,8,269,3,380,1.0,1.14,2400,3995.0
+Bamboo & Cane Craft,Raipur_CG,5,128,7,440,1.08,1.0,1150,3080.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,1,610,9,430,1.16,1.14,2400,2500.0
+Kosa & Handloom Silk,Varanasi_UP,6,1375,9,430,1.22,1.0,4800,7607.0
+Bamboo & Cane Craft,Raipur_CG,3,138,8,440,1.08,1.0,1150,1988.0
+Wood Carving & Tribal Art,Raipur_CG,12,1761,4,440,1.15,1.14,2700,9508.0
+Dhokra Metal Craft,Jaipur_RJ,13,447,8,460,1.18,1.0,3200,9366.0
+Kosa & Handloom Silk,Bastar_CG,9,923,3,400,1.22,1.0,4800,6336.0
+Terracotta & Pottery,Varanasi_UP,5,1799,5,430,1.12,1.14,1400,5713.0
+Dhokra Metal Craft,Raipur_CG,9,1428,8,440,1.18,1.0,3200,8563.0
+Terracotta & Pottery,Varanasi_UP,10,835,10,430,1.12,1.14,1400,7904.0
+Kosa & Handloom Silk,Varanasi_UP,5,1131,4,430,1.22,1.0,4800,4771.0
+Bamboo & Cane Craft,Varanasi_UP,12,968,3,430,1.08,1.0,1150,5814.0
+Terracotta & Pottery,Tier1_Metro,1,1324,3,520,1.0,1.0,1400,2054.0
+Wood Carving & Tribal Art,Tier1_Metro,3,1376,8,520,1.0,1.14,2700,4823.0
+Wood Carving & Tribal Art,Bastar_CG,2,109,10,400,1.15,1.14,2700,2194.0
+Dhokra Metal Craft,Tier1_Metro,1,245,10,520,1.0,1.14,3200,2177.0
+Terracotta & Pottery,Rural_Cluster,10,162,3,380,1.0,1.14,1400,4289.0
+Bamboo & Cane Craft,Bastar_CG,3,610,3,400,1.08,1.0,1150,2103.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,1,808,9,430,1.16,1.14,2400,2824.0
+Wood Carving & Tribal Art,Rural_Cluster,10,1581,5,380,1.0,1.0,2700,6280.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,14,100,5,400,1.16,1.0,2400,6995.0
+Bamboo & Cane Craft,Varanasi_UP,8,1674,4,430,1.08,1.0,1150,5323.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,3,1429,6,520,1.0,1.14,2400,4418.0
+Wood Carving & Tribal Art,Rural_Cluster,14,677,5,380,1.0,1.0,2700,6899.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,2,905,4,430,1.16,1.0,2400,2607.0
+Bamboo & Cane Craft,Varanasi_UP,9,265,3,430,1.08,1.14,1150,4202.0
+Kosa & Handloom Silk,Tier1_Metro,7,1229,5,520,1.0,1.14,4800,6815.0
+Dhokra Metal Craft,Raipur_CG,1,1631,6,440,1.18,1.0,3200,3976.0
+Bamboo & Cane Craft,Tier1_Metro,5,1573,7,520,1.0,1.0,1150,4384.0
+Dhokra Metal Craft,Jaipur_RJ,6,1643,6,460,1.18,1.0,3200,6637.0
+Dhokra Metal Craft,Jaipur_RJ,3,766,7,460,1.18,1.14,3200,3913.0
+Wood Carving & Tribal Art,Rural_Cluster,2,703,4,380,1.0,1.0,2700,2353.0
+Wood Carving & Tribal Art,Tier1_Metro,1,744,3,520,1.0,1.0,2700,1958.0
+Bamboo & Cane Craft,Bastar_CG,9,313,9,400,1.08,1.0,1150,4798.0
+Terracotta & Pottery,Rural_Cluster,1,1149,6,380,1.0,1.14,1400,2306.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,10,127,9,520,1.0,1.0,2400,6852.0
+Bamboo & Cane Craft,Rural_Cluster,10,625,5,380,1.0,1.0,1150,4628.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,12,1397,4,460,1.16,1.0,2400,8129.0
+Terracotta & Pottery,Bastar_CG,7,584,6,400,1.12,1.0,1400,4030.0
+Bamboo & Cane Craft,Tier1_Metro,12,636,3,520,1.0,1.0,1150,5946.0
+Dhokra Metal Craft,Varanasi_UP,10,166,3,430,1.18,1.0,3200,5502.0
+Bamboo & Cane Craft,Bastar_CG,12,694,4,400,1.08,1.0,1150,5413.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,10,1443,4,430,1.16,1.0,2400,6201.0
+Dhokra Metal Craft,Bastar_CG,5,761,7,400,1.18,1.0,3200,4517.0
+Kosa & Handloom Silk,Tier1_Metro,11,1569,8,520,1.0,1.14,4800,10652.0
+Terracotta & Pottery,Varanasi_UP,6,217,3,430,1.12,1.0,1400,3232.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,14,1564,4,460,1.16,1.0,2400,8450.0
+Kosa & Handloom Silk,Rural_Cluster,6,1533,8,380,1.0,1.14,4800,6572.0
+Kosa & Handloom Silk,Bastar_CG,4,212,6,400,1.22,1.0,4800,3560.0
+Wood Carving & Tribal Art,Tier1_Metro,11,1634,6,520,1.0,1.0,2700,8502.0
+Terracotta & Pottery,Bastar_CG,6,789,10,400,1.12,1.0,1400,4946.0
+Dhokra Metal Craft,Rural_Cluster,9,884,3,380,1.0,1.0,3200,4649.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,14,1218,3,460,1.16,1.14,2400,9141.0
+Wood Carving & Tribal Art,Jaipur_RJ,9,687,5,460,1.15,1.0,2700,6528.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,13,972,7,430,1.16,1.0,2400,8517.0
+Wood Carving & Tribal Art,Jaipur_RJ,11,177,4,460,1.15,1.14,2700,6834.0
+Dhokra Metal Craft,Rural_Cluster,10,188,4,380,1.0,1.14,3200,4627.0
+Terracotta & Pottery,Rural_Cluster,6,1146,9,380,1.0,1.0,1400,4255.0
+Dhokra Metal Craft,Bastar_CG,1,1106,9,400,1.18,1.0,3200,2937.0
+Terracotta & Pottery,Jaipur_RJ,8,653,10,460,1.12,1.0,1400,6554.0
+Wood Carving & Tribal Art,Bastar_CG,4,577,9,400,1.15,1.0,2700,3946.0
+Dhokra Metal Craft,Tier1_Metro,4,697,4,520,1.0,1.14,3200,4101.0
+Terracotta & Pottery,Raipur_CG,1,1241,8,440,1.12,1.0,1400,2628.0
+Kosa & Handloom Silk,Rural_Cluster,8,1384,7,380,1.0,1.0,4800,5636.0
+Kosa & Handloom Silk,Rural_Cluster,2,1534,9,380,1.0,1.0,4800,4687.0
+Terracotta & Pottery,Rural_Cluster,4,110,8,380,1.0,1.14,1400,2517.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,8,122,9,520,1.0,1.0,2400,5726.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,9,1092,9,440,1.16,1.14,2400,8453.0
+Terracotta & Pottery,Varanasi_UP,12,455,10,430,1.12,1.14,1400,8845.0
+Bamboo & Cane Craft,Bastar_CG,12,1501,3,400,1.08,1.0,1150,6288.0
+Wood Carving & Tribal Art,Tier1_Metro,8,1420,8,520,1.0,1.14,2700,7728.0
+Bamboo & Cane Craft,Tier1_Metro,4,1305,9,520,1.0,1.14,1150,4710.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,760,9,460,1.16,1.0,2400,6928.0
+Wood Carving & Tribal Art,Raipur_CG,9,674,6,440,1.15,1.0,2700,5991.0
+Terracotta & Pottery,Tier1_Metro,2,1333,5,520,1.0,1.14,1400,2992.0
+Kosa & Handloom Silk,Jaipur_RJ,3,1305,10,460,1.22,1.0,4800,5519.0
+Kosa & Handloom Silk,Tier1_Metro,5,1284,3,520,1.0,1.14,4800,5224.0
+Bamboo & Cane Craft,Rural_Cluster,1,1066,3,380,1.0,1.14,1150,1819.0
+Dhokra Metal Craft,Varanasi_UP,6,441,6,430,1.18,1.0,3200,4489.0
+Wood Carving & Tribal Art,Tier1_Metro,7,534,5,520,1.0,1.14,2700,5147.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,13,1428,7,520,1.0,1.0,2400,9390.0
+Dhokra Metal Craft,Tier1_Metro,3,1298,4,520,1.0,1.0,3200,3968.0
+Kosa & Handloom Silk,Bastar_CG,2,1345,8,400,1.22,1.14,4800,4933.0
+Terracotta & Pottery,Raipur_CG,10,261,6,440,1.12,1.14,1400,6046.0
+Kosa & Handloom Silk,Raipur_CG,7,1472,10,440,1.22,1.0,4800,7938.0
+Terracotta & Pottery,Rural_Cluster,8,1177,3,380,1.0,1.14,1400,4495.0
+Terracotta & Pottery,Jaipur_RJ,1,1727,9,460,1.12,1.14,1400,4196.0
+Kosa & Handloom Silk,Varanasi_UP,5,281,7,430,1.22,1.0,4800,4776.0
+Bamboo & Cane Craft,Raipur_CG,7,1796,9,440,1.08,1.14,1150,7694.0
+Dhokra Metal Craft,Rural_Cluster,4,1646,4,380,1.0,1.14,3200,4692.0
+Terracotta & Pottery,Varanasi_UP,4,360,7,430,1.12,1.0,1400,2627.0
+Kosa & Handloom Silk,Jaipur_RJ,4,1629,8,460,1.22,1.14,4800,7502.0
+Dhokra Metal Craft,Raipur_CG,14,731,5,440,1.18,1.14,3200,9570.0
+Terracotta & Pottery,Bastar_CG,14,620,10,400,1.12,1.14,1400,10267.0
+Dhokra Metal Craft,Bastar_CG,6,1401,5,400,1.18,1.0,3200,5711.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,5,141,6,440,1.16,1.0,2400,3644.0
+Bamboo & Cane Craft,Bastar_CG,5,1276,8,400,1.08,1.14,1150,4880.0
+Kosa & Handloom Silk,Rural_Cluster,9,920,9,380,1.0,1.0,4800,6808.0
+Dhokra Metal Craft,Raipur_CG,5,1599,8,440,1.18,1.0,3200,6015.0
+Kosa & Handloom Silk,Jaipur_RJ,10,128,7,460,1.22,1.14,4800,8364.0
+Terracotta & Pottery,Varanasi_UP,1,286,9,430,1.12,1.0,1400,1421.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,5,1435,3,520,1.0,1.0,2400,4448.0
+Kosa & Handloom Silk,Jaipur_RJ,3,1367,5,460,1.22,1.14,4800,5226.0
+Dhokra Metal Craft,Bastar_CG,8,1140,3,400,1.18,1.0,3200,6072.0
+Terracotta & Pottery,Raipur_CG,9,1162,5,440,1.12,1.14,1400,6895.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,2,623,5,520,1.0,1.0,2400,2550.0
+Terracotta & Pottery,Jaipur_RJ,1,1056,3,460,1.12,1.14,1400,2148.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,760,3,460,1.16,1.14,2400,5739.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,8,1660,4,520,1.0,1.0,2400,6227.0
+Bamboo & Cane Craft,Rural_Cluster,6,349,9,380,1.0,1.0,1150,3350.0
+Wood Carving & Tribal Art,Bastar_CG,3,787,10,400,1.15,1.14,2700,4063.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,7,1094,4,430,1.16,1.0,2400,5296.0
+Dhokra Metal Craft,Tier1_Metro,8,1094,6,520,1.0,1.0,3200,6372.0
+Bamboo & Cane Craft,Varanasi_UP,7,1650,10,430,1.08,1.0,1150,6230.0
+Wood Carving & Tribal Art,Tier1_Metro,9,1520,4,520,1.0,1.0,2700,6808.0
+Bamboo & Cane Craft,Jaipur_RJ,10,645,8,460,1.08,1.0,1150,6366.0
+Wood Carving & Tribal Art,Rural_Cluster,2,1539,10,380,1.0,1.14,2700,4106.0
+Wood Carving & Tribal Art,Varanasi_UP,9,371,10,430,1.15,1.0,2700,6973.0
+Dhokra Metal Craft,Raipur_CG,14,1020,9,440,1.18,1.0,3200,10155.0
+Terracotta & Pottery,Rural_Cluster,14,475,8,380,1.0,1.14,1400,7779.0
+Bamboo & Cane Craft,Tier1_Metro,5,1788,10,520,1.0,1.0,1150,5626.0
+Dhokra Metal Craft,Bastar_CG,8,1063,6,400,1.18,1.14,3200,6889.0
+Wood Carving & Tribal Art,Rural_Cluster,5,1038,6,380,1.0,1.0,2700,4303.0
+Dhokra Metal Craft,Varanasi_UP,4,1694,10,430,1.18,1.14,3200,6529.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,3,1616,8,380,1.0,1.0,2400,3887.0
+Dhokra Metal Craft,Raipur_CG,3,1640,7,440,1.18,1.0,3200,4780.0
+Dhokra Metal Craft,Bastar_CG,3,1143,4,400,1.18,1.0,3200,3714.0
+Bamboo & Cane Craft,Tier1_Metro,1,315,5,520,1.0,1.14,1150,1210.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,8,992,9,380,1.0,1.0,2400,4859.0
+Terracotta & Pottery,Varanasi_UP,13,1772,5,430,1.12,1.14,1400,9070.0
+Kosa & Handloom Silk,Raipur_CG,9,1586,10,440,1.22,1.14,4800,10263.0
+Kosa & Handloom Silk,Tier1_Metro,8,1374,7,520,1.0,1.0,4800,7689.0
+Bamboo & Cane Craft,Tier1_Metro,5,1439,10,520,1.0,1.14,1150,4943.0
+Wood Carving & Tribal Art,Jaipur_RJ,10,1446,10,460,1.15,1.14,2700,9856.0
+Terracotta & Pottery,Rural_Cluster,13,1412,8,380,1.0,1.0,1400,7282.0
+Terracotta & Pottery,Jaipur_RJ,9,880,5,460,1.12,1.0,1400,5927.0
+Wood Carving & Tribal Art,Raipur_CG,4,290,5,440,1.15,1.14,2700,3421.0
+Terracotta & Pottery,Rural_Cluster,14,1674,9,380,1.0,1.0,1400,8513.0
+Bamboo & Cane Craft,Tier1_Metro,13,1647,9,520,1.0,1.0,1150,9690.0
+Dhokra Metal Craft,Bastar_CG,8,1346,4,400,1.18,1.0,3200,5824.0
+Wood Carving & Tribal Art,Jaipur_RJ,6,566,8,460,1.15,1.0,2700,5316.0
+Kosa & Handloom Silk,Varanasi_UP,14,136,7,430,1.22,1.14,4800,10173.0
+Kosa & Handloom Silk,Varanasi_UP,2,1447,5,430,1.22,1.0,4800,4560.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,573,10,400,1.16,1.0,2400,5088.0
+Bamboo & Cane Craft,Tier1_Metro,13,815,6,520,1.0,1.0,1150,7156.0
+Wood Carving & Tribal Art,Jaipur_RJ,1,1769,9,460,1.15,1.0,2700,4308.0
+Terracotta & Pottery,Jaipur_RJ,10,1661,4,460,1.12,1.0,1400,6488.0
+Wood Carving & Tribal Art,Rural_Cluster,11,983,10,380,1.0,1.0,2700,6915.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,6,1582,5,430,1.16,1.14,2400,6270.0
+Wood Carving & Tribal Art,Jaipur_RJ,4,1782,3,460,1.15,1.0,2700,4661.0
+Terracotta & Pottery,Bastar_CG,10,1033,9,400,1.12,1.14,1400,7891.0
+Kosa & Handloom Silk,Raipur_CG,12,307,5,440,1.22,1.14,4800,8699.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,1,1728,7,400,1.16,1.0,2400,3881.0
+Terracotta & Pottery,Rural_Cluster,12,792,10,380,1.0,1.14,1400,6761.0
+Terracotta & Pottery,Varanasi_UP,14,626,3,430,1.12,1.0,1400,7218.0
+Kosa & Handloom Silk,Varanasi_UP,9,1116,6,430,1.22,1.0,4800,8152.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,5,485,10,380,1.0,1.0,2400,3955.0
+Bamboo & Cane Craft,Tier1_Metro,6,1667,5,520,1.0,1.14,1150,5496.0
+Dhokra Metal Craft,Varanasi_UP,6,1548,10,430,1.18,1.14,3200,7571.0
+Kosa & Handloom Silk,Bastar_CG,14,1795,9,400,1.22,1.0,4800,12003.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,4,772,4,430,1.16,1.14,2400,4010.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,13,215,4,400,1.16,1.0,2400,6352.0
+Bamboo & Cane Craft,Tier1_Metro,7,189,8,520,1.0,1.14,1150,5080.0
+Wood Carving & Tribal Art,Jaipur_RJ,11,108,8,460,1.15,1.0,2700,7230.0
+Dhokra Metal Craft,Raipur_CG,12,1387,10,440,1.18,1.14,3200,11331.0
+Terracotta & Pottery,Jaipur_RJ,4,307,6,460,1.12,1.0,1400,2992.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,1250,3,440,1.16,1.0,2400,3737.0
+Kosa & Handloom Silk,Varanasi_UP,13,1660,7,430,1.22,1.0,4800,10527.0
+Terracotta & Pottery,Tier1_Metro,4,784,10,520,1.0,1.14,1400,4274.0
+Kosa & Handloom Silk,Raipur_CG,6,1013,5,440,1.22,1.0,4800,5840.0
+Dhokra Metal Craft,Jaipur_RJ,3,1023,4,460,1.18,1.0,3200,3669.0
+Dhokra Metal Craft,Varanasi_UP,1,961,7,430,1.18,1.14,3200,2988.0
+Wood Carving & Tribal Art,Varanasi_UP,5,615,6,430,1.15,1.0,2700,4126.0
+Kosa & Handloom Silk,Raipur_CG,5,965,10,440,1.22,1.0,4800,6496.0
+Bamboo & Cane Craft,Varanasi_UP,6,394,4,430,1.08,1.14,1150,3487.0
+Terracotta & Pottery,Rural_Cluster,2,1675,7,380,1.0,1.14,1400,3396.0
+Terracotta & Pottery,Raipur_CG,8,199,10,440,1.12,1.0,1400,4942.0
+Bamboo & Cane Craft,Rural_Cluster,5,1104,3,380,1.0,1.0,1150,3179.0
+Kosa & Handloom Silk,Rural_Cluster,14,603,9,380,1.0,1.0,4800,7787.0
+Terracotta & Pottery,Bastar_CG,9,127,4,400,1.12,1.14,1400,4713.0
+Wood Carving & Tribal Art,Bastar_CG,8,559,10,400,1.15,1.0,2700,5756.0
+Bamboo & Cane Craft,Jaipur_RJ,6,369,10,460,1.08,1.0,1150,4152.0
+Bamboo & Cane Craft,Varanasi_UP,14,1484,3,430,1.08,1.0,1150,7425.0
+Dhokra Metal Craft,Tier1_Metro,4,1407,3,520,1.0,1.0,3200,4186.0
+Wood Carving & Tribal Art,Varanasi_UP,5,404,3,430,1.15,1.14,2700,3948.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,11,1056,6,430,1.16,1.0,2400,7390.0
+Bamboo & Cane Craft,Bastar_CG,5,1143,4,400,1.08,1.0,1150,3457.0
+Wood Carving & Tribal Art,Jaipur_RJ,5,1284,3,460,1.15,1.0,2700,4299.0
+Kosa & Handloom Silk,Raipur_CG,4,792,4,440,1.22,1.14,4800,5057.0
+Terracotta & Pottery,Raipur_CG,7,1551,8,440,1.12,1.0,1400,6347.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,1459,4,380,1.0,1.0,2400,3661.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,6,1298,4,380,1.0,1.14,2400,4440.0
+Bamboo & Cane Craft,Jaipur_RJ,10,1537,4,460,1.08,1.0,1150,6382.0
+Dhokra Metal Craft,Varanasi_UP,11,444,8,430,1.18,1.14,3200,8567.0
+Dhokra Metal Craft,Jaipur_RJ,14,1176,10,460,1.18,1.14,3200,13214.0
+Bamboo & Cane Craft,Tier1_Metro,9,1284,3,520,1.0,1.14,1150,5937.0
+Wood Carving & Tribal Art,Bastar_CG,5,688,9,400,1.15,1.14,2700,4877.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,6,118,8,430,1.16,1.14,2400,4801.0
+Wood Carving & Tribal Art,Bastar_CG,7,950,7,400,1.15,1.14,2700,6081.0
+Dhokra Metal Craft,Rural_Cluster,1,1199,4,380,1.0,1.0,3200,2524.0
+Wood Carving & Tribal Art,Jaipur_RJ,12,704,3,460,1.15,1.0,2700,6261.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,11,966,10,440,1.16,1.14,2400,10565.0
+Bamboo & Cane Craft,Raipur_CG,14,1126,7,440,1.08,1.14,1150,8487.0
+Wood Carving & Tribal Art,Rural_Cluster,10,764,6,380,1.0,1.0,2700,5977.0
+Wood Carving & Tribal Art,Varanasi_UP,4,882,5,430,1.15,1.14,2700,4320.0
+Terracotta & Pottery,Jaipur_RJ,13,120,9,460,1.12,1.0,1400,8284.0
+Wood Carving & Tribal Art,Varanasi_UP,9,814,5,430,1.15,1.0,2700,5931.0
+Bamboo & Cane Craft,Tier1_Metro,13,1063,10,520,1.0,1.0,1150,9676.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,13,850,6,460,1.16,1.0,2400,8924.0
+Bamboo & Cane Craft,Raipur_CG,1,688,6,440,1.08,1.14,1150,1701.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,7,1474,6,460,1.16,1.0,2400,6824.0
+Dhokra Metal Craft,Raipur_CG,13,397,10,440,1.18,1.14,3200,10671.0
+Kosa & Handloom Silk,Tier1_Metro,7,1508,6,520,1.0,1.0,4800,6898.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,5,825,6,520,1.0,1.0,2400,4265.0
+Dhokra Metal Craft,Raipur_CG,8,477,3,440,1.18,1.14,3200,5557.0
+Bamboo & Cane Craft,Jaipur_RJ,5,1703,4,460,1.08,1.14,1150,5065.0
+Kosa & Handloom Silk,Varanasi_UP,7,1325,3,430,1.22,1.0,4800,5936.0
+Bamboo & Cane Craft,Rural_Cluster,1,582,6,380,1.0,1.14,1150,1677.0
+Wood Carving & Tribal Art,Bastar_CG,6,1555,7,400,1.15,1.0,2700,6005.0
+Bamboo & Cane Craft,Bastar_CG,14,1200,7,400,1.08,1.0,1150,8709.0
+Dhokra Metal Craft,Raipur_CG,3,362,7,440,1.18,1.14,3200,3170.0
+Dhokra Metal Craft,Bastar_CG,11,1098,10,400,1.18,1.0,3200,7942.0
+Terracotta & Pottery,Varanasi_UP,10,1225,4,430,1.12,1.14,1400,6627.0
+Wood Carving & Tribal Art,Bastar_CG,4,172,10,400,1.15,1.0,2700,3422.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,7,807,7,400,1.16,1.0,2400,5230.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,1113,6,440,1.16,1.0,2400,3467.0
+Terracotta & Pottery,Tier1_Metro,6,1253,9,520,1.0,1.0,1400,5028.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,10,1671,7,430,1.16,1.0,2400,7847.0
+Dhokra Metal Craft,Raipur_CG,14,769,3,440,1.18,1.14,3200,8914.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,7,447,5,380,1.0,1.0,2400,3802.0
+Wood Carving & Tribal Art,Varanasi_UP,8,1371,6,430,1.15,1.0,2700,6267.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,8,899,3,440,1.16,1.0,2400,5253.0
+Kosa & Handloom Silk,Tier1_Metro,4,837,7,520,1.0,1.0,4800,4462.0
+Bamboo & Cane Craft,Bastar_CG,5,869,5,400,1.08,1.0,1150,3201.0
+Dhokra Metal Craft,Jaipur_RJ,3,1303,8,460,1.18,1.0,3200,4759.0
+Terracotta & Pottery,Tier1_Metro,11,242,8,520,1.0,1.0,1400,7540.0
+Kosa & Handloom Silk,Raipur_CG,12,1362,3,440,1.22,1.0,4800,8321.0
+Bamboo & Cane Craft,Tier1_Metro,14,233,5,520,1.0,1.14,1150,8684.0
+Kosa & Handloom Silk,Tier1_Metro,9,498,7,520,1.0,1.0,4800,6786.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,2,365,3,430,1.16,1.0,2400,2012.0
+Wood Carving & Tribal Art,Tier1_Metro,1,263,9,520,1.0,1.0,2700,1955.0
+Wood Carving & Tribal Art,Varanasi_UP,3,582,3,430,1.15,1.14,2700,3130.0
+Wood Carving & Tribal Art,Rural_Cluster,2,1515,7,380,1.0,1.0,2700,3517.0
+Kosa & Handloom Silk,Rural_Cluster,14,1655,4,380,1.0,1.0,4800,7898.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,11,353,4,380,1.0,1.14,2400,5327.0
+Bamboo & Cane Craft,Tier1_Metro,11,789,7,520,1.0,1.0,1150,7494.0
+Dhokra Metal Craft,Jaipur_RJ,9,1222,7,460,1.18,1.0,3200,7468.0
+Kosa & Handloom Silk,Bastar_CG,4,1738,10,400,1.22,1.14,4800,7134.0
+Kosa & Handloom Silk,Varanasi_UP,13,919,6,430,1.22,1.0,4800,8951.0
+Kosa & Handloom Silk,Tier1_Metro,13,582,9,520,1.0,1.0,4800,9670.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,7,697,7,520,1.0,1.0,2400,5155.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,5,749,9,520,1.0,1.0,2400,4081.0
+Wood Carving & Tribal Art,Bastar_CG,13,312,4,400,1.15,1.0,2700,6487.0
+Terracotta & Pottery,Bastar_CG,12,494,9,400,1.12,1.0,1400,7258.0
+Wood Carving & Tribal Art,Raipur_CG,14,645,6,440,1.15,1.0,2700,8959.0
+Wood Carving & Tribal Art,Varanasi_UP,13,1545,4,430,1.15,1.14,2700,9535.0
+Wood Carving & Tribal Art,Bastar_CG,9,291,3,400,1.15,1.14,2700,5143.0
+Bamboo & Cane Craft,Raipur_CG,12,331,7,440,1.08,1.14,1150,7251.0
+Bamboo & Cane Craft,Jaipur_RJ,6,299,3,460,1.08,1.0,1150,3159.0
+Terracotta & Pottery,Rural_Cluster,12,548,9,380,1.0,1.14,1400,6736.0
+Wood Carving & Tribal Art,Bastar_CG,7,142,3,400,1.15,1.0,2700,3522.0
+Terracotta & Pottery,Varanasi_UP,3,1514,5,430,1.12,1.0,1400,3477.0
+Terracotta & Pottery,Raipur_CG,5,872,8,440,1.12,1.14,1400,4780.0
+Kosa & Handloom Silk,Bastar_CG,8,459,3,400,1.22,1.14,4800,5731.0
+Bamboo & Cane Craft,Jaipur_RJ,1,1505,6,460,1.08,1.14,1150,2993.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,10,248,6,440,1.16,1.0,2400,6634.0
+Bamboo & Cane Craft,Tier1_Metro,13,259,9,520,1.0,1.0,1150,7710.0
+Bamboo & Cane Craft,Bastar_CG,8,1525,9,400,1.08,1.0,1150,6293.0
+Terracotta & Pottery,Tier1_Metro,12,1084,4,520,1.0,1.14,1400,7759.0
+Terracotta & Pottery,Tier1_Metro,1,987,7,520,1.0,1.0,1400,2146.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,12,1356,9,400,1.16,1.0,2400,8797.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,7,762,6,520,1.0,1.0,2400,5539.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,11,1468,8,520,1.0,1.0,2400,8389.0
+Wood Carving & Tribal Art,Varanasi_UP,11,1685,9,430,1.15,1.0,2700,9429.0
+Kosa & Handloom Silk,Rural_Cluster,6,520,7,380,1.0,1.14,4800,4748.0
+Wood Carving & Tribal Art,Tier1_Metro,7,207,9,520,1.0,1.14,2700,5834.0
+Wood Carving & Tribal Art,Raipur_CG,10,1779,10,440,1.15,1.0,2700,9261.0
+Bamboo & Cane Craft,Raipur_CG,11,572,4,440,1.08,1.14,1150,6021.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,11,1189,3,460,1.16,1.0,2400,7493.0
+Bamboo & Cane Craft,Raipur_CG,10,665,6,440,1.08,1.14,1150,7233.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,2,1560,3,400,1.16,1.14,2400,3769.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,5,797,6,460,1.16,1.0,2400,4508.0
+Kosa & Handloom Silk,Varanasi_UP,10,635,8,430,1.22,1.0,4800,7552.0
+Wood Carving & Tribal Art,Raipur_CG,6,1041,6,440,1.15,1.0,2700,4751.0
+Wood Carving & Tribal Art,Varanasi_UP,1,1242,9,430,1.15,1.0,2700,3180.0
+Bamboo & Cane Craft,Varanasi_UP,4,865,10,430,1.08,1.14,1150,4201.0
+Bamboo & Cane Craft,Jaipur_RJ,12,159,5,460,1.08,1.0,1150,6323.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,118,10,380,1.0,1.0,2400,2643.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,7,580,4,400,1.16,1.0,2400,4482.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,1,500,8,380,1.0,1.0,2400,1913.0
+Terracotta & Pottery,Tier1_Metro,14,223,5,520,1.0,1.14,1400,8474.0
+Terracotta & Pottery,Rural_Cluster,11,1748,8,380,1.0,1.14,1400,7960.0
+Wood Carving & Tribal Art,Tier1_Metro,1,662,7,520,1.0,1.0,2700,2182.0
+Wood Carving & Tribal Art,Rural_Cluster,5,148,7,380,1.0,1.0,2700,3091.0
+Wood Carving & Tribal Art,Varanasi_UP,6,1725,6,430,1.15,1.0,2700,5879.0
+Kosa & Handloom Silk,Bastar_CG,4,824,8,400,1.22,1.0,4800,4663.0
+Bamboo & Cane Craft,Tier1_Metro,6,1343,9,520,1.0,1.0,1150,5397.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,9,304,8,440,1.16,1.0,2400,6176.0
+Wood Carving & Tribal Art,Varanasi_UP,8,1742,6,430,1.15,1.0,2700,6314.0
+Bamboo & Cane Craft,Bastar_CG,11,1642,8,400,1.08,1.14,1150,8745.0
+Bamboo & Cane Craft,Jaipur_RJ,4,1595,9,460,1.08,1.14,1150,5554.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,5,413,7,400,1.16,1.0,2400,3655.0
+Terracotta & Pottery,Raipur_CG,5,1083,3,440,1.12,1.0,1400,3711.0
+Dhokra Metal Craft,Rural_Cluster,9,260,4,380,1.0,1.14,3200,4876.0
+Bamboo & Cane Craft,Bastar_CG,7,697,9,400,1.08,1.0,1150,4836.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,1,1733,8,400,1.16,1.0,2400,3362.0
+Bamboo & Cane Craft,Bastar_CG,10,952,7,400,1.08,1.14,1150,6786.0
+Bamboo & Cane Craft,Jaipur_RJ,13,1209,6,460,1.08,1.0,1150,8313.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,11,1773,5,430,1.16,1.0,2400,7782.0
+Wood Carving & Tribal Art,Varanasi_UP,10,482,6,430,1.15,1.14,2700,7224.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,6,727,6,380,1.0,1.0,2400,3839.0
+Kosa & Handloom Silk,Raipur_CG,1,546,4,440,1.22,1.0,4800,2862.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,1167,3,460,1.16,1.0,2400,5505.0
+Dhokra Metal Craft,Jaipur_RJ,2,1550,5,460,1.18,1.0,3200,4250.0
+Terracotta & Pottery,Varanasi_UP,10,107,10,430,1.12,1.0,1400,5902.0
+Dhokra Metal Craft,Tier1_Metro,8,1333,4,520,1.0,1.0,3200,6317.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,2,874,10,430,1.16,1.14,2400,3600.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,12,1252,9,400,1.16,1.0,2400,8935.0
+Wood Carving & Tribal Art,Varanasi_UP,11,712,6,430,1.15,1.14,2700,8024.0
+Dhokra Metal Craft,Rural_Cluster,7,1112,7,380,1.0,1.14,3200,5484.0
+Bamboo & Cane Craft,Varanasi_UP,12,1225,4,430,1.08,1.0,1150,6876.0
+Dhokra Metal Craft,Varanasi_UP,2,1789,8,430,1.18,1.0,3200,5276.0
+Terracotta & Pottery,Rural_Cluster,12,1600,3,380,1.0,1.14,1400,7074.0
+Kosa & Handloom Silk,Bastar_CG,11,1573,9,400,1.22,1.14,4800,11164.0
+Dhokra Metal Craft,Rural_Cluster,8,1349,8,380,1.0,1.14,3200,6305.0
+Wood Carving & Tribal Art,Varanasi_UP,8,1341,8,430,1.15,1.14,2700,7591.0
+Terracotta & Pottery,Varanasi_UP,2,140,5,430,1.12,1.0,1400,1591.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,5,719,5,400,1.16,1.14,2400,4493.0
+Terracotta & Pottery,Jaipur_RJ,1,823,7,460,1.12,1.14,1400,2447.0
+Kosa & Handloom Silk,Tier1_Metro,9,1783,6,520,1.0,1.14,4800,8480.0
+Terracotta & Pottery,Varanasi_UP,10,242,9,430,1.12,1.0,1400,5961.0
+Kosa & Handloom Silk,Tier1_Metro,4,559,3,520,1.0,1.14,4800,4483.0
+Terracotta & Pottery,Varanasi_UP,13,1330,4,430,1.12,1.14,1400,8282.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,14,711,7,520,1.0,1.0,2400,8499.0
+Terracotta & Pottery,Jaipur_RJ,14,1630,6,460,1.12,1.0,1400,9288.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,9,182,8,520,1.0,1.14,2400,6657.0
+Bamboo & Cane Craft,Jaipur_RJ,9,383,6,460,1.08,1.14,1150,6051.0
+Kosa & Handloom Silk,Bastar_CG,12,886,9,400,1.22,1.0,4800,10241.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,13,775,10,380,1.0,1.0,2400,7498.0
+Kosa & Handloom Silk,Bastar_CG,14,1326,7,400,1.22,1.0,4800,10044.0
+Terracotta & Pottery,Tier1_Metro,14,140,6,520,1.0,1.0,1400,7209.0
+Wood Carving & Tribal Art,Tier1_Metro,1,531,8,520,1.0,1.0,2700,2002.0
+Terracotta & Pottery,Tier1_Metro,2,1592,9,520,1.0,1.14,1400,3974.0
+Kosa & Handloom Silk,Bastar_CG,5,1324,7,400,1.22,1.0,4800,5717.0
+Terracotta & Pottery,Bastar_CG,2,827,10,400,1.12,1.0,1400,2416.0
+Kosa & Handloom Silk,Tier1_Metro,12,273,9,520,1.0,1.0,4800,9092.0
+Terracotta & Pottery,Raipur_CG,4,704,8,440,1.12,1.0,1400,3723.0
+Wood Carving & Tribal Art,Jaipur_RJ,4,1578,6,460,1.15,1.0,2700,5343.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,13,678,8,430,1.16,1.0,2400,8498.0
+Dhokra Metal Craft,Bastar_CG,8,1210,8,400,1.18,1.0,3200,6259.0
+Dhokra Metal Craft,Raipur_CG,1,672,6,440,1.18,1.0,3200,2469.0
+Bamboo & Cane Craft,Bastar_CG,9,192,7,400,1.08,1.0,1150,4595.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,13,752,7,460,1.16,1.0,2400,9229.0
+Dhokra Metal Craft,Tier1_Metro,10,1486,8,520,1.0,1.14,3200,9125.0
+Dhokra Metal Craft,Rural_Cluster,1,652,3,380,1.0,1.0,3200,2060.0
+Dhokra Metal Craft,Rural_Cluster,11,1617,5,380,1.0,1.0,3200,5988.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,1,1291,6,380,1.0,1.14,2400,2920.0
+Wood Carving & Tribal Art,Varanasi_UP,13,1363,3,430,1.15,1.14,2700,8956.0
+Kosa & Handloom Silk,Raipur_CG,5,619,3,440,1.22,1.0,4800,4604.0
+Bamboo & Cane Craft,Raipur_CG,2,1447,8,440,1.08,1.14,1150,3527.0
+Kosa & Handloom Silk,Raipur_CG,5,1782,9,440,1.22,1.0,4800,7180.0
+Bamboo & Cane Craft,Jaipur_RJ,9,1058,7,460,1.08,1.14,1150,6999.0
+Bamboo & Cane Craft,Jaipur_RJ,11,1389,8,460,1.08,1.0,1150,7959.0
+Kosa & Handloom Silk,Jaipur_RJ,4,553,5,460,1.22,1.14,4800,4952.0
+Wood Carving & Tribal Art,Tier1_Metro,3,1473,10,520,1.0,1.14,2700,5216.0
+Terracotta & Pottery,Bastar_CG,7,1085,7,400,1.12,1.0,1400,5505.0
+Dhokra Metal Craft,Bastar_CG,7,1531,3,400,1.18,1.0,3200,5813.0
+Kosa & Handloom Silk,Jaipur_RJ,13,474,3,460,1.22,1.0,4800,8087.0
+Bamboo & Cane Craft,Tier1_Metro,12,1487,4,520,1.0,1.0,1150,7982.0
+Dhokra Metal Craft,Jaipur_RJ,10,1241,6,460,1.18,1.0,3200,7439.0
+Bamboo & Cane Craft,Varanasi_UP,5,106,6,430,1.08,1.0,1150,2777.0
+Bamboo & Cane Craft,Varanasi_UP,3,1550,9,430,1.08,1.0,1150,3593.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,1,980,8,460,1.16,1.14,2400,3205.0
+Kosa & Handloom Silk,Tier1_Metro,1,1154,6,520,1.0,1.0,4800,3411.0
+Bamboo & Cane Craft,Rural_Cluster,14,1499,10,380,1.0,1.0,1150,8321.0
+Terracotta & Pottery,Tier1_Metro,6,462,10,520,1.0,1.0,1400,4742.0
+Terracotta & Pottery,Raipur_CG,6,224,9,440,1.12,1.0,1400,4051.0
+Wood Carving & Tribal Art,Raipur_CG,12,1158,9,440,1.15,1.0,2700,9213.0
+Bamboo & Cane Craft,Varanasi_UP,9,468,7,430,1.08,1.0,1150,5135.0
+Wood Carving & Tribal Art,Tier1_Metro,4,1192,7,520,1.0,1.0,2700,4481.0
+Wood Carving & Tribal Art,Raipur_CG,13,920,5,440,1.15,1.14,2700,9479.0
+Wood Carving & Tribal Art,Jaipur_RJ,10,1620,7,460,1.15,1.0,2700,8201.0
+Kosa & Handloom Silk,Rural_Cluster,12,238,9,380,1.0,1.0,4800,7037.0
+Wood Carving & Tribal Art,Jaipur_RJ,13,1234,4,460,1.15,1.0,2700,7877.0
+Terracotta & Pottery,Rural_Cluster,1,1222,6,380,1.0,1.0,1400,2342.0
+Terracotta & Pottery,Rural_Cluster,7,619,6,380,1.0,1.14,1400,4072.0
+Wood Carving & Tribal Art,Varanasi_UP,6,1782,9,430,1.15,1.14,2700,7633.0
+Wood Carving & Tribal Art,Varanasi_UP,6,1784,8,430,1.15,1.14,2700,7433.0
+Kosa & Handloom Silk,Rural_Cluster,1,1307,6,380,1.0,1.0,4800,3424.0
+Kosa & Handloom Silk,Varanasi_UP,4,963,8,430,1.22,1.0,4800,5385.0
+Bamboo & Cane Craft,Varanasi_UP,6,1710,3,430,1.08,1.0,1150,4812.0
+Dhokra Metal Craft,Jaipur_RJ,2,1588,5,460,1.18,1.14,3200,4259.0
+Terracotta & Pottery,Raipur_CG,12,871,9,440,1.12,1.14,1400,9203.0
+Kosa & Handloom Silk,Rural_Cluster,1,436,3,380,1.0,1.0,4800,2372.0
+Terracotta & Pottery,Tier1_Metro,3,542,7,520,1.0,1.0,1400,2775.0
+Bamboo & Cane Craft,Tier1_Metro,13,782,5,520,1.0,1.14,1150,8423.0
+Bamboo & Cane Craft,Tier1_Metro,5,1327,4,520,1.0,1.0,1150,3988.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,3,1493,10,460,1.16,1.14,2400,5923.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,1,1415,3,460,1.16,1.0,2400,2857.0
+Terracotta & Pottery,Raipur_CG,8,1658,3,440,1.12,1.14,1400,6288.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,14,1481,5,430,1.16,1.0,2400,9062.0
+Wood Carving & Tribal Art,Raipur_CG,13,1696,5,440,1.15,1.0,2700,8926.0
+Bamboo & Cane Craft,Bastar_CG,7,261,4,400,1.08,1.0,1150,3129.0
+Bamboo & Cane Craft,Rural_Cluster,8,210,9,380,1.0,1.0,1150,3966.0
+Terracotta & Pottery,Tier1_Metro,8,1690,5,520,1.0,1.0,1400,6425.0
+Dhokra Metal Craft,Bastar_CG,14,536,7,400,1.18,1.0,3200,8580.0
+Wood Carving & Tribal Art,Jaipur_RJ,9,1404,8,460,1.15,1.0,2700,8099.0
+Bamboo & Cane Craft,Raipur_CG,4,1579,8,440,1.08,1.0,1150,4474.0
+Bamboo & Cane Craft,Tier1_Metro,2,511,8,520,1.0,1.14,1150,2352.0
+Kosa & Handloom Silk,Rural_Cluster,11,1594,10,380,1.0,1.0,4800,8945.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,2,453,9,440,1.16,1.0,2400,2518.0
+Dhokra Metal Craft,Raipur_CG,13,1277,4,440,1.18,1.0,3200,8912.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,7,1211,4,400,1.16,1.0,2400,5171.0
+Wood Carving & Tribal Art,Varanasi_UP,11,732,3,430,1.15,1.0,2700,6165.0
+Dhokra Metal Craft,Jaipur_RJ,2,527,6,460,1.18,1.14,3200,3064.0
+Dhokra Metal Craft,Tier1_Metro,8,790,7,520,1.0,1.0,3200,6465.0
+Bamboo & Cane Craft,Rural_Cluster,1,731,9,380,1.0,1.0,1150,1752.0
+Wood Carving & Tribal Art,Rural_Cluster,1,1659,6,380,1.0,1.0,2700,3006.0
+Kosa & Handloom Silk,Bastar_CG,14,632,6,400,1.22,1.14,4800,9867.0
+Wood Carving & Tribal Art,Tier1_Metro,7,639,10,520,1.0,1.0,2700,5948.0
+Bamboo & Cane Craft,Tier1_Metro,3,1359,3,520,1.0,1.0,1150,2880.0
+Wood Carving & Tribal Art,Varanasi_UP,2,1651,3,430,1.15,1.14,2700,4160.0
+Terracotta & Pottery,Tier1_Metro,8,1223,7,520,1.0,1.14,1400,6863.0
+Kosa & Handloom Silk,Raipur_CG,3,1151,8,440,1.22,1.0,4800,4887.0
+Wood Carving & Tribal Art,Varanasi_UP,8,921,8,430,1.15,1.0,2700,6639.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,5,1167,9,440,1.16,1.14,2400,6094.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,5,1225,10,380,1.0,1.14,2400,5169.0
+Terracotta & Pottery,Bastar_CG,3,210,8,400,1.12,1.0,1400,2196.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,8,640,5,430,1.16,1.14,2400,5853.0
+Dhokra Metal Craft,Varanasi_UP,7,1279,10,430,1.18,1.14,3200,7797.0
+Kosa & Handloom Silk,Raipur_CG,12,1625,7,440,1.22,1.0,4800,9616.0
+Wood Carving & Tribal Art,Tier1_Metro,7,1624,3,520,1.0,1.14,2700,5728.0
+Bamboo & Cane Craft,Varanasi_UP,9,1761,6,430,1.08,1.0,1150,6732.0
+Kosa & Handloom Silk,Jaipur_RJ,9,259,5,460,1.22,1.14,4800,6854.0
+Dhokra Metal Craft,Rural_Cluster,6,1182,6,380,1.0,1.14,3200,5165.0
+Bamboo & Cane Craft,Varanasi_UP,13,1202,6,430,1.08,1.0,1150,7628.0
+Bamboo & Cane Craft,Varanasi_UP,10,1227,3,430,1.08,1.0,1150,5969.0
+Terracotta & Pottery,Varanasi_UP,6,332,3,430,1.12,1.0,1400,3293.0
+Kosa & Handloom Silk,Raipur_CG,9,125,3,440,1.22,1.14,4800,6053.0
+Wood Carving & Tribal Art,Varanasi_UP,12,590,3,430,1.15,1.0,2700,6539.0
+Kosa & Handloom Silk,Tier1_Metro,8,1561,6,520,1.0,1.0,4800,7363.0
+Bamboo & Cane Craft,Bastar_CG,2,104,6,400,1.08,1.0,1150,1327.0
+Terracotta & Pottery,Tier1_Metro,1,1045,8,520,1.0,1.0,1400,2326.0
+Wood Carving & Tribal Art,Tier1_Metro,5,1513,8,520,1.0,1.14,2700,5661.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,14,813,8,440,1.16,1.0,2400,8853.0
+Terracotta & Pottery,Varanasi_UP,1,430,7,430,1.12,1.0,1400,1524.0
+Kosa & Handloom Silk,Varanasi_UP,6,371,6,430,1.22,1.14,4800,5672.0
+Terracotta & Pottery,Rural_Cluster,9,373,5,380,1.0,1.0,1400,4074.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,2,253,8,520,1.0,1.0,2400,2277.0
+Wood Carving & Tribal Art,Raipur_CG,8,577,10,440,1.15,1.0,2700,6412.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,11,1162,3,400,1.16,1.0,2400,6741.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,9,520,4,430,1.16,1.14,2400,6065.0
+Kosa & Handloom Silk,Varanasi_UP,10,1378,5,430,1.22,1.0,4800,7978.0
+Terracotta & Pottery,Tier1_Metro,5,1278,3,520,1.0,1.0,1400,3954.0
+Kosa & Handloom Silk,Rural_Cluster,13,109,6,380,1.0,1.0,4800,6744.0
+Terracotta & Pottery,Bastar_CG,9,704,9,400,1.12,1.0,1400,5861.0
+Kosa & Handloom Silk,Varanasi_UP,5,1729,5,430,1.22,1.0,4800,5718.0
+Dhokra Metal Craft,Raipur_CG,13,215,7,440,1.18,1.0,3200,8023.0
+Terracotta & Pottery,Raipur_CG,4,1060,4,440,1.12,1.14,1400,3689.0
+Dhokra Metal Craft,Bastar_CG,6,453,10,400,1.18,1.0,3200,5208.0
+Wood Carving & Tribal Art,Varanasi_UP,5,1379,5,430,1.15,1.0,2700,4454.0
+Terracotta & Pottery,Jaipur_RJ,13,799,9,460,1.12,1.14,1400,9795.0
+Bamboo & Cane Craft,Rural_Cluster,5,561,6,380,1.0,1.14,1150,3179.0
+Wood Carving & Tribal Art,Rural_Cluster,8,652,10,380,1.0,1.0,2700,5478.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,14,1628,5,430,1.16,1.0,2400,9202.0
+Terracotta & Pottery,Jaipur_RJ,8,288,6,460,1.12,1.14,1400,5578.0
+Bamboo & Cane Craft,Varanasi_UP,3,389,3,430,1.08,1.0,1150,1922.0
+Wood Carving & Tribal Art,Tier1_Metro,9,924,7,520,1.0,1.0,2700,6893.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,5,1773,10,520,1.0,1.0,2400,5815.0
+Terracotta & Pottery,Jaipur_RJ,6,943,8,460,1.12,1.14,1400,5392.0
+Kosa & Handloom Silk,Bastar_CG,5,1466,4,400,1.22,1.0,4800,5802.0
+Terracotta & Pottery,Jaipur_RJ,14,1308,8,460,1.12,1.0,1400,9419.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,7,1651,10,430,1.16,1.14,2400,7786.0
+Terracotta & Pottery,Raipur_CG,10,131,5,440,1.12,1.0,1400,5180.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,1,1774,10,400,1.16,1.0,2400,4177.0
+Kosa & Handloom Silk,Bastar_CG,11,1016,7,400,1.22,1.0,4800,7858.0
+Dhokra Metal Craft,Bastar_CG,3,1204,3,400,1.18,1.0,3200,3573.0
+Terracotta & Pottery,Tier1_Metro,1,1106,9,520,1.0,1.0,1400,2441.0
+Wood Carving & Tribal Art,Tier1_Metro,9,1716,4,520,1.0,1.14,2700,7324.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,4,344,5,430,1.16,1.0,2400,2928.0
+Dhokra Metal Craft,Varanasi_UP,13,282,10,430,1.18,1.0,3200,8609.0
+Kosa & Handloom Silk,Raipur_CG,1,950,5,440,1.22,1.14,4800,3503.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,1,1393,4,440,1.16,1.0,2400,2997.0
+Terracotta & Pottery,Tier1_Metro,9,1092,3,520,1.0,1.0,1400,5161.0
+Wood Carving & Tribal Art,Bastar_CG,5,382,10,400,1.15,1.14,2700,4676.0
+Terracotta & Pottery,Jaipur_RJ,12,1715,5,460,1.12,1.14,1400,9063.0
+Dhokra Metal Craft,Varanasi_UP,4,527,9,430,1.18,1.0,3200,4119.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,2,1114,5,460,1.16,1.0,2400,3364.0
+Kosa & Handloom Silk,Varanasi_UP,1,212,6,430,1.22,1.0,4800,2341.0
+Dhokra Metal Craft,Tier1_Metro,1,616,3,520,1.0,1.14,3200,2135.0
+Wood Carving & Tribal Art,Tier1_Metro,8,1182,3,520,1.0,1.0,2700,5927.0
+Wood Carving & Tribal Art,Jaipur_RJ,2,658,9,460,1.15,1.14,2700,3237.0
+Wood Carving & Tribal Art,Varanasi_UP,6,490,9,430,1.15,1.0,2700,5034.0
+Wood Carving & Tribal Art,Varanasi_UP,13,437,9,430,1.15,1.0,2700,8847.0
+Dhokra Metal Craft,Raipur_CG,14,1792,4,440,1.18,1.0,3200,10191.0
+Bamboo & Cane Craft,Varanasi_UP,9,1327,9,430,1.08,1.0,1150,6534.0
+Bamboo & Cane Craft,Raipur_CG,9,307,4,440,1.08,1.0,1150,4479.0
+Terracotta & Pottery,Jaipur_RJ,13,1618,8,460,1.12,1.0,1400,9774.0
+Dhokra Metal Craft,Tier1_Metro,4,1231,5,520,1.0,1.0,3200,4059.0
+Bamboo & Cane Craft,Tier1_Metro,3,1257,9,520,1.0,1.0,1150,3780.0
+Dhokra Metal Craft,Bastar_CG,6,844,5,400,1.18,1.0,3200,4969.0
+Dhokra Metal Craft,Jaipur_RJ,10,365,7,460,1.18,1.14,3200,7986.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,5,990,10,460,1.16,1.0,2400,5628.0
+Kosa & Handloom Silk,Bastar_CG,1,400,6,400,1.22,1.14,4800,2946.0
+Dhokra Metal Craft,Varanasi_UP,3,1773,6,430,1.18,1.14,3200,5755.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,1,941,4,520,1.0,1.14,2400,2502.0
+Bamboo & Cane Craft,Jaipur_RJ,4,1630,7,460,1.08,1.14,1150,4571.0
+Wood Carving & Tribal Art,Jaipur_RJ,9,1014,10,460,1.15,1.0,2700,7713.0
+Terracotta & Pottery,Bastar_CG,9,269,4,400,1.12,1.14,1400,4910.0
+Dhokra Metal Craft,Bastar_CG,14,168,5,400,1.18,1.0,3200,7549.0
+Terracotta & Pottery,Rural_Cluster,2,1062,8,380,1.0,1.0,1400,2531.0
+Bamboo & Cane Craft,Raipur_CG,6,738,5,440,1.08,1.0,1150,3862.0
+Wood Carving & Tribal Art,Tier1_Metro,3,969,3,520,1.0,1.0,2700,3083.0
+Wood Carving & Tribal Art,Tier1_Metro,11,394,3,520,1.0,1.14,2700,7181.0
+Dhokra Metal Craft,Tier1_Metro,5,748,4,520,1.0,1.14,3200,4982.0
+Terracotta & Pottery,Jaipur_RJ,12,841,4,460,1.12,1.0,1400,6592.0
+Bamboo & Cane Craft,Varanasi_UP,11,1672,9,430,1.08,1.0,1150,7987.0
+Terracotta & Pottery,Raipur_CG,9,1328,6,440,1.12,1.0,1400,6667.0
+Wood Carving & Tribal Art,Jaipur_RJ,6,187,6,460,1.15,1.0,2700,4405.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,9,1508,8,440,1.16,1.0,2400,7406.0
+Wood Carving & Tribal Art,Rural_Cluster,1,813,6,380,1.0,1.14,2700,2386.0
+Kosa & Handloom Silk,Jaipur_RJ,3,1063,7,460,1.22,1.0,4800,4834.0
+Kosa & Handloom Silk,Varanasi_UP,11,411,4,430,1.22,1.0,4800,6733.0
+Kosa & Handloom Silk,Bastar_CG,13,1434,8,400,1.22,1.14,4800,10864.0
+Wood Carving & Tribal Art,Varanasi_UP,14,1300,4,430,1.15,1.0,2700,8154.0
+Wood Carving & Tribal Art,Bastar_CG,6,1110,7,400,1.15,1.0,2700,4917.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,360,4,400,1.16,1.14,2400,3977.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,556,7,400,1.16,1.0,2400,3966.0
+Wood Carving & Tribal Art,Tier1_Metro,4,594,10,520,1.0,1.0,2700,4259.0
+Bamboo & Cane Craft,Tier1_Metro,6,857,3,520,1.0,1.0,1150,3917.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,10,598,8,460,1.16,1.0,2400,7629.0
+Bamboo & Cane Craft,Bastar_CG,10,1663,5,400,1.08,1.0,1150,6693.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,6,1505,6,460,1.16,1.0,2400,5819.0
+Dhokra Metal Craft,Tier1_Metro,1,118,5,520,1.0,1.14,3200,1820.0
+Bamboo & Cane Craft,Bastar_CG,13,1045,4,400,1.08,1.0,1150,6469.0
+Wood Carving & Tribal Art,Bastar_CG,5,931,7,400,1.15,1.0,2700,4660.0
+Bamboo & Cane Craft,Bastar_CG,7,1392,7,400,1.08,1.14,1150,6067.0
+Wood Carving & Tribal Art,Bastar_CG,1,1697,3,400,1.15,1.14,2700,3577.0
+Terracotta & Pottery,Rural_Cluster,3,1330,7,380,1.0,1.0,1400,3048.0
+Dhokra Metal Craft,Tier1_Metro,12,1196,10,520,1.0,1.14,3200,11404.0
+Wood Carving & Tribal Art,Bastar_CG,6,435,3,400,1.15,1.0,2700,3869.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,3,758,4,380,1.0,1.0,2400,2514.0
+Terracotta & Pottery,Jaipur_RJ,5,1041,8,460,1.12,1.0,1400,4350.0
+Kosa & Handloom Silk,Varanasi_UP,4,924,3,430,1.22,1.0,4800,4411.0
+Bamboo & Cane Craft,Rural_Cluster,13,434,6,380,1.0,1.14,1150,5792.0
+Terracotta & Pottery,Jaipur_RJ,6,305,10,460,1.12,1.0,1400,4587.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,11,1695,6,430,1.16,1.0,2400,8476.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,2,1185,10,460,1.16,1.0,2400,3815.0
+Kosa & Handloom Silk,Varanasi_UP,2,416,10,430,1.22,1.0,4800,3728.0
+Wood Carving & Tribal Art,Tier1_Metro,7,1603,4,520,1.0,1.14,2700,6475.0
+Terracotta & Pottery,Rural_Cluster,3,143,7,380,1.0,1.0,1400,1702.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,10,500,10,380,1.0,1.14,2400,6893.0
+Terracotta & Pottery,Rural_Cluster,10,903,4,380,1.0,1.0,1400,4495.0
+Bamboo & Cane Craft,Rural_Cluster,13,366,8,380,1.0,1.0,1150,6113.0
+Terracotta & Pottery,Bastar_CG,8,1360,5,400,1.12,1.14,1400,6200.0
+Terracotta & Pottery,Bastar_CG,10,613,4,400,1.12,1.0,1400,5233.0
+Bamboo & Cane Craft,Raipur_CG,14,835,3,440,1.08,1.0,1150,6382.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,14,160,3,460,1.16,1.0,2400,7454.0
+Kosa & Handloom Silk,Rural_Cluster,10,1745,7,380,1.0,1.14,4800,8444.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,10,439,6,430,1.16,1.0,2400,6325.0
+Dhokra Metal Craft,Rural_Cluster,6,1193,7,380,1.0,1.14,3200,5377.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,6,1340,10,440,1.16,1.0,2400,5906.0
+Wood Carving & Tribal Art,Rural_Cluster,6,1381,10,380,1.0,1.0,2700,5157.0
+Terracotta & Pottery,Varanasi_UP,12,398,7,430,1.12,1.14,1400,7739.0
+Wood Carving & Tribal Art,Raipur_CG,3,464,5,440,1.15,1.0,2700,2874.0
+Dhokra Metal Craft,Jaipur_RJ,4,558,5,460,1.18,1.14,3200,4073.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,14,607,10,460,1.16,1.0,2400,10364.0
+Kosa & Handloom Silk,Jaipur_RJ,10,1478,5,460,1.22,1.0,4800,8802.0
+Wood Carving & Tribal Art,Rural_Cluster,10,438,3,380,1.0,1.0,2700,4757.0
+Bamboo & Cane Craft,Raipur_CG,13,1038,3,440,1.08,1.0,1150,6757.0
+Terracotta & Pottery,Jaipur_RJ,14,1093,9,460,1.12,1.0,1400,9715.0
+Wood Carving & Tribal Art,Varanasi_UP,2,1236,4,430,1.15,1.14,2700,3880.0
+Dhokra Metal Craft,Tier1_Metro,11,387,5,520,1.0,1.14,3200,7854.0
+Terracotta & Pottery,Rural_Cluster,12,1768,9,380,1.0,1.14,1400,8624.0
+Dhokra Metal Craft,Bastar_CG,6,557,8,400,1.18,1.0,3200,5148.0
+Kosa & Handloom Silk,Tier1_Metro,6,1042,3,520,1.0,1.14,4800,6115.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,4,533,10,440,1.16,1.0,2400,3937.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,14,265,5,430,1.16,1.0,2400,7108.0
+Bamboo & Cane Craft,Tier1_Metro,13,1072,4,520,1.0,1.0,1150,7441.0
+Bamboo & Cane Craft,Jaipur_RJ,8,975,10,460,1.08,1.0,1150,6204.0
+Kosa & Handloom Silk,Rural_Cluster,8,1085,8,380,1.0,1.14,4800,6314.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,11,618,10,520,1.0,1.14,2400,9437.0
+Terracotta & Pottery,Rural_Cluster,7,187,10,380,1.0,1.14,1400,4271.0
+Dhokra Metal Craft,Rural_Cluster,14,465,6,380,1.0,1.0,3200,6975.0
+Wood Carving & Tribal Art,Varanasi_UP,1,1187,4,430,1.15,1.14,2700,2947.0
+Bamboo & Cane Craft,Varanasi_UP,10,862,6,430,1.08,1.0,1150,5652.0
+Bamboo & Cane Craft,Varanasi_UP,5,1207,5,430,1.08,1.14,1150,4445.0
+Wood Carving & Tribal Art,Tier1_Metro,8,1183,4,520,1.0,1.0,2700,5413.0
+Dhokra Metal Craft,Varanasi_UP,13,1136,10,430,1.18,1.14,3200,12113.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,6,1389,10,380,1.0,1.0,2400,5602.0
+Terracotta & Pottery,Varanasi_UP,12,1569,9,430,1.12,1.0,1400,8296.0
+Dhokra Metal Craft,Raipur_CG,5,283,4,440,1.18,1.0,3200,3641.0
+Wood Carving & Tribal Art,Bastar_CG,2,1494,6,400,1.15,1.14,2700,4012.0
+Wood Carving & Tribal Art,Bastar_CG,9,139,6,400,1.15,1.0,2700,5269.0
+Wood Carving & Tribal Art,Raipur_CG,13,300,9,440,1.15,1.0,2700,8978.0
+Dhokra Metal Craft,Jaipur_RJ,2,1011,9,460,1.18,1.14,3200,4422.0
+Terracotta & Pottery,Bastar_CG,14,587,7,400,1.12,1.14,1400,8561.0
+Wood Carving & Tribal Art,Bastar_CG,12,369,9,400,1.15,1.0,2700,7955.0
+Kosa & Handloom Silk,Bastar_CG,13,1795,5,400,1.22,1.0,4800,9109.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,12,1766,7,460,1.16,1.0,2400,9747.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,6,811,9,380,1.0,1.0,2400,4280.0
+Terracotta & Pottery,Raipur_CG,3,798,6,440,1.12,1.0,1400,2785.0
+Wood Carving & Tribal Art,Rural_Cluster,14,407,3,380,1.0,1.0,2700,5742.0
+Kosa & Handloom Silk,Tier1_Metro,4,624,7,520,1.0,1.14,4800,4478.0
+Bamboo & Cane Craft,Bastar_CG,4,599,7,400,1.08,1.0,1150,2911.0
+Wood Carving & Tribal Art,Bastar_CG,8,1181,10,400,1.15,1.14,2700,7142.0
+Wood Carving & Tribal Art,Tier1_Metro,8,414,4,520,1.0,1.14,2700,5714.0
+Bamboo & Cane Craft,Tier1_Metro,2,1634,3,520,1.0,1.14,1150,3236.0
+Wood Carving & Tribal Art,Raipur_CG,13,337,8,440,1.15,1.0,2700,8719.0
+Dhokra Metal Craft,Jaipur_RJ,4,242,3,460,1.18,1.0,3200,3285.0
+Kosa & Handloom Silk,Rural_Cluster,7,483,6,380,1.0,1.0,4800,4571.0
+Kosa & Handloom Silk,Bastar_CG,13,1073,3,400,1.22,1.0,4800,8341.0
+Terracotta & Pottery,Tier1_Metro,12,1444,5,520,1.0,1.14,1400,9321.0
+Terracotta & Pottery,Bastar_CG,1,515,4,400,1.12,1.14,1400,1563.0
+Wood Carving & Tribal Art,Tier1_Metro,6,1045,8,520,1.0,1.0,2700,5484.0
+Dhokra Metal Craft,Bastar_CG,3,1494,5,400,1.18,1.0,3200,4512.0
+Wood Carving & Tribal Art,Jaipur_RJ,2,1186,10,460,1.15,1.14,2700,4467.0
+Terracotta & Pottery,Tier1_Metro,12,1673,9,520,1.0,1.0,1400,8838.0
+Kosa & Handloom Silk,Varanasi_UP,6,1341,3,430,1.22,1.0,4800,6010.0
+Kosa & Handloom Silk,Tier1_Metro,3,1309,6,520,1.0,1.0,4800,4766.0
+Terracotta & Pottery,Varanasi_UP,1,309,10,430,1.12,1.14,1400,1691.0
+Kosa & Handloom Silk,Jaipur_RJ,9,466,10,460,1.22,1.14,4800,8959.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,9,1634,4,380,1.0,1.0,2400,5505.0
+Bamboo & Cane Craft,Jaipur_RJ,3,251,7,460,1.08,1.0,1150,2273.0
+Terracotta & Pottery,Bastar_CG,3,559,3,400,1.12,1.14,1400,2257.0
+Bamboo & Cane Craft,Varanasi_UP,12,1594,6,430,1.08,1.0,1150,7056.0
+Dhokra Metal Craft,Tier1_Metro,9,1701,8,520,1.0,1.14,3200,9457.0
+Kosa & Handloom Silk,Tier1_Metro,5,545,7,520,1.0,1.0,4800,4952.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,10,349,8,380,1.0,1.0,2400,4955.0
+Dhokra Metal Craft,Raipur_CG,5,169,3,440,1.18,1.0,3200,3409.0
+Kosa & Handloom Silk,Varanasi_UP,11,629,7,430,1.22,1.14,4800,10033.0
+Terracotta & Pottery,Raipur_CG,10,444,6,440,1.12,1.0,1400,5982.0
+Terracotta & Pottery,Rural_Cluster,5,1360,7,380,1.0,1.0,1400,4277.0
+Kosa & Handloom Silk,Jaipur_RJ,14,207,6,460,1.22,1.14,4800,10847.0
+Wood Carving & Tribal Art,Jaipur_RJ,8,1059,7,460,1.15,1.0,2700,6984.0
+Bamboo & Cane Craft,Rural_Cluster,8,1618,4,380,1.0,1.0,1150,4541.0
+Kosa & Handloom Silk,Bastar_CG,12,996,9,400,1.22,1.0,4800,9548.0
+Dhokra Metal Craft,Raipur_CG,6,1549,7,440,1.18,1.14,3200,7145.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,3,1331,10,520,1.0,1.0,2400,4369.0
+Wood Carving & Tribal Art,Bastar_CG,6,948,10,400,1.15,1.0,2700,5340.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,14,1649,9,460,1.16,1.0,2400,12167.0
+Wood Carving & Tribal Art,Bastar_CG,5,1115,5,400,1.15,1.0,2700,4465.0
+Wood Carving & Tribal Art,Tier1_Metro,10,506,3,520,1.0,1.0,2700,5656.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,11,1571,4,520,1.0,1.14,2400,8441.0
+Dhokra Metal Craft,Bastar_CG,14,1585,7,400,1.18,1.0,3200,9935.0
+Terracotta & Pottery,Varanasi_UP,3,1460,5,430,1.12,1.0,1400,3312.0
+Kosa & Handloom Silk,Jaipur_RJ,10,531,6,460,1.22,1.14,4800,7982.0
+Terracotta & Pottery,Raipur_CG,1,454,10,440,1.12,1.14,1400,2025.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,14,979,9,440,1.16,1.0,2400,9899.0
+Kosa & Handloom Silk,Tier1_Metro,4,528,4,520,1.0,1.0,4800,3927.0
+Wood Carving & Tribal Art,Raipur_CG,3,857,10,440,1.15,1.0,2700,4011.0
+Kosa & Handloom Silk,Jaipur_RJ,7,1101,7,460,1.22,1.0,4800,7018.0
+Terracotta & Pottery,Tier1_Metro,10,1353,4,520,1.0,1.0,1400,6250.0
+Bamboo & Cane Craft,Jaipur_RJ,14,272,9,460,1.08,1.14,1150,10046.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,13,593,6,440,1.16,1.0,2400,7886.0
+Bamboo & Cane Craft,Raipur_CG,9,1325,6,440,1.08,1.0,1150,6118.0
+Terracotta & Pottery,Jaipur_RJ,10,1774,5,460,1.12,1.14,1400,8257.0
+Dhokra Metal Craft,Jaipur_RJ,5,515,8,460,1.18,1.14,3200,5293.0
+Terracotta & Pottery,Tier1_Metro,1,249,10,520,1.0,1.0,1400,1510.0
+Dhokra Metal Craft,Varanasi_UP,12,698,8,430,1.18,1.14,3200,9417.0
+Dhokra Metal Craft,Jaipur_RJ,9,940,9,460,1.18,1.0,3200,7779.0
+Kosa & Handloom Silk,Tier1_Metro,9,1023,4,520,1.0,1.0,4800,7007.0
+Dhokra Metal Craft,Raipur_CG,14,1613,3,440,1.18,1.14,3200,10485.0
+Dhokra Metal Craft,Tier1_Metro,3,215,10,520,1.0,1.0,3200,3094.0
+Terracotta & Pottery,Jaipur_RJ,11,1720,7,460,1.12,1.14,1400,9100.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,12,220,4,440,1.16,1.14,2400,6902.0
+Terracotta & Pottery,Jaipur_RJ,1,1653,5,460,1.12,1.0,1400,2930.0
+Kosa & Handloom Silk,Jaipur_RJ,10,175,6,460,1.22,1.0,4800,7290.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,10,926,5,440,1.16,1.14,2400,7596.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,12,240,8,430,1.16,1.0,2400,7354.0
+Wood Carving & Tribal Art,Bastar_CG,8,1080,10,400,1.15,1.14,2700,7512.0
+Wood Carving & Tribal Art,Varanasi_UP,5,1025,9,430,1.15,1.0,2700,4906.0
+Bamboo & Cane Craft,Rural_Cluster,4,1247,7,380,1.0,1.0,1150,3171.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,3,560,4,430,1.16,1.0,2400,2583.0
+Wood Carving & Tribal Art,Jaipur_RJ,7,1111,7,460,1.15,1.0,2700,5895.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,5,1049,6,440,1.16,1.0,2400,4344.0
+Terracotta & Pottery,Raipur_CG,13,1550,8,440,1.12,1.14,1400,9968.0
+Kosa & Handloom Silk,Bastar_CG,7,1110,5,400,1.22,1.0,4800,5816.0
+Kosa & Handloom Silk,Bastar_CG,4,1132,10,400,1.22,1.14,4800,5872.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,5,377,4,460,1.16,1.0,2400,3539.0
+Kosa & Handloom Silk,Raipur_CG,13,748,4,440,1.22,1.0,4800,9090.0
+Wood Carving & Tribal Art,Rural_Cluster,3,1730,7,380,1.0,1.14,2700,4359.0
+Terracotta & Pottery,Varanasi_UP,10,229,4,430,1.12,1.0,1400,5188.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,11,1211,3,380,1.0,1.0,2400,5479.0
+Wood Carving & Tribal Art,Varanasi_UP,7,1533,9,430,1.15,1.14,2700,7988.0
+Bamboo & Cane Craft,Raipur_CG,8,1231,5,440,1.08,1.0,1150,5062.0
+Bamboo & Cane Craft,Jaipur_RJ,11,592,5,460,1.08,1.0,1150,6290.0
+Bamboo & Cane Craft,Bastar_CG,2,1439,8,400,1.08,1.0,1150,3368.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,9,1219,7,430,1.16,1.0,2400,6920.0
+Dhokra Metal Craft,Tier1_Metro,10,402,7,520,1.0,1.14,3200,7729.0
+Wood Carving & Tribal Art,Tier1_Metro,9,567,4,520,1.0,1.0,2700,5357.0
+Bamboo & Cane Craft,Bastar_CG,2,111,10,400,1.08,1.0,1150,1624.0
+Bamboo & Cane Craft,Bastar_CG,10,604,4,400,1.08,1.14,1150,5773.0
+Terracotta & Pottery,Varanasi_UP,4,1531,8,430,1.12,1.0,1400,4607.0
+Dhokra Metal Craft,Tier1_Metro,2,1408,9,520,1.0,1.14,3200,4754.0
+Wood Carving & Tribal Art,Raipur_CG,14,945,7,440,1.15,1.0,2700,10104.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,10,431,8,440,1.16,1.0,2400,6483.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,539,3,380,1.0,1.0,2400,2723.0
+Wood Carving & Tribal Art,Varanasi_UP,4,1653,8,430,1.15,1.0,2700,5441.0
+Terracotta & Pottery,Tier1_Metro,7,809,6,520,1.0,1.0,1400,4640.0
+Wood Carving & Tribal Art,Tier1_Metro,13,1681,10,520,1.0,1.14,2700,12149.0
+Kosa & Handloom Silk,Raipur_CG,5,208,5,440,1.22,1.0,4800,4542.0
+Terracotta & Pottery,Tier1_Metro,11,964,7,520,1.0,1.14,1400,7841.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,7,899,10,520,1.0,1.14,2400,6662.0
+Kosa & Handloom Silk,Jaipur_RJ,5,1324,7,460,1.22,1.0,4800,5667.0
+Wood Carving & Tribal Art,Rural_Cluster,12,830,3,380,1.0,1.0,2700,5695.0
+Dhokra Metal Craft,Varanasi_UP,12,707,5,430,1.18,1.14,3200,8430.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,1655,8,440,1.16,1.0,2400,4826.0
+Bamboo & Cane Craft,Rural_Cluster,1,805,7,380,1.0,1.14,1150,2006.0
+Dhokra Metal Craft,Jaipur_RJ,12,1798,7,460,1.18,1.0,3200,10453.0
+Kosa & Handloom Silk,Varanasi_UP,13,375,3,430,1.22,1.14,4800,8599.0
+Wood Carving & Tribal Art,Varanasi_UP,9,1209,6,430,1.15,1.0,2700,6673.0
+Wood Carving & Tribal Art,Rural_Cluster,6,1166,5,380,1.0,1.0,2700,4476.0
+Terracotta & Pottery,Raipur_CG,7,398,7,440,1.12,1.0,1400,5016.0
+Kosa & Handloom Silk,Jaipur_RJ,7,534,6,460,1.22,1.0,4800,6233.0
+Bamboo & Cane Craft,Jaipur_RJ,3,1571,8,460,1.08,1.0,1150,3922.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,10,1343,3,400,1.16,1.14,2400,6535.0
+Terracotta & Pottery,Rural_Cluster,4,1789,8,380,1.0,1.0,1400,4319.0
+Terracotta & Pottery,Jaipur_RJ,5,1544,8,460,1.12,1.14,1400,5863.0
+Kosa & Handloom Silk,Tier1_Metro,4,1198,10,520,1.0,1.14,4800,6322.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,11,1471,8,440,1.16,1.0,2400,8517.0
+Terracotta & Pottery,Bastar_CG,10,1020,8,400,1.12,1.0,1400,6903.0
+Dhokra Metal Craft,Varanasi_UP,14,433,5,430,1.18,1.14,3200,8651.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,3,457,4,400,1.16,1.0,2400,2382.0
+Wood Carving & Tribal Art,Tier1_Metro,4,605,8,520,1.0,1.0,2700,4119.0
+Dhokra Metal Craft,Raipur_CG,1,1292,4,440,1.18,1.0,3200,3012.0
+Wood Carving & Tribal Art,Raipur_CG,6,919,3,440,1.15,1.0,2700,4214.0
+Dhokra Metal Craft,Varanasi_UP,11,601,4,430,1.18,1.0,3200,6566.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,9,288,5,440,1.16,1.0,2400,5177.0
+Kosa & Handloom Silk,Jaipur_RJ,11,1406,10,460,1.22,1.14,4800,11565.0
+Bamboo & Cane Craft,Varanasi_UP,12,1536,10,430,1.08,1.0,1150,8721.0
+Wood Carving & Tribal Art,Bastar_CG,7,403,8,400,1.15,1.14,2700,5648.0
+Dhokra Metal Craft,Varanasi_UP,14,1793,8,430,1.18,1.0,3200,11655.0
+Bamboo & Cane Craft,Raipur_CG,5,354,9,440,1.08,1.14,1150,3970.0
+Bamboo & Cane Craft,Raipur_CG,7,1213,7,440,1.08,1.0,1150,5505.0
+Terracotta & Pottery,Rural_Cluster,2,706,8,380,1.0,1.14,1400,2439.0
+Dhokra Metal Craft,Raipur_CG,1,1352,6,440,1.18,1.14,3200,3578.0
+Bamboo & Cane Craft,Varanasi_UP,7,271,8,430,1.08,1.0,1150,4075.0
+Terracotta & Pottery,Raipur_CG,12,521,7,440,1.12,1.14,1400,7881.0
+Terracotta & Pottery,Varanasi_UP,11,821,6,430,1.12,1.0,1400,6743.0
+Wood Carving & Tribal Art,Tier1_Metro,2,1295,9,520,1.0,1.0,2700,3770.0
+Terracotta & Pottery,Tier1_Metro,7,1535,10,520,1.0,1.0,1400,7092.0
+Dhokra Metal Craft,Bastar_CG,10,528,8,400,1.18,1.0,3200,7243.0
+Terracotta & Pottery,Raipur_CG,11,989,9,440,1.12,1.0,1400,8033.0
+Terracotta & Pottery,Jaipur_RJ,3,877,6,460,1.12,1.0,1400,2849.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,13,1270,5,380,1.0,1.0,2400,7110.0
+Bamboo & Cane Craft,Varanasi_UP,4,696,5,430,1.08,1.0,1150,3086.0
+Dhokra Metal Craft,Varanasi_UP,14,1456,7,430,1.18,1.0,3200,11095.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,9,1531,3,440,1.16,1.0,2400,6165.0
+Dhokra Metal Craft,Raipur_CG,12,1468,3,440,1.18,1.14,3200,9164.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,9,519,3,520,1.0,1.0,2400,5443.0
+Dhokra Metal Craft,Raipur_CG,14,1264,5,440,1.18,1.0,3200,9708.0
+Bamboo & Cane Craft,Jaipur_RJ,12,1442,3,460,1.08,1.0,1150,7096.0
+Dhokra Metal Craft,Varanasi_UP,12,580,6,430,1.18,1.0,3200,7452.0
+Bamboo & Cane Craft,Jaipur_RJ,10,1003,8,460,1.08,1.14,1150,7458.0
+Wood Carving & Tribal Art,Rural_Cluster,9,247,8,380,1.0,1.0,2700,4475.0
+Bamboo & Cane Craft,Raipur_CG,10,912,4,440,1.08,1.0,1150,5406.0
+Dhokra Metal Craft,Jaipur_RJ,3,134,9,460,1.18,1.0,3200,3299.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,6,656,6,520,1.0,1.0,2400,4830.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,3,175,9,520,1.0,1.0,2400,2856.0
+Kosa & Handloom Silk,Jaipur_RJ,1,1014,6,460,1.22,1.14,4800,3643.0
+Terracotta & Pottery,Tier1_Metro,13,1761,9,520,1.0,1.0,1400,10335.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,3,543,7,430,1.16,1.0,2400,3255.0
+Terracotta & Pottery,Jaipur_RJ,7,1475,8,460,1.12,1.14,1400,6748.0
+Bamboo & Cane Craft,Bastar_CG,5,412,9,400,1.08,1.0,1150,3098.0
+Terracotta & Pottery,Jaipur_RJ,10,1258,4,460,1.12,1.0,1400,6504.0
+Terracotta & Pottery,Tier1_Metro,11,748,7,520,1.0,1.0,1400,7319.0
+Wood Carving & Tribal Art,Rural_Cluster,1,442,6,380,1.0,1.0,2700,1858.0
+Wood Carving & Tribal Art,Varanasi_UP,1,127,3,430,1.15,1.0,2700,1435.0
+Terracotta & Pottery,Bastar_CG,13,649,8,400,1.12,1.0,1400,6903.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,8,870,9,440,1.16,1.0,2400,6304.0
+Wood Carving & Tribal Art,Jaipur_RJ,14,100,6,460,1.15,1.0,2700,8670.0
+Dhokra Metal Craft,Varanasi_UP,14,590,4,430,1.18,1.14,3200,9447.0
+Terracotta & Pottery,Bastar_CG,6,1622,3,400,1.12,1.0,1400,4547.0
+Terracotta & Pottery,Bastar_CG,2,971,9,400,1.12,1.0,1400,3130.0
+Wood Carving & Tribal Art,Raipur_CG,6,972,10,440,1.15,1.0,2700,5485.0
+Bamboo & Cane Craft,Raipur_CG,14,855,4,440,1.08,1.0,1150,7471.0
+Kosa & Handloom Silk,Bastar_CG,13,1260,4,400,1.22,1.14,4800,9460.0
+Terracotta & Pottery,Bastar_CG,4,1192,9,400,1.12,1.14,1400,4720.0
+Wood Carving & Tribal Art,Rural_Cluster,4,1037,7,380,1.0,1.14,2700,4059.0
+Dhokra Metal Craft,Jaipur_RJ,14,867,3,460,1.18,1.0,3200,7665.0
+Kosa & Handloom Silk,Bastar_CG,4,298,4,400,1.22,1.14,4800,3817.0
+Kosa & Handloom Silk,Rural_Cluster,7,1792,8,380,1.0,1.0,4800,6399.0
+Dhokra Metal Craft,Rural_Cluster,2,764,7,380,1.0,1.0,3200,2650.0
+Kosa & Handloom Silk,Raipur_CG,7,1705,5,440,1.22,1.0,4800,7814.0
+Wood Carving & Tribal Art,Jaipur_RJ,6,1055,5,460,1.15,1.0,2700,4888.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,4,1138,3,400,1.16,1.0,2400,3529.0
+Terracotta & Pottery,Tier1_Metro,4,1642,8,520,1.0,1.0,1400,4784.0
+Dhokra Metal Craft,Tier1_Metro,8,1707,4,520,1.0,1.0,3200,6511.0
+Wood Carving & Tribal Art,Rural_Cluster,7,1278,4,380,1.0,1.14,2700,5067.0
+Dhokra Metal Craft,Tier1_Metro,8,1013,9,520,1.0,1.14,3200,7612.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,10,1506,5,460,1.16,1.0,2400,7494.0
+Kosa & Handloom Silk,Jaipur_RJ,11,1289,7,460,1.22,1.0,4800,9547.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,278,6,460,1.16,1.0,2400,5364.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,7,1004,7,460,1.16,1.14,2400,6892.0
+Kosa & Handloom Silk,Jaipur_RJ,11,486,8,460,1.22,1.0,4800,9285.0
+Terracotta & Pottery,Bastar_CG,11,563,8,400,1.12,1.0,1400,6576.0
+Bamboo & Cane Craft,Rural_Cluster,1,789,9,380,1.0,1.14,1150,1933.0
+Dhokra Metal Craft,Jaipur_RJ,1,1555,7,460,1.18,1.14,3200,4009.0
+Wood Carving & Tribal Art,Rural_Cluster,1,991,10,380,1.0,1.0,2700,2374.0
+Bamboo & Cane Craft,Raipur_CG,6,817,4,440,1.08,1.0,1150,3748.0
+Kosa & Handloom Silk,Jaipur_RJ,14,658,7,460,1.22,1.0,4800,10530.0
+Wood Carving & Tribal Art,Tier1_Metro,4,852,7,520,1.0,1.14,2700,4146.0
+Dhokra Metal Craft,Rural_Cluster,2,1205,8,380,1.0,1.0,3200,3168.0
+Wood Carving & Tribal Art,Bastar_CG,6,113,10,400,1.15,1.0,2700,3750.0
+Dhokra Metal Craft,Tier1_Metro,13,439,7,520,1.0,1.0,3200,7875.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,5,405,4,460,1.16,1.14,2400,3939.0
+Bamboo & Cane Craft,Varanasi_UP,5,1605,8,430,1.08,1.0,1150,4718.0
+Dhokra Metal Craft,Rural_Cluster,5,1783,10,380,1.0,1.0,3200,5255.0
+Dhokra Metal Craft,Jaipur_RJ,4,1465,10,460,1.18,1.0,3200,5741.0
+Bamboo & Cane Craft,Rural_Cluster,6,350,8,380,1.0,1.14,1150,3443.0
+Dhokra Metal Craft,Varanasi_UP,4,224,4,430,1.18,1.0,3200,3255.0
+Terracotta & Pottery,Bastar_CG,12,205,3,400,1.12,1.14,1400,5989.0
+Dhokra Metal Craft,Rural_Cluster,8,1141,8,380,1.0,1.0,3200,5470.0
+Wood Carving & Tribal Art,Jaipur_RJ,7,288,4,460,1.15,1.14,2700,5141.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,2,925,6,440,1.16,1.14,2400,3468.0
+Bamboo & Cane Craft,Raipur_CG,7,1419,8,440,1.08,1.0,1150,5741.0
+Kosa & Handloom Silk,Raipur_CG,11,1016,4,440,1.22,1.0,4800,7996.0
+Terracotta & Pottery,Varanasi_UP,10,1558,10,430,1.12,1.14,1400,9824.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,340,3,400,1.16,1.0,2400,3427.0
+Terracotta & Pottery,Tier1_Metro,9,1050,6,520,1.0,1.0,1400,6414.0
+Kosa & Handloom Silk,Tier1_Metro,13,1622,3,520,1.0,1.0,4800,8597.0
+Dhokra Metal Craft,Tier1_Metro,2,221,3,520,1.0,1.0,3200,2275.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,668,6,460,1.16,1.0,2400,5901.0
+Bamboo & Cane Craft,Rural_Cluster,1,919,7,380,1.0,1.0,1150,1863.0
+Kosa & Handloom Silk,Jaipur_RJ,13,1177,10,460,1.22,1.0,4800,11551.0
+Kosa & Handloom Silk,Bastar_CG,4,685,10,400,1.22,1.14,4800,5246.0
+Bamboo & Cane Craft,Tier1_Metro,13,551,8,520,1.0,1.0,1150,7803.0
+Terracotta & Pottery,Raipur_CG,10,533,7,440,1.12,1.0,1400,6268.0
+Dhokra Metal Craft,Varanasi_UP,1,537,9,430,1.18,1.0,3200,2583.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,2,1001,7,460,1.16,1.0,2400,3380.0
+Terracotta & Pottery,Bastar_CG,5,1253,9,400,1.12,1.14,1400,5595.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,13,1277,5,520,1.0,1.0,2400,8209.0
+Dhokra Metal Craft,Bastar_CG,7,682,5,400,1.18,1.14,3200,5440.0
+Bamboo & Cane Craft,Jaipur_RJ,7,716,3,460,1.08,1.0,1150,4075.0
+Bamboo & Cane Craft,Raipur_CG,2,769,6,440,1.08,1.0,1150,2225.0
+Kosa & Handloom Silk,Bastar_CG,1,173,5,400,1.22,1.0,4800,2440.0
+Dhokra Metal Craft,Tier1_Metro,11,383,3,520,1.0,1.0,3200,5810.0
+Terracotta & Pottery,Raipur_CG,10,229,9,440,1.12,1.0,1400,6111.0
+Kosa & Handloom Silk,Tier1_Metro,10,1092,5,520,1.0,1.0,4800,7795.0
+Wood Carving & Tribal Art,Jaipur_RJ,5,1289,3,460,1.15,1.0,2700,4422.0
+Dhokra Metal Craft,Rural_Cluster,9,1253,10,380,1.0,1.0,3200,6410.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,4,1460,3,400,1.16,1.0,2400,4029.0
+Wood Carving & Tribal Art,Raipur_CG,13,1012,4,440,1.15,1.14,2700,9421.0
+Kosa & Handloom Silk,Rural_Cluster,13,1205,3,380,1.0,1.0,4800,6611.0
+Bamboo & Cane Craft,Jaipur_RJ,4,1499,10,460,1.08,1.0,1150,4976.0
+Kosa & Handloom Silk,Bastar_CG,13,1202,5,400,1.22,1.0,4800,9244.0
+Kosa & Handloom Silk,Raipur_CG,9,1277,4,440,1.22,1.0,4800,7086.0
+Dhokra Metal Craft,Raipur_CG,5,1254,4,440,1.18,1.14,3200,4935.0
+Kosa & Handloom Silk,Bastar_CG,8,930,5,400,1.22,1.0,4800,6522.0
+Bamboo & Cane Craft,Jaipur_RJ,8,1431,6,460,1.08,1.14,1150,7047.0
+Wood Carving & Tribal Art,Tier1_Metro,14,1252,3,520,1.0,1.0,2700,8374.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,8,1280,9,440,1.16,1.0,2400,6798.0
+Dhokra Metal Craft,Tier1_Metro,11,765,4,520,1.0,1.0,3200,7000.0
+Dhokra Metal Craft,Raipur_CG,9,400,6,440,1.18,1.0,3200,6091.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,12,829,6,400,1.16,1.0,2400,7410.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,2,847,4,520,1.0,1.0,2400,2515.0
+Bamboo & Cane Craft,Bastar_CG,7,1202,7,400,1.08,1.14,1150,5495.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,2,695,6,430,1.16,1.14,2400,3142.0
+Bamboo & Cane Craft,Varanasi_UP,14,883,5,430,1.08,1.0,1150,7530.0
+Wood Carving & Tribal Art,Tier1_Metro,6,1315,6,520,1.0,1.0,2700,5612.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,3,1194,10,380,1.0,1.14,2400,3996.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,11,664,5,430,1.16,1.0,2400,7070.0
+Terracotta & Pottery,Raipur_CG,5,634,7,440,1.12,1.0,1400,3613.0
+Terracotta & Pottery,Rural_Cluster,6,628,4,380,1.0,1.0,1400,3201.0
+Bamboo & Cane Craft,Rural_Cluster,3,730,8,380,1.0,1.0,1150,2246.0
+Bamboo & Cane Craft,Varanasi_UP,6,463,9,430,1.08,1.0,1150,3990.0
+Terracotta & Pottery,Bastar_CG,12,970,6,400,1.12,1.0,1400,6649.0
+Bamboo & Cane Craft,Raipur_CG,5,313,3,440,1.08,1.14,1150,3036.0
+Dhokra Metal Craft,Raipur_CG,2,873,10,440,1.18,1.0,3200,3679.0
+Terracotta & Pottery,Bastar_CG,12,940,4,400,1.12,1.0,1400,6304.0
+Bamboo & Cane Craft,Rural_Cluster,4,1235,10,380,1.0,1.14,1150,3775.0
+Bamboo & Cane Craft,Varanasi_UP,13,1649,10,430,1.08,1.0,1150,9724.0
+Bamboo & Cane Craft,Tier1_Metro,7,1143,10,520,1.0,1.0,1150,5537.0
+Dhokra Metal Craft,Bastar_CG,10,1545,8,400,1.18,1.0,3200,7487.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,6,1780,5,440,1.16,1.14,2400,6405.0
+Terracotta & Pottery,Raipur_CG,8,811,7,440,1.12,1.0,1400,5177.0
+Dhokra Metal Craft,Jaipur_RJ,2,831,3,460,1.18,1.0,3200,3021.0
+Kosa & Handloom Silk,Raipur_CG,11,1709,8,440,1.22,1.14,4800,11553.0
+Dhokra Metal Craft,Jaipur_RJ,7,837,3,460,1.18,1.0,3200,5174.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,7,1355,3,380,1.0,1.14,2400,4687.0
+Bamboo & Cane Craft,Varanasi_UP,3,534,4,430,1.08,1.0,1150,2018.0
+Bamboo & Cane Craft,Tier1_Metro,14,187,10,520,1.0,1.0,1150,8603.0
+Kosa & Handloom Silk,Bastar_CG,11,293,4,400,1.22,1.0,4800,6603.0
+Dhokra Metal Craft,Rural_Cluster,8,1724,6,380,1.0,1.14,3200,6264.0
+Bamboo & Cane Craft,Jaipur_RJ,6,932,6,460,1.08,1.14,1150,5109.0
+Wood Carving & Tribal Art,Bastar_CG,8,1653,3,400,1.15,1.0,2700,5484.0
+Terracotta & Pottery,Raipur_CG,10,1378,6,440,1.12,1.14,1400,7613.0
+Kosa & Handloom Silk,Varanasi_UP,2,688,7,430,1.22,1.0,4800,3696.0
+Bamboo & Cane Craft,Raipur_CG,8,1327,10,440,1.08,1.0,1150,6390.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,9,643,9,430,1.16,1.14,2400,7750.0
+Wood Carving & Tribal Art,Bastar_CG,5,465,4,400,1.15,1.14,2700,3873.0
+Kosa & Handloom Silk,Jaipur_RJ,4,809,3,460,1.22,1.0,4800,4485.0
+Wood Carving & Tribal Art,Rural_Cluster,13,336,3,380,1.0,1.14,2700,5978.0
+Wood Carving & Tribal Art,Jaipur_RJ,14,288,9,460,1.15,1.0,2700,9291.0
+Dhokra Metal Craft,Varanasi_UP,12,1725,7,430,1.18,1.0,3200,9592.0
+Dhokra Metal Craft,Varanasi_UP,9,623,7,430,1.18,1.14,3200,7680.0
+Wood Carving & Tribal Art,Raipur_CG,14,1349,7,440,1.15,1.0,2700,9648.0
+Wood Carving & Tribal Art,Raipur_CG,14,1198,4,440,1.15,1.0,2700,7983.0
+Dhokra Metal Craft,Rural_Cluster,3,1709,5,380,1.0,1.14,3200,4462.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,13,1718,8,380,1.0,1.0,2400,8574.0
+Dhokra Metal Craft,Varanasi_UP,2,1543,7,430,1.18,1.0,3200,4405.0
+Wood Carving & Tribal Art,Rural_Cluster,2,1038,5,380,1.0,1.0,2700,2562.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,13,1548,9,430,1.16,1.0,2400,10577.0
+Kosa & Handloom Silk,Raipur_CG,12,1751,7,440,1.22,1.0,4800,11182.0
+Dhokra Metal Craft,Jaipur_RJ,11,955,5,460,1.18,1.0,3200,7348.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,1,1569,8,440,1.16,1.14,2400,3912.0
+Kosa & Handloom Silk,Raipur_CG,1,571,10,440,1.22,1.14,4800,3308.0
+Terracotta & Pottery,Jaipur_RJ,2,788,6,460,1.12,1.0,1400,2673.0
+Terracotta & Pottery,Varanasi_UP,14,1103,8,430,1.12,1.14,1400,10418.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,1237,3,400,1.16,1.14,2400,4788.0
+Wood Carving & Tribal Art,Varanasi_UP,12,1538,4,430,1.15,1.14,2700,8742.0
+Wood Carving & Tribal Art,Varanasi_UP,7,767,10,430,1.15,1.0,2700,5951.0
+Wood Carving & Tribal Art,Jaipur_RJ,14,144,4,460,1.15,1.0,2700,6915.0
+Kosa & Handloom Silk,Varanasi_UP,4,919,5,430,1.22,1.0,4800,4595.0
+Kosa & Handloom Silk,Jaipur_RJ,2,424,9,460,1.22,1.14,4800,3703.0
+Bamboo & Cane Craft,Bastar_CG,13,330,7,400,1.08,1.0,1150,6209.0
+Terracotta & Pottery,Rural_Cluster,8,1316,6,380,1.0,1.14,1400,5188.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,14,148,3,380,1.0,1.0,2400,5523.0
+Terracotta & Pottery,Jaipur_RJ,4,1429,3,460,1.12,1.0,1400,3719.0
+Dhokra Metal Craft,Tier1_Metro,13,1678,3,520,1.0,1.14,3200,9303.0
+Dhokra Metal Craft,Bastar_CG,7,318,7,400,1.18,1.14,3200,4985.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,4,585,8,430,1.16,1.14,2400,4116.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,13,118,10,400,1.16,1.14,2400,8181.0
+Wood Carving & Tribal Art,Jaipur_RJ,10,376,5,460,1.15,1.0,2700,6167.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,7,1559,6,380,1.0,1.0,2400,4835.0
+Wood Carving & Tribal Art,Tier1_Metro,3,472,7,520,1.0,1.0,2700,3120.0
+Terracotta & Pottery,Jaipur_RJ,8,1241,9,460,1.12,1.0,1400,7158.0
+Terracotta & Pottery,Varanasi_UP,9,1140,5,430,1.12,1.0,1400,6309.0
+Dhokra Metal Craft,Rural_Cluster,7,1589,7,380,1.0,1.14,3200,6113.0
+Dhokra Metal Craft,Varanasi_UP,8,528,6,430,1.18,1.14,3200,6332.0
+Wood Carving & Tribal Art,Bastar_CG,4,406,10,400,1.15,1.14,2700,4233.0
+Bamboo & Cane Craft,Raipur_CG,9,822,6,440,1.08,1.0,1150,5527.0
+Dhokra Metal Craft,Bastar_CG,12,1388,9,400,1.18,1.0,3200,9508.0
+Kosa & Handloom Silk,Rural_Cluster,3,894,5,380,1.0,1.0,4800,3472.0
+Wood Carving & Tribal Art,Bastar_CG,10,1170,5,400,1.15,1.0,2700,6719.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,6,1269,10,430,1.16,1.14,2400,7247.0
+Dhokra Metal Craft,Rural_Cluster,2,527,10,380,1.0,1.0,3200,2698.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,7,1031,4,440,1.16,1.0,2400,5260.0
+Dhokra Metal Craft,Tier1_Metro,8,1378,5,520,1.0,1.14,3200,6597.0
+Wood Carving & Tribal Art,Tier1_Metro,12,257,6,520,1.0,1.14,2700,8340.0
+Bamboo & Cane Craft,Jaipur_RJ,14,1273,9,460,1.08,1.0,1150,9537.0
+Kosa & Handloom Silk,Rural_Cluster,6,1434,6,380,1.0,1.14,4800,6001.0
+Kosa & Handloom Silk,Raipur_CG,5,1743,4,440,1.22,1.0,4800,5877.0
+Kosa & Handloom Silk,Varanasi_UP,7,757,4,430,1.22,1.0,4800,5825.0
+Kosa & Handloom Silk,Tier1_Metro,9,1602,5,520,1.0,1.0,4800,7577.0
+Bamboo & Cane Craft,Tier1_Metro,2,1609,7,520,1.0,1.14,1150,3734.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,2,1480,4,520,1.0,1.0,2400,3158.0
+Terracotta & Pottery,Tier1_Metro,6,173,5,520,1.0,1.0,1400,3435.0
+Wood Carving & Tribal Art,Raipur_CG,4,1261,9,440,1.15,1.14,2700,5245.0
+Kosa & Handloom Silk,Tier1_Metro,3,424,10,520,1.0,1.14,4800,4193.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,8,1054,5,430,1.16,1.14,2400,6096.0
+Dhokra Metal Craft,Rural_Cluster,8,787,8,380,1.0,1.0,3200,5139.0
+Wood Carving & Tribal Art,Varanasi_UP,14,945,7,430,1.15,1.0,2700,8455.0
+Dhokra Metal Craft,Varanasi_UP,8,1364,5,430,1.18,1.0,3200,6334.0
+Terracotta & Pottery,Raipur_CG,6,1490,5,440,1.12,1.14,1400,5484.0
+Terracotta & Pottery,Varanasi_UP,10,495,10,430,1.12,1.14,1400,7634.0
+Wood Carving & Tribal Art,Raipur_CG,1,1180,10,440,1.15,1.0,2700,3143.0
+Wood Carving & Tribal Art,Jaipur_RJ,3,616,4,460,1.15,1.0,2700,3047.0
+Bamboo & Cane Craft,Varanasi_UP,2,1702,10,430,1.08,1.0,1150,3962.0
+Wood Carving & Tribal Art,Rural_Cluster,2,1193,3,380,1.0,1.0,2700,2636.0
+Dhokra Metal Craft,Varanasi_UP,7,1674,3,430,1.18,1.0,3200,5956.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,7,1214,8,380,1.0,1.14,2400,5834.0
+Dhokra Metal Craft,Varanasi_UP,1,1707,7,430,1.18,1.14,3200,4480.0
+Dhokra Metal Craft,Tier1_Metro,2,1362,7,520,1.0,1.0,3200,3620.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,10,1714,4,460,1.16,1.0,2400,7532.0
+Kosa & Handloom Silk,Raipur_CG,7,324,10,440,1.22,1.0,4800,5758.0
+Terracotta & Pottery,Rural_Cluster,7,1215,7,380,1.0,1.0,1400,5016.0
+Kosa & Handloom Silk,Rural_Cluster,11,1437,7,380,1.0,1.0,4800,7251.0
+Wood Carving & Tribal Art,Jaipur_RJ,6,552,9,460,1.15,1.14,2700,5692.0
+Wood Carving & Tribal Art,Raipur_CG,3,1699,7,440,1.15,1.14,2700,5169.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,163,7,460,1.16,1.14,2400,5634.0
+Dhokra Metal Craft,Tier1_Metro,10,1326,5,520,1.0,1.0,3200,6691.0
+Bamboo & Cane Craft,Jaipur_RJ,4,1234,4,460,1.08,1.14,1150,3664.0
+Terracotta & Pottery,Jaipur_RJ,12,714,3,460,1.12,1.14,1400,7004.0
+Terracotta & Pottery,Raipur_CG,2,225,6,440,1.12,1.0,1400,1713.0
+Bamboo & Cane Craft,Rural_Cluster,9,357,4,380,1.0,1.0,1150,3752.0
+Kosa & Handloom Silk,Varanasi_UP,6,184,3,430,1.22,1.0,4800,4598.0
+Dhokra Metal Craft,Jaipur_RJ,10,1512,8,460,1.18,1.14,3200,10428.0
+Kosa & Handloom Silk,Raipur_CG,8,1384,8,440,1.22,1.14,4800,9449.0
+Dhokra Metal Craft,Rural_Cluster,3,1047,9,380,1.0,1.14,3200,3715.0
+Wood Carving & Tribal Art,Raipur_CG,6,254,8,440,1.15,1.0,2700,4024.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,6,1297,3,460,1.16,1.14,2400,5546.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,8,470,8,380,1.0,1.14,2400,4751.0
+Kosa & Handloom Silk,Raipur_CG,14,130,4,440,1.22,1.0,4800,8025.0
+Bamboo & Cane Craft,Raipur_CG,13,601,10,440,1.08,1.14,1150,9393.0
+Wood Carving & Tribal Art,Tier1_Metro,5,1465,9,520,1.0,1.0,2700,5632.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,1,1628,3,380,1.0,1.0,2400,2622.0
+Terracotta & Pottery,Rural_Cluster,10,1664,5,380,1.0,1.0,1400,5882.0
+Wood Carving & Tribal Art,Rural_Cluster,10,1770,4,380,1.0,1.0,2700,6209.0
+Terracotta & Pottery,Raipur_CG,14,933,3,440,1.12,1.14,1400,7870.0
+Bamboo & Cane Craft,Varanasi_UP,9,1248,5,430,1.08,1.0,1150,5646.0
+Bamboo & Cane Craft,Tier1_Metro,5,1701,4,520,1.0,1.14,1150,5001.0
+Kosa & Handloom Silk,Bastar_CG,1,1332,5,400,1.22,1.14,4800,4130.0
+Kosa & Handloom Silk,Rural_Cluster,14,204,9,380,1.0,1.14,4800,8312.0
+Kosa & Handloom Silk,Rural_Cluster,10,944,3,380,1.0,1.0,4800,5837.0
+Bamboo & Cane Craft,Jaipur_RJ,8,639,6,460,1.08,1.14,1150,5685.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,2,804,9,400,1.16,1.0,2400,2894.0
+Kosa & Handloom Silk,Jaipur_RJ,5,1606,7,460,1.22,1.14,4800,7009.0
+Bamboo & Cane Craft,Raipur_CG,7,1066,5,440,1.08,1.0,1150,4400.0
+Kosa & Handloom Silk,Bastar_CG,10,260,7,400,1.22,1.14,4800,7824.0
+Kosa & Handloom Silk,Varanasi_UP,2,1752,6,430,1.22,1.0,4800,4655.0
+Wood Carving & Tribal Art,Bastar_CG,12,155,5,400,1.15,1.0,2700,6120.0
+Dhokra Metal Craft,Rural_Cluster,3,1657,10,380,1.0,1.0,3200,4394.0
+Kosa & Handloom Silk,Rural_Cluster,5,1479,6,380,1.0,1.0,4800,4915.0
+Dhokra Metal Craft,Raipur_CG,6,165,7,440,1.18,1.0,3200,4368.0
+Kosa & Handloom Silk,Rural_Cluster,6,701,7,380,1.0,1.0,4800,4494.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,5,613,6,400,1.16,1.0,2400,3851.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,1,1222,4,460,1.16,1.14,2400,3081.0
+Terracotta & Pottery,Bastar_CG,3,1246,7,400,1.12,1.14,1400,3796.0
+Kosa & Handloom Silk,Varanasi_UP,13,1514,8,430,1.22,1.0,4800,11477.0
+Bamboo & Cane Craft,Raipur_CG,11,1192,7,440,1.08,1.0,1150,6841.0
+Dhokra Metal Craft,Bastar_CG,4,199,4,400,1.18,1.0,3200,3025.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,731,4,400,1.16,1.0,2400,4237.0
+Wood Carving & Tribal Art,Varanasi_UP,2,853,3,430,1.15,1.0,2700,2779.0
+Kosa & Handloom Silk,Raipur_CG,9,1436,8,440,1.22,1.0,4800,8820.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,12,1175,7,400,1.16,1.0,2400,8217.0
+Wood Carving & Tribal Art,Rural_Cluster,9,333,10,380,1.0,1.14,2700,6210.0
+Terracotta & Pottery,Tier1_Metro,2,303,7,520,1.0,1.14,1400,2017.0
+Bamboo & Cane Craft,Raipur_CG,14,614,8,440,1.08,1.0,1150,8066.0
+Terracotta & Pottery,Rural_Cluster,7,1423,5,380,1.0,1.14,1400,4930.0
+Dhokra Metal Craft,Varanasi_UP,12,146,4,430,1.18,1.0,3200,6527.0
+Wood Carving & Tribal Art,Tier1_Metro,5,157,4,520,1.0,1.14,2700,3567.0
+Dhokra Metal Craft,Raipur_CG,5,385,9,440,1.18,1.0,3200,4637.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,13,1638,4,460,1.16,1.0,2400,8604.0
+Kosa & Handloom Silk,Raipur_CG,1,909,6,440,1.22,1.0,4800,3500.0
+Bamboo & Cane Craft,Jaipur_RJ,7,1477,4,460,1.08,1.0,1150,4905.0
+Kosa & Handloom Silk,Tier1_Metro,5,1749,5,520,1.0,1.14,4800,6412.0
+Kosa & Handloom Silk,Tier1_Metro,8,1733,3,520,1.0,1.14,4800,7578.0
+Terracotta & Pottery,Rural_Cluster,11,818,10,380,1.0,1.0,1400,6091.0
+Terracotta & Pottery,Raipur_CG,11,801,5,440,1.12,1.0,1400,6400.0
+Dhokra Metal Craft,Bastar_CG,3,328,5,400,1.18,1.0,3200,2806.0
+Bamboo & Cane Craft,Varanasi_UP,8,1768,4,430,1.08,1.0,1150,5409.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,12,772,5,380,1.0,1.0,2400,6128.0
+Terracotta & Pottery,Raipur_CG,2,216,8,440,1.12,1.14,1400,2014.0
+Dhokra Metal Craft,Bastar_CG,6,1492,8,400,1.18,1.14,3200,7510.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,8,757,5,440,1.16,1.14,2400,5942.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,10,169,8,380,1.0,1.0,2400,5069.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,7,1775,5,440,1.16,1.0,2400,6235.0
+Bamboo & Cane Craft,Bastar_CG,13,824,3,400,1.08,1.0,1150,6093.0
+Terracotta & Pottery,Bastar_CG,4,997,3,400,1.12,1.14,1400,3310.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,10,731,5,460,1.16,1.14,2400,7963.0
+Dhokra Metal Craft,Jaipur_RJ,3,1333,9,460,1.18,1.0,3200,4835.0
+Dhokra Metal Craft,Jaipur_RJ,12,1698,7,460,1.18,1.14,3200,10267.0
+Wood Carving & Tribal Art,Bastar_CG,2,1416,7,400,1.15,1.0,2700,3758.0
+Terracotta & Pottery,Raipur_CG,14,128,5,440,1.12,1.0,1400,6472.0
+Kosa & Handloom Silk,Raipur_CG,9,398,10,440,1.22,1.14,4800,8601.0
+Bamboo & Cane Craft,Raipur_CG,6,1666,5,440,1.08,1.0,1150,4898.0
+Wood Carving & Tribal Art,Jaipur_RJ,10,1457,10,460,1.15,1.0,2700,9182.0
+Bamboo & Cane Craft,Raipur_CG,9,905,9,440,1.08,1.0,1150,6136.0
+Dhokra Metal Craft,Rural_Cluster,11,1485,5,380,1.0,1.0,3200,6468.0
+Wood Carving & Tribal Art,Bastar_CG,11,779,4,400,1.15,1.14,2700,7451.0
+Kosa & Handloom Silk,Varanasi_UP,2,1371,8,430,1.22,1.14,4800,5022.0
+Terracotta & Pottery,Rural_Cluster,3,1470,3,380,1.0,1.0,1400,2956.0
+Dhokra Metal Craft,Tier1_Metro,14,214,6,520,1.0,1.0,3200,7690.0
+Dhokra Metal Craft,Jaipur_RJ,3,1125,9,460,1.18,1.0,3200,4569.0
+Bamboo & Cane Craft,Rural_Cluster,4,1040,7,380,1.0,1.0,1150,2984.0
+Bamboo & Cane Craft,Bastar_CG,2,1756,10,400,1.08,1.0,1150,3799.0
+Dhokra Metal Craft,Bastar_CG,3,836,3,400,1.18,1.0,3200,3262.0
+Dhokra Metal Craft,Bastar_CG,3,1414,6,400,1.18,1.14,3200,4966.0
+Bamboo & Cane Craft,Tier1_Metro,7,1328,3,520,1.0,1.14,1150,4488.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,8,315,4,400,1.16,1.14,2400,4958.0
+Bamboo & Cane Craft,Varanasi_UP,12,816,7,430,1.08,1.0,1150,6939.0
+Kosa & Handloom Silk,Bastar_CG,8,1621,9,400,1.22,1.0,4800,8349.0
+Wood Carving & Tribal Art,Varanasi_UP,11,1091,4,430,1.15,1.14,2700,7649.0
+Dhokra Metal Craft,Raipur_CG,8,1077,3,440,1.18,1.0,3200,5617.0
+Kosa & Handloom Silk,Raipur_CG,5,159,9,440,1.22,1.0,4800,4952.0
+Wood Carving & Tribal Art,Tier1_Metro,1,1276,7,520,1.0,1.14,2700,3081.0
+Dhokra Metal Craft,Jaipur_RJ,1,285,8,460,1.18,1.0,3200,2219.0
+Wood Carving & Tribal Art,Raipur_CG,7,545,8,440,1.15,1.0,2700,5495.0
+Bamboo & Cane Craft,Bastar_CG,1,116,5,400,1.08,1.0,1150,922.0
+Kosa & Handloom Silk,Bastar_CG,4,941,4,400,1.22,1.14,4800,5180.0
+Terracotta & Pottery,Jaipur_RJ,10,544,7,460,1.12,1.0,1400,6566.0
+Terracotta & Pottery,Raipur_CG,8,623,5,440,1.12,1.0,1400,4620.0
+Bamboo & Cane Craft,Jaipur_RJ,4,1107,3,460,1.08,1.0,1150,2888.0
+Dhokra Metal Craft,Raipur_CG,9,1727,7,440,1.18,1.0,3200,8147.0
+Terracotta & Pottery,Varanasi_UP,6,202,3,430,1.12,1.14,1400,3287.0
+Dhokra Metal Craft,Tier1_Metro,10,1305,9,520,1.0,1.0,3200,9341.0
+Bamboo & Cane Craft,Jaipur_RJ,13,717,10,460,1.08,1.0,1150,8398.0
+Wood Carving & Tribal Art,Tier1_Metro,11,124,5,520,1.0,1.14,2700,7041.0
+Bamboo & Cane Craft,Tier1_Metro,2,1160,4,520,1.0,1.0,1150,2374.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,6,1590,8,440,1.16,1.0,2400,6253.0
+Terracotta & Pottery,Jaipur_RJ,11,532,10,460,1.12,1.0,1400,7532.0
+Terracotta & Pottery,Rural_Cluster,5,562,7,380,1.0,1.0,1400,3106.0
+Bamboo & Cane Craft,Varanasi_UP,2,183,9,430,1.08,1.0,1150,1610.0
+Terracotta & Pottery,Raipur_CG,3,942,6,440,1.12,1.0,1400,3145.0
+Terracotta & Pottery,Rural_Cluster,11,1352,4,380,1.0,1.0,1400,4854.0
+Terracotta & Pottery,Bastar_CG,3,494,9,400,1.12,1.14,1400,3317.0
+Terracotta & Pottery,Rural_Cluster,7,1201,10,380,1.0,1.0,1400,4969.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,12,471,6,380,1.0,1.0,2400,5833.0
+Wood Carving & Tribal Art,Rural_Cluster,4,945,10,380,1.0,1.0,2700,3804.0
+Terracotta & Pottery,Raipur_CG,6,313,8,440,1.12,1.0,1400,4047.0
+Kosa & Handloom Silk,Varanasi_UP,13,869,9,430,1.22,1.0,4800,10254.0
+Kosa & Handloom Silk,Tier1_Metro,12,1281,3,520,1.0,1.0,4800,7892.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,1385,5,460,1.16,1.0,2400,6711.0
+Bamboo & Cane Craft,Jaipur_RJ,6,857,10,460,1.08,1.0,1150,5277.0
+Kosa & Handloom Silk,Varanasi_UP,9,1486,6,430,1.22,1.0,4800,7486.0
+Kosa & Handloom Silk,Rural_Cluster,10,478,4,380,1.0,1.0,4800,5474.0
+Kosa & Handloom Silk,Raipur_CG,6,1360,7,440,1.22,1.0,4800,7105.0
+Dhokra Metal Craft,Raipur_CG,14,427,9,440,1.18,1.0,3200,9402.0
+Bamboo & Cane Craft,Bastar_CG,5,837,9,400,1.08,1.14,1150,4255.0
+Kosa & Handloom Silk,Tier1_Metro,5,853,8,520,1.0,1.14,4800,5598.0
+Bamboo & Cane Craft,Varanasi_UP,9,1130,8,430,1.08,1.14,1150,6622.0
+Bamboo & Cane Craft,Raipur_CG,4,1718,10,440,1.08,1.0,1150,4973.0
+Terracotta & Pottery,Rural_Cluster,7,465,4,380,1.0,1.0,1400,3403.0
+Bamboo & Cane Craft,Bastar_CG,13,333,3,400,1.08,1.14,1150,6272.0
+Kosa & Handloom Silk,Bastar_CG,3,1162,9,400,1.22,1.0,4800,4812.0
+Kosa & Handloom Silk,Jaipur_RJ,3,383,7,460,1.22,1.14,4800,4128.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,10,438,8,400,1.16,1.0,2400,6264.0
+Bamboo & Cane Craft,Varanasi_UP,6,1742,5,430,1.08,1.0,1150,4571.0
+Wood Carving & Tribal Art,Jaipur_RJ,14,1381,3,460,1.15,1.14,2700,10129.0
+Kosa & Handloom Silk,Rural_Cluster,6,543,3,380,1.0,1.14,4800,4346.0
+Kosa & Handloom Silk,Rural_Cluster,3,1603,5,380,1.0,1.0,4800,4134.0
+Wood Carving & Tribal Art,Bastar_CG,14,875,3,400,1.15,1.0,2700,6512.0
+Dhokra Metal Craft,Jaipur_RJ,2,1322,9,460,1.18,1.0,3200,4139.0
+Bamboo & Cane Craft,Tier1_Metro,6,1774,10,520,1.0,1.0,1150,6142.0
+Terracotta & Pottery,Jaipur_RJ,1,1425,8,460,1.12,1.0,1400,2957.0
+Bamboo & Cane Craft,Varanasi_UP,1,1284,9,430,1.08,1.0,1150,2606.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,9,543,3,380,1.0,1.14,2400,5024.0
+Bamboo & Cane Craft,Tier1_Metro,8,214,3,520,1.0,1.0,1150,4201.0
+Kosa & Handloom Silk,Bastar_CG,14,1515,4,400,1.22,1.14,4800,10989.0
+Bamboo & Cane Craft,Bastar_CG,1,276,3,400,1.08,1.14,1150,1063.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,7,152,4,430,1.16,1.0,2400,4006.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,13,897,6,430,1.16,1.0,2400,7827.0
+Wood Carving & Tribal Art,Varanasi_UP,6,1358,9,430,1.15,1.0,2700,6082.0
+Terracotta & Pottery,Bastar_CG,10,1216,10,400,1.12,1.0,1400,7301.0
+Kosa & Handloom Silk,Jaipur_RJ,7,330,4,460,1.22,1.0,4800,5620.0
+Bamboo & Cane Craft,Rural_Cluster,13,538,9,380,1.0,1.0,1150,6436.0
+Kosa & Handloom Silk,Bastar_CG,2,240,9,400,1.22,1.0,4800,2843.0
+Dhokra Metal Craft,Varanasi_UP,10,1263,7,430,1.18,1.0,3200,8298.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,9,1456,9,460,1.16,1.14,2400,9333.0
+Kosa & Handloom Silk,Jaipur_RJ,9,1494,5,460,1.22,1.14,4800,9389.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,14,1232,9,460,1.16,1.0,2400,10384.0
+Dhokra Metal Craft,Varanasi_UP,11,1412,8,430,1.18,1.0,3200,9026.0
+Kosa & Handloom Silk,Tier1_Metro,14,1790,10,520,1.0,1.0,4800,12131.0
+Terracotta & Pottery,Tier1_Metro,13,1237,6,520,1.0,1.14,1400,9809.0
+Terracotta & Pottery,Tier1_Metro,6,1304,7,520,1.0,1.14,1400,5778.0
+Kosa & Handloom Silk,Bastar_CG,9,787,6,400,1.22,1.14,4800,7483.0
+Bamboo & Cane Craft,Tier1_Metro,10,335,5,520,1.0,1.0,1150,5723.0
+Dhokra Metal Craft,Tier1_Metro,5,309,10,520,1.0,1.14,3200,4558.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,4,1209,9,440,1.16,1.14,2400,5400.0
+Kosa & Handloom Silk,Tier1_Metro,11,232,9,520,1.0,1.0,4800,8588.0
+Terracotta & Pottery,Rural_Cluster,6,1169,8,380,1.0,1.0,1400,4508.0
+Terracotta & Pottery,Tier1_Metro,8,260,9,520,1.0,1.0,1400,5930.0
+Kosa & Handloom Silk,Raipur_CG,2,1066,4,440,1.22,1.0,4800,3963.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,13,1766,5,400,1.16,1.0,2400,8392.0
+Bamboo & Cane Craft,Bastar_CG,12,227,6,400,1.08,1.14,1150,6357.0
+Bamboo & Cane Craft,Rural_Cluster,12,318,5,380,1.0,1.0,1150,5036.0
+Dhokra Metal Craft,Varanasi_UP,7,1795,4,430,1.18,1.0,3200,6382.0
+Bamboo & Cane Craft,Varanasi_UP,5,1780,10,430,1.08,1.0,1150,5839.0
+Kosa & Handloom Silk,Rural_Cluster,8,422,4,380,1.0,1.0,4800,4807.0
+Bamboo & Cane Craft,Varanasi_UP,11,1418,10,430,1.08,1.14,1150,9213.0
+Kosa & Handloom Silk,Rural_Cluster,10,938,8,380,1.0,1.0,4800,6418.0
+Kosa & Handloom Silk,Bastar_CG,7,738,4,400,1.22,1.14,4800,5469.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,7,989,10,400,1.16,1.0,2400,6073.0
+Terracotta & Pottery,Raipur_CG,5,443,10,440,1.12,1.14,1400,4462.0
+Bamboo & Cane Craft,Jaipur_RJ,13,1251,8,460,1.08,1.14,1150,9721.0
+Terracotta & Pottery,Rural_Cluster,2,1120,10,380,1.0,1.14,1400,3108.0
+Wood Carving & Tribal Art,Bastar_CG,5,1039,6,400,1.15,1.14,2700,5173.0
+Bamboo & Cane Craft,Bastar_CG,14,814,10,400,1.08,1.0,1150,8244.0
+Bamboo & Cane Craft,Bastar_CG,7,425,5,400,1.08,1.14,1150,4503.0
+Bamboo & Cane Craft,Tier1_Metro,1,264,7,520,1.0,1.0,1150,1173.0
+Dhokra Metal Craft,Bastar_CG,1,1250,3,400,1.18,1.0,3200,2881.0
+Dhokra Metal Craft,Bastar_CG,13,968,6,400,1.18,1.0,3200,7835.0
+Terracotta & Pottery,Raipur_CG,9,817,9,440,1.12,1.0,1400,6222.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,1799,8,380,1.0,1.14,2400,4997.0
+Wood Carving & Tribal Art,Tier1_Metro,5,700,4,520,1.0,1.0,2700,3976.0
+Kosa & Handloom Silk,Rural_Cluster,12,619,10,380,1.0,1.0,4800,7716.0
+Terracotta & Pottery,Bastar_CG,2,1202,8,400,1.12,1.0,1400,2964.0
+Terracotta & Pottery,Rural_Cluster,1,829,7,380,1.0,1.14,1400,2201.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,3,1442,3,460,1.16,1.14,2400,4039.0
+Kosa & Handloom Silk,Varanasi_UP,13,1038,3,430,1.22,1.0,4800,8310.0
+Wood Carving & Tribal Art,Bastar_CG,7,547,5,400,1.15,1.0,2700,4194.0
+Kosa & Handloom Silk,Tier1_Metro,4,315,6,520,1.0,1.0,4800,3972.0
+Terracotta & Pottery,Raipur_CG,9,848,7,440,1.12,1.0,1400,6139.0
+Dhokra Metal Craft,Rural_Cluster,10,150,10,380,1.0,1.0,3200,5508.0
+Wood Carving & Tribal Art,Tier1_Metro,6,838,4,520,1.0,1.14,2700,4932.0
+Bamboo & Cane Craft,Jaipur_RJ,4,1687,9,460,1.08,1.14,1150,5277.0
+Bamboo & Cane Craft,Bastar_CG,10,283,10,400,1.08,1.0,1150,5333.0
+Bamboo & Cane Craft,Varanasi_UP,2,1353,9,430,1.08,1.14,1150,3701.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,930,5,460,1.16,1.0,2400,6086.0
+Bamboo & Cane Craft,Raipur_CG,4,1740,10,440,1.08,1.0,1150,5051.0
+Kosa & Handloom Silk,Raipur_CG,11,1789,9,440,1.22,1.0,4800,10551.0
+Bamboo & Cane Craft,Bastar_CG,3,1336,6,400,1.08,1.14,1150,3463.0
+Wood Carving & Tribal Art,Varanasi_UP,12,889,6,430,1.15,1.0,2700,7618.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,5,123,6,430,1.16,1.0,2400,3253.0
+Wood Carving & Tribal Art,Rural_Cluster,8,537,4,380,1.0,1.0,2700,4222.0
+Terracotta & Pottery,Jaipur_RJ,3,1664,7,460,1.12,1.0,1400,4174.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,12,1408,5,440,1.16,1.0,2400,8356.0
+Kosa & Handloom Silk,Raipur_CG,14,1539,10,440,1.22,1.0,4800,12890.0
+Bamboo & Cane Craft,Jaipur_RJ,1,155,7,460,1.08,1.14,1150,1216.0
+Kosa & Handloom Silk,Jaipur_RJ,9,1657,4,460,1.22,1.14,4800,8190.0
+Dhokra Metal Craft,Bastar_CG,4,1688,5,400,1.18,1.14,3200,5657.0
+Kosa & Handloom Silk,Raipur_CG,11,1290,3,440,1.22,1.0,4800,7616.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,1,470,7,380,1.0,1.14,2400,2011.0
+Wood Carving & Tribal Art,Rural_Cluster,1,1701,8,380,1.0,1.0,2700,3429.0
+Kosa & Handloom Silk,Raipur_CG,11,604,4,440,1.22,1.0,4800,7585.0
+Dhokra Metal Craft,Rural_Cluster,2,864,5,380,1.0,1.0,3200,2574.0
+Dhokra Metal Craft,Raipur_CG,3,1324,6,440,1.18,1.0,3200,4420.0
+Bamboo & Cane Craft,Rural_Cluster,9,799,9,380,1.0,1.14,1150,5947.0
+Dhokra Metal Craft,Rural_Cluster,9,1629,8,380,1.0,1.0,3200,6300.0
+Kosa & Handloom Silk,Bastar_CG,11,1740,8,400,1.22,1.0,4800,9890.0
+Dhokra Metal Craft,Varanasi_UP,13,324,5,430,1.18,1.0,3200,8298.0
+Kosa & Handloom Silk,Varanasi_UP,5,1643,4,430,1.22,1.0,4800,6304.0
+Wood Carving & Tribal Art,Varanasi_UP,4,545,10,430,1.15,1.0,2700,3699.0
+Bamboo & Cane Craft,Rural_Cluster,13,738,4,380,1.0,1.0,1150,5272.0
+Bamboo & Cane Craft,Bastar_CG,7,376,3,400,1.08,1.0,1150,3167.0
+Dhokra Metal Craft,Raipur_CG,12,209,10,440,1.18,1.0,3200,7936.0
+Wood Carving & Tribal Art,Raipur_CG,6,1188,7,440,1.15,1.0,2700,5099.0
+Wood Carving & Tribal Art,Jaipur_RJ,1,1492,4,460,1.15,1.0,2700,3064.0
+Terracotta & Pottery,Varanasi_UP,10,1091,5,430,1.12,1.0,1400,6364.0
+Dhokra Metal Craft,Raipur_CG,8,1016,7,440,1.18,1.0,3200,6823.0
+Wood Carving & Tribal Art,Tier1_Metro,14,1602,3,520,1.0,1.14,2700,9509.0
+Dhokra Metal Craft,Varanasi_UP,4,1177,4,430,1.18,1.14,3200,5005.0
+Dhokra Metal Craft,Tier1_Metro,7,1583,4,520,1.0,1.14,3200,6745.0
+Bamboo & Cane Craft,Raipur_CG,14,1667,4,440,1.08,1.0,1150,8222.0
+Dhokra Metal Craft,Rural_Cluster,8,531,4,380,1.0,1.0,3200,4452.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,2,246,9,380,1.0,1.0,2400,1981.0
+Terracotta & Pottery,Rural_Cluster,11,1399,6,380,1.0,1.14,1400,6746.0
+Kosa & Handloom Silk,Rural_Cluster,13,1449,8,380,1.0,1.14,4800,8926.0
+Dhokra Metal Craft,Jaipur_RJ,13,1302,3,460,1.18,1.0,3200,9039.0
+Dhokra Metal Craft,Jaipur_RJ,7,765,10,460,1.18,1.14,3200,7410.0
+Terracotta & Pottery,Raipur_CG,10,780,6,440,1.12,1.0,1400,5866.0
+Dhokra Metal Craft,Varanasi_UP,13,1542,3,430,1.18,1.0,3200,8126.0
+Wood Carving & Tribal Art,Tier1_Metro,2,555,5,520,1.0,1.0,2700,2413.0
+Bamboo & Cane Craft,Varanasi_UP,5,204,3,430,1.08,1.0,1150,2458.0
+Kosa & Handloom Silk,Jaipur_RJ,14,237,9,460,1.22,1.14,4800,11553.0
+Terracotta & Pottery,Raipur_CG,11,1376,3,440,1.12,1.14,1400,6898.0
+Bamboo & Cane Craft,Varanasi_UP,14,517,3,430,1.08,1.14,1150,6846.0
+Wood Carving & Tribal Art,Jaipur_RJ,8,1259,9,460,1.15,1.14,2700,7608.0
+Kosa & Handloom Silk,Tier1_Metro,1,327,3,520,1.0,1.14,4800,2595.0
+Kosa & Handloom Silk,Rural_Cluster,11,1399,5,380,1.0,1.0,4800,6826.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,4,747,6,460,1.16,1.14,2400,4000.0
+Kosa & Handloom Silk,Jaipur_RJ,5,535,6,460,1.22,1.14,4800,5967.0
+Terracotta & Pottery,Rural_Cluster,13,1196,6,380,1.0,1.0,1400,6861.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,13,650,6,440,1.16,1.0,2400,8530.0
+Terracotta & Pottery,Bastar_CG,13,1200,4,400,1.12,1.0,1400,7351.0
+Wood Carving & Tribal Art,Raipur_CG,9,241,7,440,1.15,1.0,2700,5663.0
+Dhokra Metal Craft,Bastar_CG,8,1281,8,400,1.18,1.0,3200,6842.0
+Kosa & Handloom Silk,Jaipur_RJ,13,1391,6,460,1.22,1.0,4800,11225.0
+Terracotta & Pottery,Rural_Cluster,1,162,8,380,1.0,1.14,1400,1046.0
+Terracotta & Pottery,Varanasi_UP,2,1378,6,430,1.12,1.0,1400,3262.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,1,929,9,520,1.0,1.0,2400,2624.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,8,348,8,520,1.0,1.0,2400,5293.0
+Wood Carving & Tribal Art,Tier1_Metro,9,1687,8,520,1.0,1.0,2700,7897.0
+Dhokra Metal Craft,Bastar_CG,14,172,4,400,1.18,1.0,3200,7714.0
+Wood Carving & Tribal Art,Rural_Cluster,9,1643,10,380,1.0,1.0,2700,7070.0
+Dhokra Metal Craft,Tier1_Metro,3,1225,8,520,1.0,1.14,3200,4749.0
+Bamboo & Cane Craft,Bastar_CG,2,678,4,400,1.08,1.0,1150,1829.0
+Terracotta & Pottery,Jaipur_RJ,1,232,9,460,1.12,1.14,1400,1521.0
+Wood Carving & Tribal Art,Jaipur_RJ,5,986,6,460,1.15,1.14,2700,5330.0
+Terracotta & Pottery,Rural_Cluster,9,112,6,380,1.0,1.0,1400,3693.0
+Kosa & Handloom Silk,Bastar_CG,6,1735,3,400,1.22,1.0,4800,6125.0
+Wood Carving & Tribal Art,Jaipur_RJ,12,1745,6,460,1.15,1.0,2700,9536.0
+Kosa & Handloom Silk,Jaipur_RJ,9,1645,6,460,1.22,1.0,4800,8113.0
+Kosa & Handloom Silk,Tier1_Metro,2,705,6,520,1.0,1.0,4800,3747.0
+Kosa & Handloom Silk,Bastar_CG,12,1528,3,400,1.22,1.0,4800,8275.0
+Dhokra Metal Craft,Tier1_Metro,1,1332,3,520,1.0,1.0,3200,2744.0
+Wood Carving & Tribal Art,Rural_Cluster,9,1606,5,380,1.0,1.0,2700,5469.0
+Dhokra Metal Craft,Raipur_CG,14,356,4,440,1.18,1.14,3200,8781.0
+Bamboo & Cane Craft,Varanasi_UP,14,1344,10,430,1.08,1.0,1150,9166.0
+Bamboo & Cane Craft,Jaipur_RJ,10,454,9,460,1.08,1.0,1150,5968.0
+Kosa & Handloom Silk,Varanasi_UP,14,1570,7,430,1.22,1.0,4800,11304.0
+Dhokra Metal Craft,Bastar_CG,10,1226,9,400,1.18,1.0,3200,7627.0
+Kosa & Handloom Silk,Rural_Cluster,12,1317,6,380,1.0,1.0,4800,7659.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,9,510,6,440,1.16,1.0,2400,6554.0
+Kosa & Handloom Silk,Bastar_CG,1,1474,6,400,1.22,1.0,4800,4207.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,1227,6,400,1.16,1.0,2400,4963.0
+Kosa & Handloom Silk,Raipur_CG,6,1399,9,440,1.22,1.0,4800,7178.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,7,1190,4,380,1.0,1.14,2400,5038.0
+Wood Carving & Tribal Art,Varanasi_UP,5,1179,6,430,1.15,1.14,2700,5376.0
+Kosa & Handloom Silk,Rural_Cluster,13,1291,6,380,1.0,1.14,4800,8463.0
+Terracotta & Pottery,Raipur_CG,10,1345,3,440,1.12,1.0,1400,5758.0
+Terracotta & Pottery,Raipur_CG,7,853,4,440,1.12,1.0,1400,4226.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,10,846,3,520,1.0,1.0,2400,6101.0
+Wood Carving & Tribal Art,Varanasi_UP,2,1603,3,430,1.15,1.14,2700,4050.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,13,1080,3,520,1.0,1.0,2400,7023.0
+Wood Carving & Tribal Art,Tier1_Metro,2,291,9,520,1.0,1.14,2700,2739.0
+Terracotta & Pottery,Tier1_Metro,6,343,3,520,1.0,1.0,1400,3299.0
+Kosa & Handloom Silk,Rural_Cluster,7,1196,10,380,1.0,1.0,4800,6637.0
+Terracotta & Pottery,Tier1_Metro,14,959,4,520,1.0,1.0,1400,8147.0
+Terracotta & Pottery,Rural_Cluster,11,221,5,380,1.0,1.0,1400,4535.0
+Wood Carving & Tribal Art,Varanasi_UP,14,475,4,430,1.15,1.0,2700,6960.0
+Kosa & Handloom Silk,Rural_Cluster,13,222,7,380,1.0,1.0,4800,6880.0
+Dhokra Metal Craft,Jaipur_RJ,2,1212,3,460,1.18,1.0,3200,3489.0
+Terracotta & Pottery,Varanasi_UP,9,776,5,430,1.12,1.0,1400,5576.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,667,9,440,1.16,1.0,2400,3326.0
+Dhokra Metal Craft,Jaipur_RJ,14,1384,9,460,1.18,1.0,3200,11494.0
+Terracotta & Pottery,Varanasi_UP,10,842,10,430,1.12,1.14,1400,8318.0
+Terracotta & Pottery,Jaipur_RJ,5,924,3,460,1.12,1.14,1400,4144.0
+Terracotta & Pottery,Bastar_CG,14,1136,5,400,1.12,1.0,1400,7636.0
+Dhokra Metal Craft,Tier1_Metro,8,373,5,520,1.0,1.0,3200,5579.0
+Wood Carving & Tribal Art,Varanasi_UP,10,1452,5,430,1.15,1.0,2700,7959.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,9,1010,4,440,1.16,1.14,2400,6553.0
+Kosa & Handloom Silk,Raipur_CG,8,1790,7,440,1.22,1.0,4800,8717.0
+Bamboo & Cane Craft,Bastar_CG,8,615,7,400,1.08,1.0,1150,4696.0
+Terracotta & Pottery,Raipur_CG,14,494,4,440,1.12,1.0,1400,6837.0
+Dhokra Metal Craft,Tier1_Metro,6,304,8,520,1.0,1.14,3200,5519.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,11,981,6,380,1.0,1.0,2400,5559.0
+Kosa & Handloom Silk,Raipur_CG,7,1037,10,440,1.22,1.0,4800,7159.0
+Dhokra Metal Craft,Tier1_Metro,5,159,7,520,1.0,1.14,3200,4551.0
+Bamboo & Cane Craft,Rural_Cluster,11,1087,3,380,1.0,1.0,1150,5272.0
+Dhokra Metal Craft,Tier1_Metro,9,1556,10,520,1.0,1.0,3200,8328.0
+Dhokra Metal Craft,Bastar_CG,9,356,10,400,1.18,1.0,3200,6558.0
+Terracotta & Pottery,Bastar_CG,3,415,5,400,1.12,1.0,1400,2128.0
+Kosa & Handloom Silk,Tier1_Metro,4,1696,3,520,1.0,1.14,4800,5466.0
+Kosa & Handloom Silk,Varanasi_UP,2,742,5,430,1.22,1.0,4800,3552.0
+Terracotta & Pottery,Varanasi_UP,6,891,7,430,1.12,1.14,1400,5258.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,1,187,10,440,1.16,1.14,2400,1870.0
+Kosa & Handloom Silk,Rural_Cluster,14,638,8,380,1.0,1.0,4800,7492.0
+Bamboo & Cane Craft,Jaipur_RJ,12,913,9,460,1.08,1.0,1150,7321.0
+Bamboo & Cane Craft,Varanasi_UP,11,919,9,430,1.08,1.14,1150,8246.0
+Terracotta & Pottery,Varanasi_UP,4,1754,9,430,1.12,1.0,1400,5478.0
+Terracotta & Pottery,Jaipur_RJ,5,913,3,460,1.12,1.0,1400,3773.0
+Wood Carving & Tribal Art,Raipur_CG,9,246,4,440,1.15,1.0,2700,5409.0
+Kosa & Handloom Silk,Bastar_CG,12,967,5,400,1.22,1.14,4800,9552.0
+Dhokra Metal Craft,Tier1_Metro,5,1772,7,520,1.0,1.0,3200,5852.0
+Bamboo & Cane Craft,Varanasi_UP,8,1550,8,430,1.08,1.0,1150,6075.0
+Dhokra Metal Craft,Bastar_CG,7,1595,5,400,1.18,1.0,3200,6338.0
+Terracotta & Pottery,Rural_Cluster,6,715,8,380,1.0,1.14,1400,4007.0
+Bamboo & Cane Craft,Raipur_CG,2,1326,9,440,1.08,1.0,1150,3459.0
+Wood Carving & Tribal Art,Tier1_Metro,14,146,8,520,1.0,1.0,2700,8371.0
+Terracotta & Pottery,Jaipur_RJ,1,222,4,460,1.12,1.14,1400,1329.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,5,334,6,520,1.0,1.0,2400,3993.0
+Terracotta & Pottery,Raipur_CG,8,1306,3,440,1.12,1.0,1400,4811.0
+Kosa & Handloom Silk,Bastar_CG,5,1656,6,400,1.22,1.0,4800,5558.0
+Kosa & Handloom Silk,Jaipur_RJ,13,1748,6,460,1.22,1.0,4800,10417.0
+Kosa & Handloom Silk,Raipur_CG,12,1751,5,440,1.22,1.0,4800,10621.0
+Dhokra Metal Craft,Varanasi_UP,3,685,9,430,1.18,1.14,3200,3989.0
+Wood Carving & Tribal Art,Raipur_CG,11,591,3,440,1.15,1.14,2700,7113.0
+Wood Carving & Tribal Art,Jaipur_RJ,13,700,3,460,1.15,1.0,2700,7398.0
+Dhokra Metal Craft,Tier1_Metro,2,516,8,520,1.0,1.14,3200,3092.0
+Wood Carving & Tribal Art,Bastar_CG,7,551,7,400,1.15,1.14,2700,5480.0
+Bamboo & Cane Craft,Jaipur_RJ,6,699,5,460,1.08,1.14,1150,4366.0
+Kosa & Handloom Silk,Jaipur_RJ,1,1184,8,460,1.22,1.0,4800,3531.0
+Dhokra Metal Craft,Jaipur_RJ,14,143,10,460,1.18,1.0,3200,9822.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,12,154,5,400,1.16,1.0,2400,6392.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,14,964,7,400,1.16,1.14,2400,9500.0
+Bamboo & Cane Craft,Bastar_CG,13,1510,5,400,1.08,1.0,1150,7137.0
+Wood Carving & Tribal Art,Rural_Cluster,1,1093,3,380,1.0,1.14,2700,2349.0
+Terracotta & Pottery,Rural_Cluster,12,1450,10,380,1.0,1.14,1400,8271.0
+Kosa & Handloom Silk,Raipur_CG,8,408,9,440,1.22,1.0,4800,7132.0
+Dhokra Metal Craft,Varanasi_UP,13,555,9,430,1.18,1.0,3200,9213.0
+Bamboo & Cane Craft,Bastar_CG,4,1162,8,400,1.08,1.14,1150,3946.0
+Dhokra Metal Craft,Bastar_CG,8,627,7,400,1.18,1.0,3200,5211.0
+Bamboo & Cane Craft,Varanasi_UP,1,940,5,430,1.08,1.0,1150,1852.0
+Bamboo & Cane Craft,Bastar_CG,10,790,10,400,1.08,1.14,1150,7639.0
+Dhokra Metal Craft,Raipur_CG,8,1580,7,440,1.18,1.0,3200,6905.0
+Wood Carving & Tribal Art,Jaipur_RJ,9,914,8,460,1.15,1.0,2700,7345.0
+Kosa & Handloom Silk,Raipur_CG,5,1644,3,440,1.22,1.0,4800,5920.0
+Bamboo & Cane Craft,Jaipur_RJ,14,1143,4,460,1.08,1.14,1150,8635.0
+Dhokra Metal Craft,Tier1_Metro,4,449,6,520,1.0,1.14,3200,4053.0
+Terracotta & Pottery,Raipur_CG,10,539,6,440,1.12,1.14,1400,6149.0
+Dhokra Metal Craft,Bastar_CG,11,272,6,400,1.18,1.0,3200,6507.0
+Bamboo & Cane Craft,Tier1_Metro,3,1160,10,520,1.0,1.0,1150,3521.0
+Terracotta & Pottery,Bastar_CG,6,799,8,400,1.12,1.0,1400,4103.0
+Kosa & Handloom Silk,Varanasi_UP,8,644,4,430,1.22,1.0,4800,5689.0
+Kosa & Handloom Silk,Rural_Cluster,11,1182,6,380,1.0,1.14,4800,7509.0
+Terracotta & Pottery,Rural_Cluster,6,1388,3,380,1.0,1.0,1400,4049.0
+Bamboo & Cane Craft,Rural_Cluster,11,1156,3,380,1.0,1.0,1150,4997.0
+Dhokra Metal Craft,Rural_Cluster,11,1715,4,380,1.0,1.14,3200,7245.0
+Terracotta & Pottery,Raipur_CG,9,605,7,440,1.12,1.0,1400,5774.0
+Terracotta & Pottery,Raipur_CG,2,984,9,440,1.12,1.14,1400,3509.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,7,846,7,400,1.16,1.0,2400,4941.0
+Dhokra Metal Craft,Tier1_Metro,6,919,7,520,1.0,1.0,3200,5570.0
+Wood Carving & Tribal Art,Varanasi_UP,9,132,3,430,1.15,1.14,2700,5240.0
+Kosa & Handloom Silk,Bastar_CG,9,821,4,400,1.22,1.0,4800,6296.0
+Bamboo & Cane Craft,Tier1_Metro,3,1320,8,520,1.0,1.14,1150,4046.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,13,1056,9,440,1.16,1.0,2400,9566.0
+Wood Carving & Tribal Art,Rural_Cluster,6,867,3,380,1.0,1.0,2700,3567.0
+Kosa & Handloom Silk,Bastar_CG,9,357,10,400,1.22,1.0,4800,7409.0
+Dhokra Metal Craft,Varanasi_UP,4,1496,7,430,1.18,1.14,3200,5948.0
+Dhokra Metal Craft,Jaipur_RJ,14,106,9,460,1.18,1.0,3200,9577.0
+Dhokra Metal Craft,Tier1_Metro,9,1331,7,520,1.0,1.14,3200,8785.0
+Wood Carving & Tribal Art,Rural_Cluster,13,1411,7,380,1.0,1.0,2700,7763.0
+Dhokra Metal Craft,Rural_Cluster,5,1200,3,380,1.0,1.0,3200,3824.0
+Terracotta & Pottery,Jaipur_RJ,7,839,5,460,1.12,1.0,1400,4793.0
+Bamboo & Cane Craft,Jaipur_RJ,11,596,6,460,1.08,1.0,1150,6815.0
+Dhokra Metal Craft,Rural_Cluster,10,988,9,380,1.0,1.0,3200,6705.0
+Dhokra Metal Craft,Jaipur_RJ,3,1488,4,460,1.18,1.14,3200,4760.0
+Dhokra Metal Craft,Varanasi_UP,13,772,7,430,1.18,1.14,3200,9263.0
+Kosa & Handloom Silk,Varanasi_UP,3,786,8,430,1.22,1.14,4800,5108.0
+Terracotta & Pottery,Bastar_CG,5,1200,8,400,1.12,1.0,1400,4619.0
+Wood Carving & Tribal Art,Jaipur_RJ,6,1341,4,460,1.15,1.0,2700,4844.0
+Wood Carving & Tribal Art,Jaipur_RJ,2,1247,5,460,1.15,1.0,2700,3428.0
+Bamboo & Cane Craft,Tier1_Metro,7,686,3,520,1.0,1.14,1150,4346.0
+Terracotta & Pottery,Varanasi_UP,8,1209,6,430,1.12,1.14,1400,5986.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,5,701,5,380,1.0,1.14,2400,3469.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,5,1179,4,430,1.16,1.14,2400,4734.0
+Wood Carving & Tribal Art,Raipur_CG,10,1060,6,440,1.15,1.0,2700,7099.0
+Dhokra Metal Craft,Varanasi_UP,9,1378,6,430,1.18,1.0,3200,7900.0
+Dhokra Metal Craft,Rural_Cluster,2,1193,4,380,1.0,1.0,3200,3067.0
+Wood Carving & Tribal Art,Jaipur_RJ,12,1120,3,460,1.15,1.14,2700,8830.0
+Terracotta & Pottery,Bastar_CG,13,402,9,400,1.12,1.0,1400,7478.0
+Wood Carving & Tribal Art,Tier1_Metro,1,896,10,520,1.0,1.14,2700,3042.0
+Wood Carving & Tribal Art,Tier1_Metro,3,784,7,520,1.0,1.14,2700,3612.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,9,783,6,430,1.16,1.0,2400,5926.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,13,1376,7,520,1.0,1.0,2400,8546.0
+Terracotta & Pottery,Rural_Cluster,12,1156,6,380,1.0,1.0,1400,5890.0
+Dhokra Metal Craft,Rural_Cluster,9,845,7,380,1.0,1.0,3200,5664.0
+Wood Carving & Tribal Art,Rural_Cluster,12,1471,8,380,1.0,1.0,2700,7322.0
+Dhokra Metal Craft,Jaipur_RJ,12,1525,3,460,1.18,1.0,3200,8411.0
+Wood Carving & Tribal Art,Jaipur_RJ,12,997,3,460,1.15,1.14,2700,8200.0
+Bamboo & Cane Craft,Bastar_CG,2,1706,4,400,1.08,1.0,1150,2861.0
+Terracotta & Pottery,Tier1_Metro,12,646,5,520,1.0,1.0,1400,6609.0
+Kosa & Handloom Silk,Raipur_CG,4,601,8,440,1.22,1.0,4800,4802.0
+Dhokra Metal Craft,Jaipur_RJ,5,1209,8,460,1.18,1.14,3200,5619.0
+Terracotta & Pottery,Raipur_CG,13,1798,5,440,1.12,1.0,1400,8201.0
+Wood Carving & Tribal Art,Jaipur_RJ,6,1267,4,460,1.15,1.0,2700,5370.0
+Terracotta & Pottery,Jaipur_RJ,5,805,4,460,1.12,1.0,1400,3760.0
+Wood Carving & Tribal Art,Bastar_CG,11,1742,9,400,1.15,1.0,2700,8370.0
+Kosa & Handloom Silk,Raipur_CG,2,245,6,440,1.22,1.0,4800,3162.0
+Bamboo & Cane Craft,Jaipur_RJ,7,140,10,460,1.08,1.14,1150,5658.0
+Bamboo & Cane Craft,Varanasi_UP,6,1127,3,430,1.08,1.0,1150,4140.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,11,1597,3,440,1.16,1.0,2400,7132.0
+Terracotta & Pottery,Jaipur_RJ,2,978,7,460,1.12,1.0,1400,3180.0
+Dhokra Metal Craft,Bastar_CG,11,858,5,400,1.18,1.0,3200,7296.0
+Wood Carving & Tribal Art,Tier1_Metro,9,1656,6,520,1.0,1.0,2700,7225.0
+Dhokra Metal Craft,Jaipur_RJ,3,154,9,460,1.18,1.14,3200,3452.0
+Kosa & Handloom Silk,Jaipur_RJ,8,1161,5,460,1.22,1.0,4800,7083.0
+Dhokra Metal Craft,Bastar_CG,1,1219,3,400,1.18,1.14,3200,3363.0
+Kosa & Handloom Silk,Tier1_Metro,4,1174,3,520,1.0,1.0,4800,4242.0
+Dhokra Metal Craft,Raipur_CG,11,856,9,440,1.18,1.0,3200,8728.0
+Wood Carving & Tribal Art,Varanasi_UP,8,1714,8,430,1.15,1.0,2700,7284.0
+Terracotta & Pottery,Rural_Cluster,13,544,8,380,1.0,1.14,1400,7181.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,9,1556,3,400,1.16,1.0,2400,5826.0
+Kosa & Handloom Silk,Rural_Cluster,14,271,8,380,1.0,1.14,4800,7924.0
+Terracotta & Pottery,Raipur_CG,8,649,5,440,1.12,1.14,1400,5807.0
+Bamboo & Cane Craft,Varanasi_UP,7,577,5,430,1.08,1.0,1150,3942.0
+Kosa & Handloom Silk,Varanasi_UP,13,232,9,430,1.22,1.0,4800,9784.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,10,1334,4,380,1.0,1.0,2400,5421.0
+Terracotta & Pottery,Jaipur_RJ,10,398,9,460,1.12,1.0,1400,6586.0
+Dhokra Metal Craft,Bastar_CG,5,396,4,400,1.18,1.0,3200,3711.0
+Terracotta & Pottery,Jaipur_RJ,11,107,10,460,1.12,1.0,1400,7484.0
+Bamboo & Cane Craft,Rural_Cluster,13,1798,7,380,1.0,1.14,1150,8519.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,12,878,4,380,1.0,1.0,2400,5928.0
+Bamboo & Cane Craft,Raipur_CG,3,1459,5,440,1.08,1.0,1150,3458.0
+Wood Carving & Tribal Art,Bastar_CG,10,1372,9,400,1.15,1.0,2700,8335.0
+Kosa & Handloom Silk,Rural_Cluster,2,1211,9,380,1.0,1.0,4800,3932.0
+Wood Carving & Tribal Art,Varanasi_UP,3,1359,8,430,1.15,1.0,2700,4603.0
+Bamboo & Cane Craft,Tier1_Metro,6,1773,6,520,1.0,1.14,1150,6309.0
+Kosa & Handloom Silk,Raipur_CG,13,1484,6,440,1.22,1.14,4800,11469.0
+Bamboo & Cane Craft,Rural_Cluster,4,160,7,380,1.0,1.0,1150,2055.0
+Bamboo & Cane Craft,Jaipur_RJ,10,1344,3,460,1.08,1.14,1150,6925.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,2,955,9,460,1.16,1.14,2400,3644.0
+Dhokra Metal Craft,Raipur_CG,2,125,9,440,1.18,1.0,3200,2445.0
+Dhokra Metal Craft,Tier1_Metro,5,706,5,520,1.0,1.0,3200,4139.0
+Terracotta & Pottery,Bastar_CG,9,1155,9,400,1.12,1.14,1400,7991.0
+Wood Carving & Tribal Art,Varanasi_UP,1,1558,8,430,1.15,1.0,2700,3378.0
+Kosa & Handloom Silk,Varanasi_UP,4,1761,9,430,1.22,1.0,4800,6890.0
+Wood Carving & Tribal Art,Bastar_CG,2,1566,9,400,1.15,1.0,2700,4597.0
+Bamboo & Cane Craft,Jaipur_RJ,2,1028,4,460,1.08,1.0,1150,2182.0
+Dhokra Metal Craft,Tier1_Metro,10,946,4,520,1.0,1.0,3200,5993.0
+Dhokra Metal Craft,Varanasi_UP,9,1749,6,430,1.18,1.14,3200,8639.0
+Kosa & Handloom Silk,Jaipur_RJ,1,1218,8,460,1.22,1.0,4800,4355.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,11,443,7,440,1.16,1.14,2400,7437.0
+Bamboo & Cane Craft,Rural_Cluster,12,353,9,380,1.0,1.0,1150,5679.0
+Kosa & Handloom Silk,Varanasi_UP,7,1238,3,430,1.22,1.0,4800,6037.0
+Bamboo & Cane Craft,Raipur_CG,5,917,8,440,1.08,1.0,1150,3675.0
+Bamboo & Cane Craft,Bastar_CG,12,502,10,400,1.08,1.0,1150,6920.0
+Bamboo & Cane Craft,Rural_Cluster,5,750,9,380,1.0,1.14,1150,3751.0
+Dhokra Metal Craft,Varanasi_UP,2,585,7,430,1.18,1.0,3200,3000.0
+Kosa & Handloom Silk,Tier1_Metro,5,542,6,520,1.0,1.0,4800,4565.0
+Bamboo & Cane Craft,Rural_Cluster,10,1696,5,380,1.0,1.0,1150,6021.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,5,1501,8,400,1.16,1.0,2400,5310.0
+Dhokra Metal Craft,Jaipur_RJ,3,1120,6,460,1.18,1.0,3200,4237.0
+Terracotta & Pottery,Varanasi_UP,3,1157,6,430,1.12,1.0,1400,3448.0
+Terracotta & Pottery,Raipur_CG,9,1218,3,440,1.12,1.0,1400,5913.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,7,962,5,520,1.0,1.0,2400,4911.0
+Terracotta & Pottery,Varanasi_UP,9,1769,3,430,1.12,1.0,1400,6135.0
+Terracotta & Pottery,Jaipur_RJ,5,571,3,460,1.12,1.14,1400,3507.0
+Kosa & Handloom Silk,Bastar_CG,8,1706,3,400,1.22,1.14,4800,7102.0
+Bamboo & Cane Craft,Varanasi_UP,10,1439,8,430,1.08,1.0,1150,6739.0
+Dhokra Metal Craft,Tier1_Metro,8,827,7,520,1.0,1.0,3200,6070.0
+Terracotta & Pottery,Tier1_Metro,11,1670,3,520,1.0,1.14,1400,8233.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,1,418,3,400,1.16,1.0,2400,1596.0
+Bamboo & Cane Craft,Varanasi_UP,7,1203,7,430,1.08,1.14,1150,5576.0
+Bamboo & Cane Craft,Jaipur_RJ,10,850,6,460,1.08,1.14,1150,7379.0
+Wood Carving & Tribal Art,Raipur_CG,13,645,9,440,1.15,1.0,2700,8644.0
+Dhokra Metal Craft,Raipur_CG,11,1374,9,440,1.18,1.0,3200,9191.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,8,248,9,430,1.16,1.14,2400,5981.0
+Wood Carving & Tribal Art,Jaipur_RJ,14,1192,8,460,1.15,1.0,2700,10427.0
+Bamboo & Cane Craft,Jaipur_RJ,1,1749,10,460,1.08,1.0,1150,3108.0
+Wood Carving & Tribal Art,Jaipur_RJ,5,392,7,460,1.15,1.0,2700,3941.0
+Terracotta & Pottery,Varanasi_UP,7,1535,6,430,1.12,1.14,1400,6198.0
+Bamboo & Cane Craft,Bastar_CG,8,1770,3,400,1.08,1.0,1150,4839.0
+Wood Carving & Tribal Art,Tier1_Metro,11,1693,6,520,1.0,1.0,2700,7816.0
+Dhokra Metal Craft,Varanasi_UP,6,1757,8,430,1.18,1.0,3200,7242.0
+Wood Carving & Tribal Art,Raipur_CG,13,940,6,440,1.15,1.14,2700,8320.0
+Dhokra Metal Craft,Rural_Cluster,1,1029,7,380,1.0,1.0,3200,2728.0
+Terracotta & Pottery,Tier1_Metro,2,1622,5,520,1.0,1.0,1400,3228.0
+Kosa & Handloom Silk,Rural_Cluster,10,1655,4,380,1.0,1.14,4800,7460.0
+Wood Carving & Tribal Art,Rural_Cluster,13,239,4,380,1.0,1.0,2700,5415.0
+Dhokra Metal Craft,Rural_Cluster,7,1741,3,380,1.0,1.0,3200,4974.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,12,1380,6,380,1.0,1.14,2400,7721.0
+Terracotta & Pottery,Raipur_CG,10,752,4,440,1.12,1.0,1400,5950.0
+Bamboo & Cane Craft,Varanasi_UP,7,410,3,430,1.08,1.14,1150,3916.0
+Dhokra Metal Craft,Tier1_Metro,8,171,3,520,1.0,1.0,3200,4952.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,3,1560,10,380,1.0,1.14,2400,4829.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,6,680,8,520,1.0,1.0,2400,4955.0
+Bamboo & Cane Craft,Raipur_CG,13,610,6,440,1.08,1.14,1150,6883.0
+Dhokra Metal Craft,Raipur_CG,11,915,6,440,1.18,1.0,3200,7397.0
+Bamboo & Cane Craft,Rural_Cluster,1,1154,10,380,1.0,1.14,1150,2566.0
+Kosa & Handloom Silk,Rural_Cluster,14,1395,5,380,1.0,1.14,4800,8611.0
+Bamboo & Cane Craft,Bastar_CG,12,1251,8,400,1.08,1.0,1150,7392.0
+Terracotta & Pottery,Bastar_CG,9,1147,3,400,1.12,1.0,1400,5280.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,5,999,4,380,1.0,1.14,2400,3734.0
+Wood Carving & Tribal Art,Varanasi_UP,14,818,4,430,1.15,1.0,2700,7857.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,10,750,5,440,1.16,1.0,2400,6281.0
+Wood Carving & Tribal Art,Rural_Cluster,8,470,9,380,1.0,1.14,2700,5161.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,6,271,6,430,1.16,1.0,2400,3905.0
+Wood Carving & Tribal Art,Tier1_Metro,8,1142,5,520,1.0,1.14,2700,6685.0
+Dhokra Metal Craft,Jaipur_RJ,4,969,10,460,1.18,1.0,3200,5259.0
+Wood Carving & Tribal Art,Rural_Cluster,10,113,9,380,1.0,1.14,2700,5836.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,5,629,9,380,1.0,1.0,2400,3351.0
+Kosa & Handloom Silk,Jaipur_RJ,7,830,6,460,1.22,1.14,4800,7288.0
+Kosa & Handloom Silk,Jaipur_RJ,9,230,10,460,1.22,1.0,4800,7485.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,10,583,10,460,1.16,1.0,2400,7529.0
+Wood Carving & Tribal Art,Rural_Cluster,1,1328,9,380,1.0,1.14,2700,2901.0
+Wood Carving & Tribal Art,Jaipur_RJ,4,739,9,460,1.15,1.0,2700,4295.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,5,656,3,460,1.16,1.0,2400,3852.0
+Dhokra Metal Craft,Tier1_Metro,14,1771,10,520,1.0,1.0,3200,10900.0
+Bamboo & Cane Craft,Bastar_CG,3,1690,7,400,1.08,1.14,1150,4291.0
+Terracotta & Pottery,Bastar_CG,8,1600,9,400,1.12,1.14,1400,7262.0
+Dhokra Metal Craft,Tier1_Metro,7,798,7,520,1.0,1.0,3200,5910.0
+Terracotta & Pottery,Tier1_Metro,7,1092,6,520,1.0,1.0,1400,4575.0
+Kosa & Handloom Silk,Varanasi_UP,13,331,5,430,1.22,1.14,4800,9340.0
+Wood Carving & Tribal Art,Rural_Cluster,6,912,7,380,1.0,1.0,2700,4145.0
+Kosa & Handloom Silk,Rural_Cluster,11,271,7,380,1.0,1.0,4800,5732.0
+Kosa & Handloom Silk,Varanasi_UP,4,1696,10,430,1.22,1.14,4800,7376.0
+Wood Carving & Tribal Art,Rural_Cluster,14,254,3,380,1.0,1.14,2700,6215.0
+Dhokra Metal Craft,Bastar_CG,3,406,9,400,1.18,1.0,3200,3289.0
+Bamboo & Cane Craft,Tier1_Metro,13,1758,5,520,1.0,1.14,1150,9355.0
+Wood Carving & Tribal Art,Bastar_CG,5,662,4,400,1.15,1.0,2700,3555.0
+Bamboo & Cane Craft,Rural_Cluster,12,1683,7,380,1.0,1.14,1150,7740.0
+Wood Carving & Tribal Art,Rural_Cluster,3,943,8,380,1.0,1.14,2700,3719.0
+Wood Carving & Tribal Art,Tier1_Metro,7,125,4,520,1.0,1.0,2700,4507.0
+Wood Carving & Tribal Art,Bastar_CG,7,754,7,400,1.15,1.0,2700,5096.0
+Terracotta & Pottery,Bastar_CG,5,1308,4,400,1.12,1.0,1400,4121.0
+Kosa & Handloom Silk,Rural_Cluster,6,1211,5,380,1.0,1.0,4800,4959.0
+Kosa & Handloom Silk,Tier1_Metro,4,1778,8,520,1.0,1.14,4800,6464.0
+Dhokra Metal Craft,Rural_Cluster,14,397,6,380,1.0,1.0,3200,6764.0
+Bamboo & Cane Craft,Varanasi_UP,11,1594,7,430,1.08,1.14,1150,8623.0
+Dhokra Metal Craft,Varanasi_UP,11,1166,9,430,1.18,1.0,3200,8910.0
+Kosa & Handloom Silk,Rural_Cluster,5,1070,9,380,1.0,1.0,4800,4685.0
+Kosa & Handloom Silk,Raipur_CG,14,341,7,440,1.22,1.0,4800,9023.0
+Wood Carving & Tribal Art,Raipur_CG,12,552,3,440,1.15,1.0,2700,6803.0
+Dhokra Metal Craft,Varanasi_UP,1,162,9,430,1.18,1.14,3200,1956.0
+Dhokra Metal Craft,Bastar_CG,5,114,9,400,1.18,1.0,3200,3943.0
+Wood Carving & Tribal Art,Jaipur_RJ,13,430,7,460,1.15,1.0,2700,8154.0
+Dhokra Metal Craft,Tier1_Metro,1,486,9,520,1.0,1.0,3200,2373.0
+Bamboo & Cane Craft,Varanasi_UP,9,419,8,430,1.08,1.14,1150,6113.0
+Dhokra Metal Craft,Bastar_CG,10,759,3,400,1.18,1.0,3200,5788.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,10,126,7,430,1.16,1.0,2400,5909.0
+Wood Carving & Tribal Art,Rural_Cluster,1,159,5,380,1.0,1.0,2700,1486.0
+Dhokra Metal Craft,Varanasi_UP,10,330,10,430,1.18,1.14,3200,8458.0
+Bamboo & Cane Craft,Tier1_Metro,13,516,8,520,1.0,1.0,1150,8411.0
+Terracotta & Pottery,Jaipur_RJ,10,574,9,460,1.12,1.14,1400,7634.0
+Bamboo & Cane Craft,Jaipur_RJ,8,1456,10,460,1.08,1.0,1150,7005.0
+Bamboo & Cane Craft,Rural_Cluster,7,1124,6,380,1.0,1.0,1150,3837.0
+Wood Carving & Tribal Art,Jaipur_RJ,12,1743,6,460,1.15,1.0,2700,8866.0
+Kosa & Handloom Silk,Raipur_CG,10,1232,4,440,1.22,1.0,4800,7038.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,11,1048,6,460,1.16,1.14,2400,8965.0
+Bamboo & Cane Craft,Tier1_Metro,3,1663,4,520,1.0,1.0,1150,3218.0
+Kosa & Handloom Silk,Raipur_CG,3,1258,9,440,1.22,1.0,4800,5387.0
+Kosa & Handloom Silk,Jaipur_RJ,5,698,6,460,1.22,1.14,4800,5571.0
+Terracotta & Pottery,Jaipur_RJ,1,1049,4,460,1.12,1.0,1400,2085.0
+Wood Carving & Tribal Art,Raipur_CG,1,1423,4,440,1.15,1.14,2700,3254.0
+Kosa & Handloom Silk,Raipur_CG,11,1279,4,440,1.22,1.0,4800,8073.0
+Kosa & Handloom Silk,Varanasi_UP,3,1076,6,430,1.22,1.0,4800,4535.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,9,580,8,520,1.0,1.14,2400,6872.0
+Wood Carving & Tribal Art,Raipur_CG,12,159,4,440,1.15,1.14,2700,7374.0
+Wood Carving & Tribal Art,Jaipur_RJ,10,1014,10,460,1.15,1.0,2700,8911.0
+Kosa & Handloom Silk,Bastar_CG,14,1327,6,400,1.22,1.14,4800,11608.0
+Dhokra Metal Craft,Bastar_CG,4,1787,10,400,1.18,1.14,3200,6364.0
+Bamboo & Cane Craft,Varanasi_UP,8,940,9,430,1.08,1.0,1150,5638.0
+Bamboo & Cane Craft,Bastar_CG,11,619,7,400,1.08,1.0,1150,5524.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,13,1238,6,440,1.16,1.0,2400,9489.0
+Kosa & Handloom Silk,Varanasi_UP,3,424,5,430,1.22,1.14,4800,4088.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,14,383,5,400,1.16,1.0,2400,7513.0
+Terracotta & Pottery,Varanasi_UP,6,731,9,430,1.12,1.0,1400,4616.0
+Wood Carving & Tribal Art,Tier1_Metro,12,1282,3,520,1.0,1.0,2700,7284.0
+Terracotta & Pottery,Tier1_Metro,5,1380,7,520,1.0,1.0,1400,4481.0
+Wood Carving & Tribal Art,Jaipur_RJ,6,1465,6,460,1.15,1.0,2700,5730.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,10,1384,3,380,1.0,1.0,2400,5121.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,4,637,7,430,1.16,1.14,2400,4315.0
+Terracotta & Pottery,Rural_Cluster,10,518,9,380,1.0,1.0,1400,5478.0
+Dhokra Metal Craft,Tier1_Metro,10,323,10,520,1.0,1.0,3200,7556.0
+Bamboo & Cane Craft,Varanasi_UP,2,1636,4,430,1.08,1.0,1150,2824.0
+Kosa & Handloom Silk,Raipur_CG,6,721,10,440,1.22,1.14,4800,7381.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,5,1157,6,520,1.0,1.14,2400,4952.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,12,388,3,520,1.0,1.14,2400,7179.0
+Wood Carving & Tribal Art,Varanasi_UP,7,1283,10,430,1.15,1.0,2700,6680.0
+Terracotta & Pottery,Rural_Cluster,13,297,10,380,1.0,1.0,1400,6710.0
+Terracotta & Pottery,Varanasi_UP,8,126,8,430,1.12,1.0,1400,5263.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,1,1292,6,380,1.0,1.0,2400,2638.0
+Kosa & Handloom Silk,Tier1_Metro,13,636,4,520,1.0,1.0,4800,8240.0
+Bamboo & Cane Craft,Tier1_Metro,9,1155,7,520,1.0,1.0,1150,6427.0
+Dhokra Metal Craft,Tier1_Metro,13,1306,3,520,1.0,1.14,3200,8449.0
+Wood Carving & Tribal Art,Jaipur_RJ,12,844,8,460,1.15,1.0,2700,8732.0
+Bamboo & Cane Craft,Raipur_CG,8,1169,8,440,1.08,1.14,1150,6862.0
+Terracotta & Pottery,Varanasi_UP,13,256,9,430,1.12,1.0,1400,7878.0
+Wood Carving & Tribal Art,Varanasi_UP,2,1512,9,430,1.15,1.14,2700,4409.0
+Wood Carving & Tribal Art,Tier1_Metro,1,1744,4,520,1.0,1.14,2700,3198.0
+Dhokra Metal Craft,Tier1_Metro,12,475,8,520,1.0,1.0,3200,7512.0
+Kosa & Handloom Silk,Tier1_Metro,2,1598,9,520,1.0,1.14,4800,4846.0
+Kosa & Handloom Silk,Varanasi_UP,9,802,3,430,1.22,1.0,4800,6466.0
+Kosa & Handloom Silk,Bastar_CG,2,1776,8,400,1.22,1.14,4800,5869.0
+Kosa & Handloom Silk,Raipur_CG,3,1683,5,440,1.22,1.14,4800,5529.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,2,1381,9,440,1.16,1.14,2400,4471.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,10,1763,10,520,1.0,1.14,2400,10892.0
+Kosa & Handloom Silk,Bastar_CG,11,392,3,400,1.22,1.14,4800,7426.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,1,861,9,460,1.16,1.0,2400,2628.0
+Terracotta & Pottery,Varanasi_UP,13,1226,4,430,1.12,1.0,1400,7658.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,14,1303,10,440,1.16,1.0,2400,10434.0
+Kosa & Handloom Silk,Varanasi_UP,12,582,8,430,1.22,1.14,4800,10783.0
+Wood Carving & Tribal Art,Jaipur_RJ,6,232,9,460,1.15,1.14,2700,4869.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,7,1403,4,380,1.0,1.0,2400,4640.0
+Wood Carving & Tribal Art,Rural_Cluster,4,1349,4,380,1.0,1.0,2700,3497.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,11,1324,5,430,1.16,1.0,2400,7079.0
+Dhokra Metal Craft,Bastar_CG,13,212,7,400,1.18,1.0,3200,7455.0
+Dhokra Metal Craft,Varanasi_UP,13,882,3,430,1.18,1.0,3200,7099.0
+Wood Carving & Tribal Art,Varanasi_UP,1,1612,6,430,1.15,1.0,2700,3578.0
+Kosa & Handloom Silk,Rural_Cluster,11,300,3,380,1.0,1.14,4800,6270.0
+Bamboo & Cane Craft,Jaipur_RJ,12,991,9,460,1.08,1.0,1150,7663.0
+Terracotta & Pottery,Rural_Cluster,4,954,6,380,1.0,1.0,1400,3097.0
+Kosa & Handloom Silk,Rural_Cluster,5,720,3,380,1.0,1.0,4800,3792.0
+Bamboo & Cane Craft,Varanasi_UP,13,468,3,430,1.08,1.14,1150,6625.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,1,604,6,400,1.16,1.0,2400,2085.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,9,1718,3,400,1.16,1.14,2400,6767.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,6,798,8,460,1.16,1.14,2400,5961.0
+Terracotta & Pottery,Jaipur_RJ,3,1599,9,460,1.12,1.0,1400,4426.0
+Terracotta & Pottery,Raipur_CG,11,156,4,440,1.12,1.0,1400,4923.0
+Bamboo & Cane Craft,Raipur_CG,6,630,3,440,1.08,1.0,1150,3238.0
+Bamboo & Cane Craft,Rural_Cluster,2,1587,8,380,1.0,1.14,1150,3302.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,6,1397,4,380,1.0,1.0,2400,4344.0
+Dhokra Metal Craft,Jaipur_RJ,6,1149,7,460,1.18,1.0,3200,5954.0
+Bamboo & Cane Craft,Jaipur_RJ,2,665,8,460,1.08,1.14,1150,2621.0
+Dhokra Metal Craft,Rural_Cluster,2,969,9,380,1.0,1.0,3200,3225.0
+Kosa & Handloom Silk,Tier1_Metro,2,1625,7,520,1.0,1.14,4800,5028.0
+Terracotta & Pottery,Bastar_CG,2,308,5,400,1.12,1.0,1400,1703.0
+Bamboo & Cane Craft,Varanasi_UP,7,1378,3,430,1.08,1.0,1150,4301.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,2,1350,3,380,1.0,1.0,2400,2837.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,12,1475,5,380,1.0,1.0,2400,6966.0
+Kosa & Handloom Silk,Raipur_CG,5,921,4,440,1.22,1.14,4800,5831.0
+Kosa & Handloom Silk,Bastar_CG,11,1018,8,400,1.22,1.0,4800,8748.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,3,1290,4,430,1.16,1.0,2400,3727.0
+Wood Carving & Tribal Art,Bastar_CG,6,680,3,400,1.15,1.14,2700,4333.0
+Bamboo & Cane Craft,Rural_Cluster,12,714,9,380,1.0,1.0,1150,6176.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,3,1054,10,430,1.16,1.0,2400,3762.0
+Bamboo & Cane Craft,Rural_Cluster,14,577,3,380,1.0,1.14,1150,6172.0
+Bamboo & Cane Craft,Varanasi_UP,1,1140,6,430,1.08,1.14,1150,2591.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,10,1297,6,430,1.16,1.0,2400,6858.0
+Wood Carving & Tribal Art,Jaipur_RJ,2,1483,6,460,1.15,1.0,2700,4019.0
+Bamboo & Cane Craft,Rural_Cluster,10,469,7,380,1.0,1.14,1150,4920.0
+Dhokra Metal Craft,Rural_Cluster,13,869,4,380,1.0,1.14,3200,6656.0
+Bamboo & Cane Craft,Varanasi_UP,2,653,6,430,1.08,1.0,1150,2043.0
+Bamboo & Cane Craft,Rural_Cluster,9,1247,7,380,1.0,1.0,1150,5219.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,14,374,8,440,1.16,1.0,2400,8744.0
+Dhokra Metal Craft,Rural_Cluster,5,1607,9,380,1.0,1.0,3200,5278.0
+Kosa & Handloom Silk,Tier1_Metro,11,1396,7,520,1.0,1.0,4800,9861.0
+Wood Carving & Tribal Art,Jaipur_RJ,1,1708,9,460,1.15,1.0,2700,4173.0
+Bamboo & Cane Craft,Bastar_CG,8,1157,3,400,1.08,1.14,1150,5121.0
+Kosa & Handloom Silk,Tier1_Metro,8,1747,8,520,1.0,1.14,4800,9673.0
+Wood Carving & Tribal Art,Tier1_Metro,2,1702,8,520,1.0,1.14,2700,4231.0
+Bamboo & Cane Craft,Bastar_CG,1,496,10,400,1.08,1.0,1150,1530.0
+Terracotta & Pottery,Tier1_Metro,8,1414,5,520,1.0,1.0,1400,5958.0
+Bamboo & Cane Craft,Jaipur_RJ,4,644,7,460,1.08,1.0,1150,3349.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,3,1038,6,460,1.16,1.0,2400,3428.0
+Dhokra Metal Craft,Raipur_CG,3,1126,6,440,1.18,1.14,3200,4419.0
+Terracotta & Pottery,Raipur_CG,8,718,10,440,1.12,1.0,1400,6048.0
+Wood Carving & Tribal Art,Varanasi_UP,2,112,8,430,1.15,1.14,2700,2203.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,5,1617,4,430,1.16,1.0,2400,4746.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,11,1759,9,400,1.16,1.0,2400,8650.0
+Kosa & Handloom Silk,Rural_Cluster,14,1238,4,380,1.0,1.0,4800,7648.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,7,1138,5,430,1.16,1.14,2400,5891.0
+Dhokra Metal Craft,Jaipur_RJ,11,1768,7,460,1.18,1.0,3200,9080.0
+Wood Carving & Tribal Art,Tier1_Metro,5,667,3,520,1.0,1.14,2700,3893.0
+Dhokra Metal Craft,Varanasi_UP,6,1472,6,430,1.18,1.14,3200,6489.0
+Bamboo & Cane Craft,Bastar_CG,4,512,8,400,1.08,1.0,1150,2892.0
+Bamboo & Cane Craft,Varanasi_UP,2,496,8,430,1.08,1.0,1150,1863.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,5,1632,8,400,1.16,1.14,2400,6791.0
+Kosa & Handloom Silk,Varanasi_UP,1,1671,3,430,1.22,1.0,4800,3962.0
+Wood Carving & Tribal Art,Tier1_Metro,10,421,6,520,1.0,1.14,2700,7536.0
+Terracotta & Pottery,Varanasi_UP,5,393,10,430,1.12,1.14,1400,4450.0
+Wood Carving & Tribal Art,Jaipur_RJ,8,1460,10,460,1.15,1.0,2700,7196.0
+Terracotta & Pottery,Varanasi_UP,2,1214,8,430,1.12,1.0,1400,3176.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,214,9,400,1.16,1.0,2400,4244.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,11,1408,10,400,1.16,1.0,2400,9000.0
+Wood Carving & Tribal Art,Tier1_Metro,2,1193,8,520,1.0,1.0,2700,3268.0
+Wood Carving & Tribal Art,Jaipur_RJ,9,1260,10,460,1.15,1.0,2700,8460.0
+Dhokra Metal Craft,Bastar_CG,5,345,10,400,1.18,1.0,3200,4053.0
+Terracotta & Pottery,Raipur_CG,8,1690,3,440,1.12,1.0,1400,5605.0
+Terracotta & Pottery,Varanasi_UP,6,875,4,430,1.12,1.14,1400,4875.0
+Terracotta & Pottery,Jaipur_RJ,9,905,7,460,1.12,1.0,1400,6350.0
+Bamboo & Cane Craft,Tier1_Metro,5,205,10,520,1.0,1.0,1150,3320.0
+Bamboo & Cane Craft,Rural_Cluster,12,619,9,380,1.0,1.0,1150,5926.0
+Bamboo & Cane Craft,Rural_Cluster,4,930,3,380,1.0,1.0,1150,2700.0
+Dhokra Metal Craft,Bastar_CG,7,1085,9,400,1.18,1.14,3200,6994.0
+Bamboo & Cane Craft,Raipur_CG,7,1336,7,440,1.08,1.0,1150,5454.0
+Dhokra Metal Craft,Jaipur_RJ,8,1337,9,460,1.18,1.0,3200,7836.0
+Terracotta & Pottery,Raipur_CG,3,1726,5,440,1.12,1.0,1400,3878.0
+Dhokra Metal Craft,Raipur_CG,1,569,8,440,1.18,1.0,3200,2316.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,9,409,3,430,1.16,1.0,2400,5022.0
+Dhokra Metal Craft,Raipur_CG,7,1664,10,440,1.18,1.0,3200,7286.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,13,1256,10,520,1.0,1.0,2400,10456.0
+Dhokra Metal Craft,Rural_Cluster,14,124,7,380,1.0,1.14,3200,7686.0
+Kosa & Handloom Silk,Raipur_CG,5,821,6,440,1.22,1.0,4800,5797.0
+Dhokra Metal Craft,Bastar_CG,11,1689,3,400,1.18,1.0,3200,7850.0
+Kosa & Handloom Silk,Tier1_Metro,6,915,10,520,1.0,1.0,4800,6564.0
+Bamboo & Cane Craft,Tier1_Metro,7,481,6,520,1.0,1.0,1150,4654.0
+Bamboo & Cane Craft,Rural_Cluster,14,1303,3,380,1.0,1.0,1150,6533.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,11,1243,6,520,1.0,1.0,2400,8025.0
+Terracotta & Pottery,Bastar_CG,1,1666,4,400,1.12,1.14,1400,3185.0
+Wood Carving & Tribal Art,Varanasi_UP,1,231,6,430,1.15,1.0,2700,1776.0
+Wood Carving & Tribal Art,Varanasi_UP,5,608,7,430,1.15,1.0,2700,4036.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,8,1569,3,380,1.0,1.0,2400,4707.0
+Terracotta & Pottery,Varanasi_UP,10,428,7,430,1.12,1.14,1400,6547.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,14,1322,6,400,1.16,1.0,2400,8759.0
+Wood Carving & Tribal Art,Rural_Cluster,6,1343,5,380,1.0,1.0,2700,3971.0
+Dhokra Metal Craft,Tier1_Metro,2,718,9,520,1.0,1.0,3200,3044.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,12,1332,7,520,1.0,1.14,2400,9821.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,1,713,5,440,1.16,1.0,2400,2345.0
+Bamboo & Cane Craft,Bastar_CG,1,1568,5,400,1.08,1.0,1150,2802.0
+Wood Carving & Tribal Art,Raipur_CG,1,1625,8,440,1.15,1.0,2700,3794.0
+Terracotta & Pottery,Tier1_Metro,5,959,7,520,1.0,1.14,1400,4752.0
+Kosa & Handloom Silk,Raipur_CG,5,924,3,440,1.22,1.14,4800,5190.0
+Dhokra Metal Craft,Jaipur_RJ,11,428,8,460,1.18,1.14,3200,8654.0
+Terracotta & Pottery,Rural_Cluster,3,1287,10,380,1.0,1.0,1400,3430.0
+Kosa & Handloom Silk,Rural_Cluster,7,1498,8,380,1.0,1.0,4800,6314.0
+Kosa & Handloom Silk,Jaipur_RJ,1,1062,5,460,1.22,1.14,4800,3982.0
+Wood Carving & Tribal Art,Bastar_CG,10,1591,8,400,1.15,1.0,2700,8417.0
+Bamboo & Cane Craft,Rural_Cluster,10,690,6,380,1.0,1.0,1150,4856.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,12,1597,3,460,1.16,1.0,2400,8545.0
+Kosa & Handloom Silk,Bastar_CG,11,1394,4,400,1.22,1.14,4800,8681.0
+Kosa & Handloom Silk,Tier1_Metro,6,1485,4,520,1.0,1.0,4800,5681.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,285,8,440,1.16,1.0,2400,2696.0
+Wood Carving & Tribal Art,Rural_Cluster,2,1625,6,380,1.0,1.0,2700,3471.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,6,507,10,430,1.16,1.14,2400,5220.0
+Bamboo & Cane Craft,Bastar_CG,6,336,9,400,1.08,1.0,1150,3629.0
+Bamboo & Cane Craft,Rural_Cluster,14,1005,10,380,1.0,1.0,1150,7745.0
+Wood Carving & Tribal Art,Tier1_Metro,2,1184,3,520,1.0,1.14,2700,3316.0
+Bamboo & Cane Craft,Varanasi_UP,3,663,4,430,1.08,1.0,1150,2298.0
+Wood Carving & Tribal Art,Varanasi_UP,7,1742,5,430,1.15,1.14,2700,7279.0
+Dhokra Metal Craft,Rural_Cluster,14,1185,8,380,1.0,1.0,3200,8067.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,9,624,7,460,1.16,1.0,2400,6715.0
+Terracotta & Pottery,Jaipur_RJ,14,1081,3,460,1.12,1.0,1400,7234.0
+Wood Carving & Tribal Art,Raipur_CG,2,1680,9,440,1.15,1.0,2700,4383.0
+Wood Carving & Tribal Art,Jaipur_RJ,6,1549,5,460,1.15,1.14,2700,6192.0
+Bamboo & Cane Craft,Raipur_CG,12,1317,7,440,1.08,1.0,1150,7911.0
+Terracotta & Pottery,Bastar_CG,13,874,7,400,1.12,1.0,1400,7216.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,5,379,4,440,1.16,1.0,2400,3415.0
+Wood Carving & Tribal Art,Varanasi_UP,7,1117,5,430,1.15,1.14,2700,5633.0
+Terracotta & Pottery,Jaipur_RJ,9,596,8,460,1.12,1.0,1400,6281.0
+Kosa & Handloom Silk,Jaipur_RJ,1,1593,7,460,1.22,1.0,4800,4777.0
+Terracotta & Pottery,Raipur_CG,6,120,6,440,1.12,1.0,1400,3499.0
+Kosa & Handloom Silk,Tier1_Metro,11,1194,6,520,1.0,1.0,4800,8248.0
+Dhokra Metal Craft,Tier1_Metro,4,991,7,520,1.0,1.14,3200,4801.0
+Bamboo & Cane Craft,Raipur_CG,14,274,5,440,1.08,1.0,1150,6609.0
+Terracotta & Pottery,Rural_Cluster,2,1457,7,380,1.0,1.0,1400,2932.0
+Terracotta & Pottery,Varanasi_UP,4,846,3,430,1.12,1.14,1400,3246.0
+Kosa & Handloom Silk,Jaipur_RJ,11,1120,8,460,1.22,1.0,4800,10009.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,1,1361,4,430,1.16,1.0,2400,2801.0
+Dhokra Metal Craft,Tier1_Metro,8,797,7,520,1.0,1.0,3200,6077.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,3,647,9,380,1.0,1.0,2400,3020.0
+Wood Carving & Tribal Art,Raipur_CG,2,872,10,440,1.15,1.0,2700,3511.0
+Bamboo & Cane Craft,Varanasi_UP,8,1099,3,430,1.08,1.0,1150,4530.0
+Terracotta & Pottery,Jaipur_RJ,12,1571,8,460,1.12,1.14,1400,9846.0
+Terracotta & Pottery,Raipur_CG,7,1608,3,440,1.12,1.0,1400,4821.0
+Bamboo & Cane Craft,Tier1_Metro,14,610,9,520,1.0,1.0,1150,9462.0
+Kosa & Handloom Silk,Rural_Cluster,2,999,4,380,1.0,1.0,4800,3186.0
+Kosa & Handloom Silk,Jaipur_RJ,10,929,3,460,1.22,1.0,4800,7559.0
+Dhokra Metal Craft,Bastar_CG,5,1324,5,400,1.18,1.0,3200,4860.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,1034,5,380,1.0,1.0,2400,3363.0
+Dhokra Metal Craft,Jaipur_RJ,2,924,7,460,1.18,1.0,3200,3438.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,5,1631,5,430,1.16,1.0,2400,5433.0
+Wood Carving & Tribal Art,Varanasi_UP,9,925,6,430,1.15,1.14,2700,7623.0
+Kosa & Handloom Silk,Rural_Cluster,11,1067,10,380,1.0,1.0,4800,7851.0
+Dhokra Metal Craft,Bastar_CG,4,400,10,400,1.18,1.0,3200,3901.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,1,1119,3,430,1.16,1.0,2400,2287.0
+Terracotta & Pottery,Varanasi_UP,1,1324,8,430,1.12,1.14,1400,2884.0
+Dhokra Metal Craft,Raipur_CG,3,1114,9,440,1.18,1.0,3200,4406.0
+Kosa & Handloom Silk,Raipur_CG,11,1180,6,440,1.22,1.14,4800,10157.0
+Kosa & Handloom Silk,Bastar_CG,3,189,6,400,1.22,1.0,4800,3269.0
+Wood Carving & Tribal Art,Raipur_CG,5,993,8,440,1.15,1.0,2700,5285.0
+Bamboo & Cane Craft,Raipur_CG,12,1139,3,440,1.08,1.14,1150,7038.0
+Kosa & Handloom Silk,Bastar_CG,5,717,8,400,1.22,1.0,4800,5437.0
+Terracotta & Pottery,Raipur_CG,14,1741,7,440,1.12,1.14,1400,10553.0
+Kosa & Handloom Silk,Bastar_CG,5,1204,3,400,1.22,1.0,4800,5044.0
+Dhokra Metal Craft,Tier1_Metro,10,751,9,520,1.0,1.14,3200,9686.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,14,1253,10,380,1.0,1.0,2400,8404.0
+Dhokra Metal Craft,Bastar_CG,9,873,6,400,1.18,1.14,3200,6701.0
+Dhokra Metal Craft,Rural_Cluster,14,1672,10,380,1.0,1.0,3200,9761.0
+Bamboo & Cane Craft,Raipur_CG,9,1206,8,440,1.08,1.0,1150,6189.0
+Bamboo & Cane Craft,Varanasi_UP,13,314,3,430,1.08,1.0,1150,5872.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,8,133,8,400,1.16,1.0,2400,5104.0
+Wood Carving & Tribal Art,Jaipur_RJ,13,573,9,460,1.15,1.14,2700,10170.0
+Wood Carving & Tribal Art,Varanasi_UP,14,885,5,430,1.15,1.14,2700,8980.0
+Kosa & Handloom Silk,Rural_Cluster,10,832,3,380,1.0,1.0,4800,5665.0
+Dhokra Metal Craft,Tier1_Metro,3,1711,7,520,1.0,1.14,3200,5294.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,10,668,8,460,1.16,1.0,2400,6746.0
+Dhokra Metal Craft,Tier1_Metro,8,1078,8,520,1.0,1.0,3200,7123.0
+Bamboo & Cane Craft,Tier1_Metro,6,207,3,520,1.0,1.0,1150,3123.0
+Wood Carving & Tribal Art,Rural_Cluster,1,964,7,380,1.0,1.0,2700,2490.0
+Terracotta & Pottery,Jaipur_RJ,12,453,9,460,1.12,1.14,1400,8645.0
+Dhokra Metal Craft,Bastar_CG,7,1251,4,400,1.18,1.0,3200,5719.0
+Bamboo & Cane Craft,Tier1_Metro,9,656,10,520,1.0,1.14,1150,6998.0
+Wood Carving & Tribal Art,Varanasi_UP,6,133,6,430,1.15,1.0,2700,4126.0
+Dhokra Metal Craft,Tier1_Metro,10,1302,9,520,1.0,1.0,3200,8332.0
+Terracotta & Pottery,Raipur_CG,10,544,9,440,1.12,1.14,1400,7991.0
+Kosa & Handloom Silk,Jaipur_RJ,13,437,3,460,1.22,1.14,4800,9626.0
+Bamboo & Cane Craft,Raipur_CG,13,1041,7,440,1.08,1.0,1150,7583.0
+Bamboo & Cane Craft,Jaipur_RJ,11,485,9,460,1.08,1.0,1150,6595.0
+Terracotta & Pottery,Raipur_CG,5,1081,9,440,1.12,1.0,1400,4690.0
+Terracotta & Pottery,Varanasi_UP,8,951,9,430,1.12,1.0,1400,5553.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,7,220,5,520,1.0,1.0,2400,4519.0
+Bamboo & Cane Craft,Rural_Cluster,6,884,3,380,1.0,1.0,1150,3020.0
+Wood Carving & Tribal Art,Varanasi_UP,2,1160,10,430,1.15,1.0,2700,4096.0
+Terracotta & Pottery,Jaipur_RJ,14,1452,8,460,1.12,1.0,1400,10403.0
+Terracotta & Pottery,Tier1_Metro,4,564,10,520,1.0,1.0,1400,3739.0
+Bamboo & Cane Craft,Jaipur_RJ,11,1243,8,460,1.08,1.0,1150,7867.0
+Bamboo & Cane Craft,Raipur_CG,11,1771,9,440,1.08,1.14,1150,9546.0
+Bamboo & Cane Craft,Jaipur_RJ,9,1722,6,460,1.08,1.14,1150,7660.0
+Kosa & Handloom Silk,Jaipur_RJ,11,680,3,460,1.22,1.14,4800,8609.0
+Wood Carving & Tribal Art,Tier1_Metro,13,180,6,520,1.0,1.0,2700,7927.0
+Terracotta & Pottery,Jaipur_RJ,14,299,7,460,1.12,1.0,1400,7576.0
+Kosa & Handloom Silk,Jaipur_RJ,4,1756,10,460,1.22,1.14,4800,7533.0
+Kosa & Handloom Silk,Varanasi_UP,2,1501,7,430,1.22,1.0,4800,5152.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,1512,3,440,1.16,1.14,2400,4221.0
+Terracotta & Pottery,Rural_Cluster,13,1395,8,380,1.0,1.14,1400,8000.0
+Kosa & Handloom Silk,Raipur_CG,3,914,9,440,1.22,1.14,4800,5331.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,6,854,9,430,1.16,1.0,2400,5630.0
+Bamboo & Cane Craft,Jaipur_RJ,7,742,9,460,1.08,1.14,1150,6205.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,14,1001,8,520,1.0,1.0,2400,10583.0
+Kosa & Handloom Silk,Jaipur_RJ,14,564,10,460,1.22,1.0,4800,11265.0
+Dhokra Metal Craft,Jaipur_RJ,14,279,3,460,1.18,1.0,3200,7321.0
+Dhokra Metal Craft,Bastar_CG,1,583,3,400,1.18,1.0,3200,2135.0
+Dhokra Metal Craft,Tier1_Metro,6,1271,8,520,1.0,1.0,3200,6575.0
+Dhokra Metal Craft,Jaipur_RJ,3,657,3,460,1.18,1.0,3200,2998.0
+Dhokra Metal Craft,Raipur_CG,6,1566,10,440,1.18,1.14,3200,8158.0
+Kosa & Handloom Silk,Jaipur_RJ,2,563,9,460,1.22,1.0,4800,3765.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,12,1706,4,400,1.16,1.0,2400,7576.0
+Dhokra Metal Craft,Varanasi_UP,9,1607,6,430,1.18,1.0,3200,7694.0
+Bamboo & Cane Craft,Rural_Cluster,6,235,9,380,1.0,1.14,1150,3435.0
+Wood Carving & Tribal Art,Rural_Cluster,4,689,10,380,1.0,1.14,2700,4137.0
+Kosa & Handloom Silk,Rural_Cluster,2,394,9,380,1.0,1.0,4800,2992.0
+Kosa & Handloom Silk,Varanasi_UP,5,863,8,430,1.22,1.0,4800,6178.0
+Kosa & Handloom Silk,Jaipur_RJ,6,478,10,460,1.22,1.0,4800,6512.0
+Kosa & Handloom Silk,Bastar_CG,2,1699,10,400,1.22,1.0,4800,5105.0
+Dhokra Metal Craft,Rural_Cluster,6,1217,9,380,1.0,1.14,3200,5716.0
+Bamboo & Cane Craft,Raipur_CG,11,203,8,440,1.08,1.14,1150,6834.0
+Kosa & Handloom Silk,Bastar_CG,7,473,10,400,1.22,1.0,4800,6847.0
+Terracotta & Pottery,Jaipur_RJ,4,194,3,460,1.12,1.0,1400,2242.0
+Kosa & Handloom Silk,Raipur_CG,8,915,7,440,1.22,1.14,4800,8331.0
+Wood Carving & Tribal Art,Rural_Cluster,5,1278,5,380,1.0,1.0,2700,4138.0
+Kosa & Handloom Silk,Jaipur_RJ,10,211,7,460,1.22,1.14,4800,9013.0
+Terracotta & Pottery,Rural_Cluster,5,1559,9,380,1.0,1.14,1400,5301.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,14,1594,7,380,1.0,1.0,2400,8121.0
+Wood Carving & Tribal Art,Varanasi_UP,1,640,4,430,1.15,1.0,2700,2012.0
+Wood Carving & Tribal Art,Rural_Cluster,8,101,3,380,1.0,1.14,2700,3767.0
+Bamboo & Cane Craft,Rural_Cluster,1,1231,6,380,1.0,1.0,1150,2168.0
+Terracotta & Pottery,Jaipur_RJ,6,543,7,460,1.12,1.0,1400,4230.0
+Wood Carving & Tribal Art,Raipur_CG,8,164,3,440,1.15,1.0,2700,4163.0
+Kosa & Handloom Silk,Jaipur_RJ,4,758,8,460,1.22,1.0,4800,5150.0
+Dhokra Metal Craft,Varanasi_UP,10,254,7,430,1.18,1.14,3200,7247.0
+Wood Carving & Tribal Art,Varanasi_UP,10,1477,6,430,1.15,1.14,2700,8643.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,14,814,9,520,1.0,1.0,2400,10322.0
+Dhokra Metal Craft,Rural_Cluster,1,750,8,380,1.0,1.0,3200,2548.0
+Kosa & Handloom Silk,Rural_Cluster,9,1597,4,380,1.0,1.0,4800,6293.0
+Terracotta & Pottery,Rural_Cluster,10,1768,3,380,1.0,1.14,1400,6341.0
+Bamboo & Cane Craft,Jaipur_RJ,4,1428,4,460,1.08,1.0,1150,3688.0
+Bamboo & Cane Craft,Bastar_CG,10,1532,7,400,1.08,1.14,1150,7901.0
+Wood Carving & Tribal Art,Tier1_Metro,7,769,8,520,1.0,1.0,2700,5616.0
+Wood Carving & Tribal Art,Varanasi_UP,6,549,7,430,1.15,1.14,2700,5161.0
+Kosa & Handloom Silk,Bastar_CG,12,319,8,400,1.22,1.0,4800,8557.0
+Terracotta & Pottery,Tier1_Metro,6,933,7,520,1.0,1.14,1400,5462.0
+Bamboo & Cane Craft,Jaipur_RJ,12,450,9,460,1.08,1.0,1150,6938.0
+Dhokra Metal Craft,Rural_Cluster,1,539,10,380,1.0,1.0,3200,2187.0
+Bamboo & Cane Craft,Varanasi_UP,5,1378,3,430,1.08,1.0,1150,3418.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,1245,6,400,1.16,1.0,2400,5176.0
+Bamboo & Cane Craft,Bastar_CG,9,1586,6,400,1.08,1.14,1150,6932.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,210,6,440,1.16,1.14,2400,3029.0
+Bamboo & Cane Craft,Tier1_Metro,6,687,6,520,1.0,1.0,1150,4407.0
+Dhokra Metal Craft,Tier1_Metro,9,1287,10,520,1.0,1.14,3200,8853.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,8,369,9,440,1.16,1.0,2400,6295.0
+Terracotta & Pottery,Tier1_Metro,8,1532,6,520,1.0,1.0,1400,6407.0
+Wood Carving & Tribal Art,Tier1_Metro,6,893,10,520,1.0,1.0,2700,5872.0
+Terracotta & Pottery,Jaipur_RJ,8,1284,3,460,1.12,1.0,1400,5354.0
+Bamboo & Cane Craft,Bastar_CG,12,561,6,400,1.08,1.0,1150,5577.0
+Dhokra Metal Craft,Tier1_Metro,9,994,9,520,1.0,1.0,3200,7910.0
+Terracotta & Pottery,Jaipur_RJ,14,293,7,460,1.12,1.0,1400,8258.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,11,1656,9,400,1.16,1.0,2400,9190.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,5,1336,6,380,1.0,1.0,2400,4128.0
+Wood Carving & Tribal Art,Raipur_CG,5,1707,6,440,1.15,1.0,2700,5103.0
+Bamboo & Cane Craft,Jaipur_RJ,9,860,10,460,1.08,1.0,1150,6235.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,9,603,5,430,1.16,1.0,2400,5891.0
+Bamboo & Cane Craft,Jaipur_RJ,2,122,6,460,1.08,1.0,1150,1423.0
+Kosa & Handloom Silk,Rural_Cluster,13,1316,6,380,1.0,1.0,4800,7918.0
+Kosa & Handloom Silk,Varanasi_UP,13,997,6,430,1.22,1.0,4800,10127.0
+Terracotta & Pottery,Tier1_Metro,3,1351,4,520,1.0,1.0,1400,2931.0
+Dhokra Metal Craft,Tier1_Metro,6,832,6,520,1.0,1.14,3200,5478.0
+Kosa & Handloom Silk,Varanasi_UP,11,435,3,430,1.22,1.14,4800,8003.0
+Wood Carving & Tribal Art,Raipur_CG,6,1499,10,440,1.15,1.0,2700,6298.0
+Wood Carving & Tribal Art,Raipur_CG,6,1182,10,440,1.15,1.0,2700,6100.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,7,1022,3,460,1.16,1.14,2400,5680.0
+Bamboo & Cane Craft,Varanasi_UP,7,208,9,430,1.08,1.14,1150,4761.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,2,1617,7,440,1.16,1.0,2400,3809.0
+Wood Carving & Tribal Art,Rural_Cluster,14,1196,10,380,1.0,1.14,2700,9734.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,7,1234,10,460,1.16,1.0,2400,6994.0
+Bamboo & Cane Craft,Tier1_Metro,14,284,5,520,1.0,1.0,1150,7810.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,10,1204,8,460,1.16,1.0,2400,7302.0
+Terracotta & Pottery,Bastar_CG,3,1642,7,400,1.12,1.0,1400,3978.0
+Wood Carving & Tribal Art,Tier1_Metro,1,974,10,520,1.0,1.0,2700,2820.0
+Bamboo & Cane Craft,Raipur_CG,10,150,6,440,1.08,1.14,1150,5942.0
+Wood Carving & Tribal Art,Jaipur_RJ,14,1598,9,460,1.15,1.0,2700,11194.0
+Terracotta & Pottery,Tier1_Metro,1,935,5,520,1.0,1.0,1400,2118.0
+Dhokra Metal Craft,Varanasi_UP,9,827,7,430,1.18,1.0,3200,7389.0
+Dhokra Metal Craft,Raipur_CG,1,1698,7,440,1.18,1.0,3200,3970.0
+Dhokra Metal Craft,Bastar_CG,5,108,6,400,1.18,1.14,3200,3894.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,11,1112,8,430,1.16,1.0,2400,8210.0
+Wood Carving & Tribal Art,Varanasi_UP,6,1483,9,430,1.15,1.0,2700,6584.0
+Wood Carving & Tribal Art,Bastar_CG,9,1622,4,400,1.15,1.0,2700,6199.0
+Wood Carving & Tribal Art,Varanasi_UP,6,1775,5,430,1.15,1.0,2700,5642.0
+Bamboo & Cane Craft,Jaipur_RJ,5,122,3,460,1.08,1.0,1150,2464.0
+Wood Carving & Tribal Art,Tier1_Metro,4,1014,8,520,1.0,1.0,2700,4217.0
+Terracotta & Pottery,Tier1_Metro,2,900,6,520,1.0,1.0,1400,2527.0
+Bamboo & Cane Craft,Varanasi_UP,8,838,9,430,1.08,1.0,1150,5764.0
+Wood Carving & Tribal Art,Tier1_Metro,2,573,8,520,1.0,1.0,2700,2775.0
+Bamboo & Cane Craft,Varanasi_UP,5,1435,8,430,1.08,1.0,1150,4846.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,1,1551,9,430,1.16,1.14,2400,4109.0
+Bamboo & Cane Craft,Bastar_CG,4,1168,7,400,1.08,1.0,1150,3491.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,3,456,5,430,1.16,1.0,2400,2801.0
+Dhokra Metal Craft,Tier1_Metro,13,542,8,520,1.0,1.0,3200,8538.0
+Kosa & Handloom Silk,Rural_Cluster,10,597,3,380,1.0,1.14,4800,5919.0
+Wood Carving & Tribal Art,Raipur_CG,2,142,7,440,1.15,1.14,2700,2392.0
+Terracotta & Pottery,Jaipur_RJ,9,1736,7,460,1.12,1.0,1400,7544.0
+Kosa & Handloom Silk,Bastar_CG,8,1151,6,400,1.22,1.14,4800,7627.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,8,1595,10,440,1.16,1.0,2400,8170.0
+Bamboo & Cane Craft,Bastar_CG,6,675,6,400,1.08,1.0,1150,3936.0
+Wood Carving & Tribal Art,Rural_Cluster,2,343,6,380,1.0,1.14,2700,2238.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,9,1543,9,460,1.16,1.0,2400,8148.0
+Dhokra Metal Craft,Raipur_CG,12,889,3,440,1.18,1.0,3200,6381.0
+Dhokra Metal Craft,Raipur_CG,11,936,5,440,1.18,1.14,3200,8510.0
+Kosa & Handloom Silk,Rural_Cluster,4,919,9,380,1.0,1.0,4800,4506.0
+Bamboo & Cane Craft,Rural_Cluster,10,1105,4,380,1.0,1.14,1150,5411.0
+Wood Carving & Tribal Art,Jaipur_RJ,9,1706,10,460,1.15,1.0,2700,9604.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,122,9,400,1.16,1.14,2400,4379.0
+Kosa & Handloom Silk,Jaipur_RJ,8,874,6,460,1.22,1.14,4800,7644.0
+Kosa & Handloom Silk,Varanasi_UP,7,395,9,430,1.22,1.0,4800,6201.0
+Dhokra Metal Craft,Rural_Cluster,2,355,6,380,1.0,1.14,3200,2304.0
+Bamboo & Cane Craft,Raipur_CG,2,1470,8,440,1.08,1.14,1150,3631.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,3,465,4,380,1.0,1.14,2400,2487.0
+Bamboo & Cane Craft,Jaipur_RJ,9,329,4,460,1.08,1.14,1150,5013.0
+Bamboo & Cane Craft,Tier1_Metro,10,1316,4,520,1.0,1.0,1150,6022.0
+Bamboo & Cane Craft,Raipur_CG,11,315,4,440,1.08,1.0,1150,5315.0
+Dhokra Metal Craft,Varanasi_UP,7,1772,10,430,1.18,1.14,3200,9532.0
+Kosa & Handloom Silk,Jaipur_RJ,2,956,3,460,1.22,1.0,4800,3648.0
+Terracotta & Pottery,Bastar_CG,5,112,8,400,1.12,1.0,1400,3198.0
+Dhokra Metal Craft,Raipur_CG,8,411,7,440,1.18,1.14,3200,6523.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,10,1069,6,440,1.16,1.14,2400,7500.0
+Dhokra Metal Craft,Bastar_CG,14,893,7,400,1.18,1.0,3200,8712.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,5,1227,10,380,1.0,1.0,2400,4604.0
+Terracotta & Pottery,Varanasi_UP,7,1204,3,430,1.12,1.0,1400,4576.0
+Wood Carving & Tribal Art,Rural_Cluster,12,710,8,380,1.0,1.0,2700,6584.0
+Wood Carving & Tribal Art,Varanasi_UP,13,1423,4,430,1.15,1.0,2700,8075.0
+Dhokra Metal Craft,Jaipur_RJ,11,1532,8,460,1.18,1.0,3200,8706.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,4,158,7,400,1.16,1.14,2400,2798.0
+Wood Carving & Tribal Art,Jaipur_RJ,1,1229,3,460,1.15,1.14,2700,3005.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,14,1748,8,430,1.16,1.0,2400,10473.0
+Kosa & Handloom Silk,Tier1_Metro,3,293,6,520,1.0,1.0,4800,3403.0
+Bamboo & Cane Craft,Bastar_CG,3,774,8,400,1.08,1.0,1150,2758.0
+Wood Carving & Tribal Art,Rural_Cluster,8,291,6,380,1.0,1.14,2700,4727.0
+Kosa & Handloom Silk,Raipur_CG,3,631,4,440,1.22,1.14,4800,4130.0
+Dhokra Metal Craft,Jaipur_RJ,13,652,8,460,1.18,1.0,3200,10354.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,3,904,7,380,1.0,1.0,2400,2755.0
+Kosa & Handloom Silk,Raipur_CG,8,1252,10,440,1.22,1.14,4800,9977.0
+Terracotta & Pottery,Rural_Cluster,14,313,6,380,1.0,1.0,1400,6253.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,13,1420,8,440,1.16,1.0,2400,10295.0
+Wood Carving & Tribal Art,Rural_Cluster,11,872,3,380,1.0,1.14,2700,6555.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,8,1652,6,440,1.16,1.0,2400,7030.0
+Dhokra Metal Craft,Raipur_CG,12,1634,3,440,1.18,1.0,3200,8284.0
+Bamboo & Cane Craft,Raipur_CG,2,1331,9,440,1.08,1.0,1150,3032.0
+Kosa & Handloom Silk,Raipur_CG,10,680,7,440,1.22,1.0,4800,7857.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,13,598,4,430,1.16,1.0,2400,7537.0
+Kosa & Handloom Silk,Tier1_Metro,4,1595,5,520,1.0,1.14,4800,5646.0
+Bamboo & Cane Craft,Rural_Cluster,14,1629,7,380,1.0,1.0,1150,7497.0
+Bamboo & Cane Craft,Tier1_Metro,3,345,10,520,1.0,1.0,1150,2567.0
+Dhokra Metal Craft,Jaipur_RJ,8,178,3,460,1.18,1.0,3200,4826.0
+Kosa & Handloom Silk,Varanasi_UP,4,1609,6,430,1.22,1.0,4800,5108.0
+Wood Carving & Tribal Art,Rural_Cluster,11,538,5,380,1.0,1.0,2700,5137.0
+Kosa & Handloom Silk,Bastar_CG,14,1589,5,400,1.22,1.0,4800,9859.0
+Bamboo & Cane Craft,Varanasi_UP,14,1651,4,430,1.08,1.0,1150,7438.0
+Bamboo & Cane Craft,Varanasi_UP,13,759,3,430,1.08,1.0,1150,5921.0
+Kosa & Handloom Silk,Jaipur_RJ,8,523,5,460,1.22,1.0,4800,6178.0
+Wood Carving & Tribal Art,Raipur_CG,5,1343,10,440,1.15,1.0,2700,5836.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,11,698,4,400,1.16,1.14,2400,6754.0
+Bamboo & Cane Craft,Jaipur_RJ,11,917,5,460,1.08,1.14,1150,7410.0
+Dhokra Metal Craft,Varanasi_UP,12,430,5,430,1.18,1.14,3200,7841.0
+Terracotta & Pottery,Rural_Cluster,10,653,8,380,1.0,1.14,1400,5661.0
+Wood Carving & Tribal Art,Varanasi_UP,2,738,5,430,1.15,1.14,2700,3201.0
+Bamboo & Cane Craft,Raipur_CG,14,794,6,440,1.08,1.0,1150,7889.0
+Terracotta & Pottery,Bastar_CG,8,519,10,400,1.12,1.0,1400,5311.0
+Bamboo & Cane Craft,Tier1_Metro,11,407,6,520,1.0,1.0,1150,6823.0
+Dhokra Metal Craft,Rural_Cluster,12,1696,4,380,1.0,1.0,3200,6967.0
+Kosa & Handloom Silk,Jaipur_RJ,10,1532,7,460,1.22,1.14,4800,10538.0
+Kosa & Handloom Silk,Bastar_CG,9,874,10,400,1.22,1.14,4800,8708.0
+Terracotta & Pottery,Rural_Cluster,3,1769,5,380,1.0,1.0,1400,3477.0
+Terracotta & Pottery,Raipur_CG,11,1210,5,440,1.12,1.14,1400,7428.0
+Bamboo & Cane Craft,Bastar_CG,11,1783,4,400,1.08,1.14,1150,7406.0
+Bamboo & Cane Craft,Rural_Cluster,7,1173,9,380,1.0,1.0,1150,4785.0
+Kosa & Handloom Silk,Bastar_CG,12,1464,7,400,1.22,1.0,4800,9476.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,12,1698,3,460,1.16,1.0,2400,7553.0
+Wood Carving & Tribal Art,Raipur_CG,12,1135,8,440,1.15,1.0,2700,9172.0
+Kosa & Handloom Silk,Varanasi_UP,12,1289,5,430,1.22,1.14,4800,9408.0
+Wood Carving & Tribal Art,Bastar_CG,2,906,3,400,1.15,1.0,2700,2868.0
+Dhokra Metal Craft,Raipur_CG,13,1600,10,440,1.18,1.14,3200,12650.0
+Bamboo & Cane Craft,Raipur_CG,10,1505,6,440,1.08,1.0,1150,6485.0
+Dhokra Metal Craft,Bastar_CG,12,224,8,400,1.18,1.0,3200,6919.0
+Bamboo & Cane Craft,Raipur_CG,9,152,7,440,1.08,1.0,1150,4936.0
+Wood Carving & Tribal Art,Varanasi_UP,12,182,4,430,1.15,1.0,2700,5880.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,2,519,5,430,1.16,1.0,2400,2405.0
+Kosa & Handloom Silk,Jaipur_RJ,13,1330,8,460,1.22,1.0,4800,11069.0
+Wood Carving & Tribal Art,Tier1_Metro,4,472,10,520,1.0,1.14,2700,4385.0
+Dhokra Metal Craft,Rural_Cluster,7,1376,8,380,1.0,1.0,3200,5475.0
+Terracotta & Pottery,Jaipur_RJ,8,1623,8,460,1.12,1.14,1400,8194.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,582,9,400,1.16,1.0,2400,4648.0
+Terracotta & Pottery,Jaipur_RJ,12,1493,3,460,1.12,1.0,1400,7571.0
+Terracotta & Pottery,Rural_Cluster,12,399,7,380,1.0,1.14,1400,6210.0
+Dhokra Metal Craft,Rural_Cluster,5,1479,7,380,1.0,1.0,3200,5035.0
+Wood Carving & Tribal Art,Jaipur_RJ,14,344,8,460,1.15,1.0,2700,8605.0
+Kosa & Handloom Silk,Raipur_CG,14,489,3,440,1.22,1.14,4800,8935.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,6,290,6,520,1.0,1.0,2400,3926.0
+Bamboo & Cane Craft,Raipur_CG,8,109,9,440,1.08,1.14,1150,5213.0
+Kosa & Handloom Silk,Jaipur_RJ,6,1410,9,460,1.22,1.14,4800,8978.0
+Kosa & Handloom Silk,Jaipur_RJ,12,146,4,460,1.22,1.0,4800,7300.0
+Wood Carving & Tribal Art,Raipur_CG,13,807,3,440,1.15,1.0,2700,7373.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,3,963,4,430,1.16,1.0,2400,3150.0
+Wood Carving & Tribal Art,Jaipur_RJ,10,370,3,460,1.15,1.14,2700,6381.0
+Kosa & Handloom Silk,Raipur_CG,14,1357,4,440,1.22,1.0,4800,9923.0
+Wood Carving & Tribal Art,Bastar_CG,14,1014,9,400,1.15,1.14,2700,10649.0
+Wood Carving & Tribal Art,Tier1_Metro,10,1131,10,520,1.0,1.14,2700,9467.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,10,545,6,400,1.16,1.0,2400,5805.0
+Kosa & Handloom Silk,Rural_Cluster,8,1508,6,380,1.0,1.0,4800,6045.0
+Bamboo & Cane Craft,Raipur_CG,4,511,7,440,1.08,1.14,1150,3421.0
+Dhokra Metal Craft,Tier1_Metro,2,529,7,520,1.0,1.14,3200,2908.0
+Kosa & Handloom Silk,Tier1_Metro,5,1519,6,520,1.0,1.0,4800,5957.0
+Wood Carving & Tribal Art,Rural_Cluster,11,212,3,380,1.0,1.0,2700,4734.0
+Terracotta & Pottery,Bastar_CG,13,405,4,400,1.12,1.14,1400,6747.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,8,1178,8,430,1.16,1.0,2400,6285.0
+Terracotta & Pottery,Bastar_CG,1,842,7,400,1.12,1.0,1400,2205.0
+Terracotta & Pottery,Jaipur_RJ,5,1390,8,460,1.12,1.0,1400,4897.0
+Wood Carving & Tribal Art,Bastar_CG,12,611,5,400,1.15,1.14,2700,7265.0
+Wood Carving & Tribal Art,Rural_Cluster,6,1166,7,380,1.0,1.0,2700,4765.0
+Dhokra Metal Craft,Jaipur_RJ,9,344,3,460,1.18,1.14,3200,6037.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,1,316,10,380,1.0,1.14,2400,1769.0
+Dhokra Metal Craft,Jaipur_RJ,12,926,9,460,1.18,1.0,3200,9566.0
+Kosa & Handloom Silk,Varanasi_UP,11,1200,8,430,1.22,1.0,4800,9448.0
+Wood Carving & Tribal Art,Raipur_CG,12,554,10,440,1.15,1.0,2700,9075.0
+Terracotta & Pottery,Rural_Cluster,13,474,5,380,1.0,1.0,1400,5651.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,401,6,440,1.16,1.14,2400,3191.0
+Wood Carving & Tribal Art,Raipur_CG,10,522,6,440,1.15,1.0,2700,6958.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,5,1189,10,380,1.0,1.0,2400,4450.0
+Bamboo & Cane Craft,Rural_Cluster,9,1260,3,380,1.0,1.0,1150,4034.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,2,1621,5,430,1.16,1.0,2400,3551.0
+Kosa & Handloom Silk,Bastar_CG,10,1684,10,400,1.22,1.14,4800,11626.0
+Wood Carving & Tribal Art,Raipur_CG,11,1227,3,440,1.15,1.14,2700,7637.0
+Dhokra Metal Craft,Varanasi_UP,5,1204,10,430,1.18,1.0,3200,5476.0
+Wood Carving & Tribal Art,Bastar_CG,9,1733,4,400,1.15,1.0,2700,6638.0
+Terracotta & Pottery,Jaipur_RJ,1,1201,8,460,1.12,1.0,1400,2668.0
+Wood Carving & Tribal Art,Varanasi_UP,13,1268,6,430,1.15,1.0,2700,8766.0
+Bamboo & Cane Craft,Jaipur_RJ,2,1474,5,460,1.08,1.0,1150,2784.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,11,311,5,430,1.16,1.14,2400,6870.0
+Terracotta & Pottery,Varanasi_UP,14,1132,7,430,1.12,1.0,1400,8424.0
+Kosa & Handloom Silk,Jaipur_RJ,11,555,6,460,1.22,1.0,4800,8526.0
+Terracotta & Pottery,Tier1_Metro,10,1370,4,520,1.0,1.0,1400,6218.0
+Terracotta & Pottery,Tier1_Metro,1,1585,10,520,1.0,1.0,1400,3399.0
+Dhokra Metal Craft,Raipur_CG,8,661,10,440,1.18,1.0,3200,6767.0
+Kosa & Handloom Silk,Varanasi_UP,1,1777,8,430,1.22,1.14,4800,5471.0
+Kosa & Handloom Silk,Varanasi_UP,2,1167,4,430,1.22,1.0,4800,4055.0
+Terracotta & Pottery,Raipur_CG,5,100,10,440,1.12,1.0,1400,3662.0
+Dhokra Metal Craft,Varanasi_UP,14,770,9,430,1.18,1.0,3200,10545.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,7,498,4,430,1.16,1.14,2400,5307.0
+Kosa & Handloom Silk,Rural_Cluster,13,651,3,380,1.0,1.14,4800,7365.0
+Terracotta & Pottery,Varanasi_UP,5,1384,9,430,1.12,1.0,1400,5055.0
+Dhokra Metal Craft,Varanasi_UP,10,545,4,430,1.18,1.0,3200,5695.0
+Dhokra Metal Craft,Jaipur_RJ,3,1501,6,460,1.18,1.0,3200,4477.0
+Wood Carving & Tribal Art,Raipur_CG,1,1694,6,440,1.15,1.14,2700,3952.0
+Wood Carving & Tribal Art,Varanasi_UP,11,423,7,430,1.15,1.0,2700,6718.0
+Kosa & Handloom Silk,Varanasi_UP,4,1420,9,430,1.22,1.0,4800,6082.0
+Bamboo & Cane Craft,Varanasi_UP,6,136,10,430,1.08,1.0,1150,3819.0
+Terracotta & Pottery,Rural_Cluster,2,138,5,380,1.0,1.0,1400,1440.0
+Dhokra Metal Craft,Jaipur_RJ,13,533,7,460,1.18,1.0,3200,9109.0
+Dhokra Metal Craft,Rural_Cluster,4,1355,8,380,1.0,1.0,3200,4003.0
+Bamboo & Cane Craft,Rural_Cluster,1,983,9,380,1.0,1.0,1150,1957.0
+Dhokra Metal Craft,Bastar_CG,12,349,9,400,1.18,1.0,3200,7964.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,10,215,5,460,1.16,1.0,2400,5761.0
+Dhokra Metal Craft,Varanasi_UP,13,909,6,430,1.18,1.0,3200,8243.0
+Kosa & Handloom Silk,Varanasi_UP,14,216,5,430,1.22,1.0,4800,8723.0
+Kosa & Handloom Silk,Jaipur_RJ,2,407,5,460,1.22,1.0,4800,3188.0
+Wood Carving & Tribal Art,Rural_Cluster,7,1301,7,380,1.0,1.14,2700,6090.0
+Bamboo & Cane Craft,Bastar_CG,12,1665,7,400,1.08,1.0,1150,7582.0
+Wood Carving & Tribal Art,Bastar_CG,1,1486,6,400,1.15,1.14,2700,3415.0
+Kosa & Handloom Silk,Tier1_Metro,6,1155,4,520,1.0,1.14,4800,5901.0
+Terracotta & Pottery,Raipur_CG,2,1289,9,440,1.12,1.0,1400,3278.0
+Kosa & Handloom Silk,Tier1_Metro,12,934,9,520,1.0,1.14,4800,11499.0
+Bamboo & Cane Craft,Raipur_CG,1,821,4,440,1.08,1.0,1150,1621.0
+Terracotta & Pottery,Bastar_CG,1,783,4,400,1.12,1.0,1400,1862.0
+Kosa & Handloom Silk,Varanasi_UP,2,1546,6,430,1.22,1.14,4800,5017.0
+Bamboo & Cane Craft,Bastar_CG,4,426,4,400,1.08,1.0,1150,2152.0
+Dhokra Metal Craft,Rural_Cluster,3,1319,8,380,1.0,1.14,3200,4223.0
+Dhokra Metal Craft,Rural_Cluster,4,881,10,380,1.0,1.0,3200,4197.0
+Wood Carving & Tribal Art,Varanasi_UP,8,451,9,430,1.15,1.0,2700,5963.0
+Dhokra Metal Craft,Jaipur_RJ,13,962,8,460,1.18,1.0,3200,9738.0
+Dhokra Metal Craft,Varanasi_UP,7,1170,7,430,1.18,1.14,3200,6749.0
+Dhokra Metal Craft,Jaipur_RJ,7,1375,5,460,1.18,1.14,3200,6461.0
+Terracotta & Pottery,Varanasi_UP,10,1665,4,430,1.12,1.14,1400,7652.0
+Wood Carving & Tribal Art,Jaipur_RJ,2,1618,9,460,1.15,1.0,2700,4357.0
+Wood Carving & Tribal Art,Tier1_Metro,8,1394,3,520,1.0,1.14,2700,6910.0
+Kosa & Handloom Silk,Jaipur_RJ,2,1364,8,460,1.22,1.0,4800,4525.0
+Dhokra Metal Craft,Jaipur_RJ,11,261,5,460,1.18,1.0,3200,7381.0
+Terracotta & Pottery,Bastar_CG,5,1366,8,400,1.12,1.0,1400,4776.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,3,185,10,400,1.16,1.14,2400,2997.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,2,1091,9,520,1.0,1.0,2400,3415.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,10,1589,10,380,1.0,1.0,2400,7665.0
+Kosa & Handloom Silk,Raipur_CG,8,1587,9,440,1.22,1.0,4800,8867.0
+Kosa & Handloom Silk,Rural_Cluster,10,948,3,380,1.0,1.14,4800,6450.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,14,173,9,460,1.16,1.0,2400,10082.0
+Bamboo & Cane Craft,Jaipur_RJ,9,429,5,460,1.08,1.0,1150,5024.0
+Bamboo & Cane Craft,Rural_Cluster,4,1624,4,380,1.0,1.0,1150,3276.0
+Dhokra Metal Craft,Varanasi_UP,12,770,7,430,1.18,1.14,3200,8748.0
+Bamboo & Cane Craft,Bastar_CG,14,479,4,400,1.08,1.0,1150,6221.0
+Terracotta & Pottery,Rural_Cluster,14,304,3,380,1.0,1.14,1400,5847.0
+Dhokra Metal Craft,Bastar_CG,2,1137,8,400,1.18,1.0,3200,3836.0
+Dhokra Metal Craft,Rural_Cluster,2,1541,4,380,1.0,1.0,3200,3659.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,5,1088,5,430,1.16,1.0,2400,4456.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,10,648,10,430,1.16,1.0,2400,7449.0
+Bamboo & Cane Craft,Varanasi_UP,9,1082,9,430,1.08,1.0,1150,6379.0
+Terracotta & Pottery,Tier1_Metro,5,1798,3,520,1.0,1.14,1400,4906.0
+Bamboo & Cane Craft,Tier1_Metro,2,607,6,520,1.0,1.14,1150,2417.0
+Kosa & Handloom Silk,Jaipur_RJ,1,1279,8,460,1.22,1.0,4800,3759.0
+Terracotta & Pottery,Bastar_CG,13,1220,3,400,1.12,1.0,1400,6296.0
+Kosa & Handloom Silk,Varanasi_UP,10,1629,7,430,1.22,1.14,4800,10559.0
+Kosa & Handloom Silk,Raipur_CG,4,1304,9,440,1.22,1.0,4800,6001.0
+Dhokra Metal Craft,Tier1_Metro,11,261,9,520,1.0,1.0,3200,8136.0
+Wood Carving & Tribal Art,Rural_Cluster,5,120,5,380,1.0,1.14,2700,3271.0
+Wood Carving & Tribal Art,Tier1_Metro,11,1033,5,520,1.0,1.14,2700,8591.0
+Dhokra Metal Craft,Rural_Cluster,6,114,4,380,1.0,1.0,3200,3262.0
+Kosa & Handloom Silk,Rural_Cluster,4,856,3,380,1.0,1.0,4800,3809.0
+Dhokra Metal Craft,Bastar_CG,2,1433,9,400,1.18,1.0,3200,4280.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,13,270,5,460,1.16,1.0,2400,7733.0
+Dhokra Metal Craft,Jaipur_RJ,1,373,6,460,1.18,1.14,3200,2267.0
+Bamboo & Cane Craft,Tier1_Metro,2,403,5,520,1.0,1.14,1150,2008.0
+Bamboo & Cane Craft,Tier1_Metro,5,983,10,520,1.0,1.0,1150,4339.0
+Wood Carving & Tribal Art,Bastar_CG,1,1399,10,400,1.15,1.14,2700,3823.0
+Dhokra Metal Craft,Rural_Cluster,8,1231,3,380,1.0,1.14,3200,5023.0
+Dhokra Metal Craft,Rural_Cluster,1,756,6,380,1.0,1.14,3200,2561.0
+Terracotta & Pottery,Jaipur_RJ,1,1027,9,460,1.12,1.0,1400,2453.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,1033,9,380,1.0,1.0,2400,3961.0
+Terracotta & Pottery,Rural_Cluster,8,583,5,380,1.0,1.0,1400,3815.0
+Bamboo & Cane Craft,Rural_Cluster,8,312,9,380,1.0,1.14,1150,4538.0
+Kosa & Handloom Silk,Rural_Cluster,4,777,5,380,1.0,1.0,4800,3947.0
+Wood Carving & Tribal Art,Raipur_CG,8,554,8,440,1.15,1.0,2700,6085.0
+Bamboo & Cane Craft,Tier1_Metro,2,1121,4,520,1.0,1.14,1150,2734.0
+Wood Carving & Tribal Art,Bastar_CG,14,629,7,400,1.15,1.0,2700,8488.0
+Bamboo & Cane Craft,Bastar_CG,6,434,9,400,1.08,1.0,1150,4035.0
+Terracotta & Pottery,Tier1_Metro,14,732,9,520,1.0,1.14,1400,9927.0
+Wood Carving & Tribal Art,Raipur_CG,4,562,4,440,1.15,1.0,2700,3017.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,8,1212,7,520,1.0,1.14,2400,7343.0
+Bamboo & Cane Craft,Tier1_Metro,13,1284,10,520,1.0,1.14,1150,11688.0
+Wood Carving & Tribal Art,Raipur_CG,5,641,4,440,1.15,1.14,2700,4372.0
+Terracotta & Pottery,Bastar_CG,5,669,10,400,1.12,1.0,1400,3930.0
+Dhokra Metal Craft,Bastar_CG,2,1047,4,400,1.18,1.14,3200,3389.0
+Kosa & Handloom Silk,Rural_Cluster,4,1770,8,380,1.0,1.14,4800,5742.0
+Kosa & Handloom Silk,Bastar_CG,6,1229,4,400,1.22,1.0,4800,5540.0
+Terracotta & Pottery,Bastar_CG,7,1772,3,400,1.12,1.0,1400,4691.0
+Terracotta & Pottery,Varanasi_UP,7,1661,5,430,1.12,1.0,1400,4870.0
+Bamboo & Cane Craft,Rural_Cluster,13,1760,6,380,1.0,1.0,1150,6741.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,12,1088,7,520,1.0,1.14,2400,9719.0
+Wood Carving & Tribal Art,Tier1_Metro,10,885,6,520,1.0,1.0,2700,6919.0
+Bamboo & Cane Craft,Tier1_Metro,13,969,9,520,1.0,1.0,1150,8730.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,14,1089,7,430,1.16,1.14,2400,9732.0
+Terracotta & Pottery,Bastar_CG,1,1795,10,400,1.12,1.14,1400,4106.0
+Wood Carving & Tribal Art,Tier1_Metro,11,1448,6,520,1.0,1.0,2700,8231.0
+Bamboo & Cane Craft,Tier1_Metro,12,387,5,520,1.0,1.0,1150,6591.0
+Wood Carving & Tribal Art,Tier1_Metro,4,202,3,520,1.0,1.0,2700,2894.0
+Wood Carving & Tribal Art,Tier1_Metro,2,1427,7,520,1.0,1.0,2700,3340.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,5,614,6,460,1.16,1.0,2400,4228.0
+Bamboo & Cane Craft,Varanasi_UP,11,424,7,430,1.08,1.0,1150,5898.0
+Dhokra Metal Craft,Varanasi_UP,11,291,7,430,1.18,1.0,3200,7387.0
+Dhokra Metal Craft,Raipur_CG,2,706,9,440,1.18,1.0,3200,3177.0
+Terracotta & Pottery,Jaipur_RJ,1,975,4,460,1.12,1.0,1400,2050.0
+Dhokra Metal Craft,Varanasi_UP,13,171,9,430,1.18,1.0,3200,8902.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,13,1023,9,380,1.0,1.0,2400,7695.0
+Kosa & Handloom Silk,Rural_Cluster,11,1248,9,380,1.0,1.14,4800,8356.0
+Wood Carving & Tribal Art,Tier1_Metro,7,459,8,520,1.0,1.14,2700,6016.0
+Dhokra Metal Craft,Varanasi_UP,6,951,9,430,1.18,1.14,3200,6468.0
+Dhokra Metal Craft,Raipur_CG,3,267,3,440,1.18,1.0,3200,2708.0
+Terracotta & Pottery,Rural_Cluster,11,1636,8,380,1.0,1.14,1400,8106.0
+Bamboo & Cane Craft,Raipur_CG,9,1124,5,440,1.08,1.0,1150,5650.0
+Bamboo & Cane Craft,Tier1_Metro,6,651,9,520,1.0,1.0,1150,4557.0
+Wood Carving & Tribal Art,Rural_Cluster,12,1326,8,380,1.0,1.0,2700,7439.0
+Terracotta & Pottery,Tier1_Metro,3,725,9,520,1.0,1.14,1400,3745.0
+Dhokra Metal Craft,Varanasi_UP,5,254,8,430,1.18,1.0,3200,4247.0
+Bamboo & Cane Craft,Raipur_CG,5,138,10,440,1.08,1.14,1150,3626.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,14,654,6,460,1.16,1.14,2400,9455.0
+Bamboo & Cane Craft,Jaipur_RJ,7,801,4,460,1.08,1.14,1150,4962.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,11,543,3,520,1.0,1.0,2400,6077.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,3,549,5,380,1.0,1.0,2400,2424.0
+Terracotta & Pottery,Bastar_CG,2,1638,4,400,1.12,1.0,1400,3182.0
+Wood Carving & Tribal Art,Tier1_Metro,3,778,5,520,1.0,1.0,2700,3189.0
+Kosa & Handloom Silk,Varanasi_UP,8,853,10,430,1.22,1.0,4800,7910.0
+Dhokra Metal Craft,Tier1_Metro,2,1659,4,520,1.0,1.14,3200,4305.0
+Kosa & Handloom Silk,Jaipur_RJ,1,248,7,460,1.22,1.0,4800,2378.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,5,333,9,460,1.16,1.14,2400,4793.0
+Wood Carving & Tribal Art,Jaipur_RJ,5,124,5,460,1.15,1.14,2700,4008.0
+Wood Carving & Tribal Art,Raipur_CG,12,1525,3,440,1.15,1.0,2700,8011.0
+Bamboo & Cane Craft,Jaipur_RJ,12,517,6,460,1.08,1.14,1150,7756.0
+Kosa & Handloom Silk,Tier1_Metro,4,138,8,520,1.0,1.14,4800,4332.0
+Dhokra Metal Craft,Raipur_CG,13,1453,10,440,1.18,1.14,3200,13086.0
+Kosa & Handloom Silk,Tier1_Metro,11,617,7,520,1.0,1.0,4800,7998.0
+Terracotta & Pottery,Raipur_CG,3,929,5,440,1.12,1.14,1400,3242.0
+Bamboo & Cane Craft,Tier1_Metro,4,284,4,520,1.0,1.0,1150,2709.0
+Dhokra Metal Craft,Jaipur_RJ,6,1102,5,460,1.18,1.14,3200,5834.0
+Terracotta & Pottery,Bastar_CG,5,973,4,400,1.12,1.0,1400,3588.0
+Bamboo & Cane Craft,Rural_Cluster,5,1572,5,380,1.0,1.0,1150,3681.0
+Dhokra Metal Craft,Rural_Cluster,7,210,9,380,1.0,1.14,3200,4613.0
+Dhokra Metal Craft,Varanasi_UP,2,1066,9,430,1.18,1.0,3200,3744.0
+Dhokra Metal Craft,Jaipur_RJ,14,913,7,460,1.18,1.0,3200,9510.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,1097,4,380,1.0,1.0,2400,3231.0
+Dhokra Metal Craft,Varanasi_UP,5,1633,8,430,1.18,1.0,3200,6115.0
+Bamboo & Cane Craft,Rural_Cluster,1,1190,5,380,1.0,1.14,1150,2293.0
+Dhokra Metal Craft,Rural_Cluster,7,1308,4,380,1.0,1.0,3200,4837.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,13,615,8,400,1.16,1.14,2400,8992.0
+Wood Carving & Tribal Art,Raipur_CG,11,1771,10,440,1.15,1.14,2700,11772.0
+Wood Carving & Tribal Art,Rural_Cluster,12,856,10,380,1.0,1.14,2700,8202.0
+Dhokra Metal Craft,Tier1_Metro,10,614,5,520,1.0,1.14,3200,7372.0
+Dhokra Metal Craft,Raipur_CG,13,661,4,440,1.18,1.14,3200,8571.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,1461,3,400,1.16,1.0,2400,4589.0
+Terracotta & Pottery,Bastar_CG,8,1439,3,400,1.12,1.0,1400,4916.0
+Wood Carving & Tribal Art,Bastar_CG,3,199,7,400,1.15,1.0,2700,2703.0
+Wood Carving & Tribal Art,Jaipur_RJ,12,423,8,460,1.15,1.0,2700,8758.0
+Kosa & Handloom Silk,Raipur_CG,7,583,10,440,1.22,1.14,4800,7625.0
+Dhokra Metal Craft,Bastar_CG,4,1024,9,400,1.18,1.0,3200,4742.0
+Terracotta & Pottery,Bastar_CG,3,164,3,400,1.12,1.14,1400,1891.0
+Wood Carving & Tribal Art,Tier1_Metro,1,377,8,520,1.0,1.0,2700,1936.0
+Dhokra Metal Craft,Varanasi_UP,1,1624,9,430,1.18,1.14,3200,4513.0
+Kosa & Handloom Silk,Varanasi_UP,13,1583,3,430,1.22,1.0,4800,9568.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,10,1516,7,520,1.0,1.14,2400,8148.0
+Terracotta & Pottery,Tier1_Metro,8,1649,3,520,1.0,1.14,1400,6377.0
+Terracotta & Pottery,Raipur_CG,3,1671,6,440,1.12,1.0,1400,4048.0
+Kosa & Handloom Silk,Varanasi_UP,10,1308,8,430,1.22,1.0,4800,8999.0
+Bamboo & Cane Craft,Rural_Cluster,5,1219,4,380,1.0,1.0,1150,3205.0
+Bamboo & Cane Craft,Bastar_CG,11,885,5,400,1.08,1.0,1150,5863.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,6,994,6,460,1.16,1.0,2400,5142.0
+Kosa & Handloom Silk,Bastar_CG,4,1432,4,400,1.22,1.0,4800,4790.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,5,499,9,520,1.0,1.0,2400,4567.0
+Wood Carving & Tribal Art,Raipur_CG,5,1586,4,440,1.15,1.0,2700,4653.0
+Kosa & Handloom Silk,Tier1_Metro,3,739,9,520,1.0,1.14,4800,4715.0
+Wood Carving & Tribal Art,Rural_Cluster,7,196,6,380,1.0,1.0,2700,3858.0
+Bamboo & Cane Craft,Jaipur_RJ,13,732,10,460,1.08,1.0,1150,8955.0
+Terracotta & Pottery,Bastar_CG,1,1378,5,400,1.12,1.0,1400,2465.0
+Wood Carving & Tribal Art,Bastar_CG,12,1068,4,400,1.15,1.14,2700,7910.0
+Dhokra Metal Craft,Jaipur_RJ,6,1180,4,460,1.18,1.14,3200,5265.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,9,1635,10,440,1.16,1.14,2400,9587.0
+Terracotta & Pottery,Bastar_CG,4,607,6,400,1.12,1.0,1400,2831.0
+Dhokra Metal Craft,Bastar_CG,9,592,9,400,1.18,1.14,3200,7521.0
+Wood Carving & Tribal Art,Rural_Cluster,13,1464,6,380,1.0,1.0,2700,7339.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,3,964,7,430,1.16,1.14,2400,4079.0
+Bamboo & Cane Craft,Raipur_CG,9,498,8,440,1.08,1.0,1150,5431.0
+Dhokra Metal Craft,Varanasi_UP,4,759,10,430,1.18,1.0,3200,4592.0
+Bamboo & Cane Craft,Jaipur_RJ,11,916,3,460,1.08,1.14,1150,6483.0
+Kosa & Handloom Silk,Bastar_CG,5,482,8,400,1.22,1.0,4800,4703.0
+Wood Carving & Tribal Art,Bastar_CG,3,1242,3,400,1.15,1.0,2700,3213.0
+Terracotta & Pottery,Jaipur_RJ,10,1704,5,460,1.12,1.14,1400,8261.0
+Wood Carving & Tribal Art,Varanasi_UP,12,1462,9,430,1.15,1.0,2700,8875.0
+Dhokra Metal Craft,Jaipur_RJ,11,133,10,460,1.18,1.14,3200,8425.0
+Bamboo & Cane Craft,Rural_Cluster,13,1180,7,380,1.0,1.0,1150,6645.0
+Terracotta & Pottery,Tier1_Metro,1,1133,7,520,1.0,1.0,1400,2226.0
+Bamboo & Cane Craft,Tier1_Metro,11,187,9,520,1.0,1.0,1150,6927.0
+Kosa & Handloom Silk,Varanasi_UP,8,341,8,430,1.22,1.0,4800,6843.0
+Bamboo & Cane Craft,Varanasi_UP,10,487,9,430,1.08,1.0,1150,5823.0
+Kosa & Handloom Silk,Bastar_CG,12,1352,9,400,1.22,1.0,4800,10220.0
+Kosa & Handloom Silk,Raipur_CG,4,946,8,440,1.22,1.0,4800,5123.0
+Kosa & Handloom Silk,Varanasi_UP,14,708,9,430,1.22,1.14,4800,12498.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,13,1726,7,460,1.16,1.14,2400,12018.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,6,1124,5,440,1.16,1.0,2400,5143.0
+Kosa & Handloom Silk,Varanasi_UP,7,764,8,430,1.22,1.14,4800,6961.0
+Terracotta & Pottery,Tier1_Metro,4,1060,3,520,1.0,1.0,1400,3055.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,7,633,4,440,1.16,1.0,2400,4692.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,3,1149,3,440,1.16,1.0,2400,3340.0
+Bamboo & Cane Craft,Jaipur_RJ,8,823,8,460,1.08,1.0,1150,6000.0
+Kosa & Handloom Silk,Jaipur_RJ,11,1610,6,460,1.22,1.0,4800,9769.0
+Bamboo & Cane Craft,Tier1_Metro,7,1473,9,520,1.0,1.0,1150,6106.0
+Bamboo & Cane Craft,Jaipur_RJ,14,1032,3,460,1.08,1.0,1150,7107.0
+Terracotta & Pottery,Tier1_Metro,7,984,10,520,1.0,1.14,1400,7285.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,14,862,7,380,1.0,1.0,2400,6728.0
+Wood Carving & Tribal Art,Raipur_CG,12,898,9,440,1.15,1.0,2700,8383.0
+Kosa & Handloom Silk,Rural_Cluster,9,784,4,380,1.0,1.0,4800,5506.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,184,7,380,1.0,1.14,2400,2698.0
+Kosa & Handloom Silk,Rural_Cluster,7,1256,8,380,1.0,1.14,4800,6758.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,10,392,7,520,1.0,1.0,2400,6826.0
+Kosa & Handloom Silk,Varanasi_UP,9,504,5,430,1.22,1.0,4800,7018.0
+Kosa & Handloom Silk,Raipur_CG,6,494,7,440,1.22,1.0,4800,5628.0
+Bamboo & Cane Craft,Tier1_Metro,13,186,7,520,1.0,1.14,1150,8731.0
+Terracotta & Pottery,Varanasi_UP,14,385,4,430,1.12,1.0,1400,6968.0
+Terracotta & Pottery,Rural_Cluster,9,430,7,380,1.0,1.0,1400,4828.0
+Terracotta & Pottery,Raipur_CG,5,278,7,440,1.12,1.0,1400,3489.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,3,1219,7,460,1.16,1.0,2400,4007.0
+Terracotta & Pottery,Rural_Cluster,11,1707,5,380,1.0,1.0,1400,5796.0
+Bamboo & Cane Craft,Raipur_CG,9,1642,10,440,1.08,1.0,1150,6876.0
+Kosa & Handloom Silk,Bastar_CG,8,726,10,400,1.22,1.0,4800,6917.0
+Dhokra Metal Craft,Jaipur_RJ,1,1732,6,460,1.18,1.14,3200,4222.0
+Kosa & Handloom Silk,Jaipur_RJ,11,1254,10,460,1.22,1.0,4800,11036.0
+Dhokra Metal Craft,Rural_Cluster,8,1369,3,380,1.0,1.0,3200,5147.0
+Dhokra Metal Craft,Varanasi_UP,12,1113,4,430,1.18,1.0,3200,7514.0
+Kosa & Handloom Silk,Tier1_Metro,9,1273,3,520,1.0,1.0,4800,7175.0
+Wood Carving & Tribal Art,Tier1_Metro,3,1195,4,520,1.0,1.0,2700,3492.0
+Kosa & Handloom Silk,Rural_Cluster,14,322,3,380,1.0,1.14,4800,6776.0
+Wood Carving & Tribal Art,Bastar_CG,9,525,4,400,1.15,1.14,2700,5463.0
+Bamboo & Cane Craft,Raipur_CG,13,1571,10,440,1.08,1.14,1150,10011.0
+Kosa & Handloom Silk,Bastar_CG,7,1284,6,400,1.22,1.0,4800,6831.0
+Wood Carving & Tribal Art,Raipur_CG,4,1669,5,440,1.15,1.14,2700,5119.0
+Wood Carving & Tribal Art,Jaipur_RJ,13,1273,6,460,1.15,1.0,2700,9088.0
+Dhokra Metal Craft,Rural_Cluster,2,227,9,380,1.0,1.0,3200,2246.0
+Wood Carving & Tribal Art,Varanasi_UP,14,1765,6,430,1.15,1.14,2700,10789.0
+Terracotta & Pottery,Rural_Cluster,6,338,3,380,1.0,1.14,1400,2926.0
+Terracotta & Pottery,Tier1_Metro,11,209,9,520,1.0,1.0,1400,7493.0
+Wrought Iron Craft (Lohshilp),Varanasi_UP,9,620,4,430,1.16,1.0,2400,5604.0
+Wrought Iron Craft (Lohshilp),Rural_Cluster,4,683,4,380,1.0,1.0,2400,2774.0
+Bamboo & Cane Craft,Bastar_CG,10,353,4,400,1.08,1.14,1150,5172.0
+Terracotta & Pottery,Raipur_CG,3,843,5,440,1.12,1.0,1400,2738.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,13,1485,8,440,1.16,1.0,2400,9657.0
+Terracotta & Pottery,Rural_Cluster,1,1615,9,380,1.0,1.0,1400,3036.0
+Wood Carving & Tribal Art,Varanasi_UP,12,339,3,430,1.15,1.14,2700,7277.0
+Terracotta & Pottery,Rural_Cluster,3,1725,4,380,1.0,1.0,1400,3087.0
+Terracotta & Pottery,Raipur_CG,9,1445,6,440,1.12,1.0,1400,6368.0
+Wood Carving & Tribal Art,Jaipur_RJ,5,334,5,460,1.15,1.14,2700,4081.0
+Bamboo & Cane Craft,Bastar_CG,1,977,4,400,1.08,1.0,1150,2018.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,4,996,9,520,1.0,1.0,2400,4322.0
+Wood Carving & Tribal Art,Rural_Cluster,4,1268,7,380,1.0,1.0,2700,3878.0
+Bamboo & Cane Craft,Rural_Cluster,8,459,3,380,1.0,1.0,1150,3144.0
+Wood Carving & Tribal Art,Varanasi_UP,4,443,5,430,1.15,1.0,2700,3555.0
+Dhokra Metal Craft,Bastar_CG,2,1038,9,400,1.18,1.0,3200,3884.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,13,597,4,460,1.16,1.0,2400,7694.0
+Wood Carving & Tribal Art,Tier1_Metro,7,824,10,520,1.0,1.14,2700,6966.0
+Dhokra Metal Craft,Jaipur_RJ,14,926,5,460,1.18,1.14,3200,9580.0
+Bamboo & Cane Craft,Tier1_Metro,13,1172,8,520,1.0,1.14,1150,9994.0
+Terracotta & Pottery,Tier1_Metro,1,496,5,520,1.0,1.0,1400,1536.0
+Kosa & Handloom Silk,Jaipur_RJ,10,1220,10,460,1.22,1.0,4800,10297.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,128,8,460,1.16,1.0,2400,5681.0
+Terracotta & Pottery,Tier1_Metro,5,715,7,520,1.0,1.0,1400,3893.0
+Wood Carving & Tribal Art,Jaipur_RJ,4,360,8,460,1.15,1.14,2700,4012.0
+Dhokra Metal Craft,Tier1_Metro,11,1517,8,520,1.0,1.0,3200,8660.0
+Kosa & Handloom Silk,Bastar_CG,12,1105,4,400,1.22,1.0,4800,7707.0
+Kosa & Handloom Silk,Tier1_Metro,4,1058,4,520,1.0,1.0,4800,4409.0
+Kosa & Handloom Silk,Varanasi_UP,3,1279,5,430,1.22,1.14,4800,4849.0
+Terracotta & Pottery,Jaipur_RJ,13,1695,8,460,1.12,1.14,1400,10449.0
+Terracotta & Pottery,Bastar_CG,5,996,9,400,1.12,1.14,1400,5417.0
+Bamboo & Cane Craft,Varanasi_UP,14,1220,5,430,1.08,1.0,1150,7712.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,7,526,8,520,1.0,1.0,2400,5537.0
+Bamboo & Cane Craft,Tier1_Metro,13,1243,7,520,1.0,1.0,1150,8780.0
+Kosa & Handloom Silk,Rural_Cluster,13,1656,5,380,1.0,1.14,4800,7749.0
+Terracotta & Pottery,Tier1_Metro,11,172,3,520,1.0,1.0,1400,5850.0
+Kosa & Handloom Silk,Bastar_CG,2,597,10,400,1.22,1.14,4800,3794.0
+Bamboo & Cane Craft,Tier1_Metro,9,562,6,520,1.0,1.14,1150,6156.0
+Dhokra Metal Craft,Raipur_CG,8,1441,5,440,1.18,1.0,3200,6610.0
+Dhokra Metal Craft,Raipur_CG,2,410,6,440,1.18,1.14,3200,2753.0
+Bamboo & Cane Craft,Bastar_CG,12,614,9,400,1.08,1.0,1150,6793.0
+Wood Carving & Tribal Art,Rural_Cluster,7,817,9,380,1.0,1.0,2700,4810.0
+Dhokra Metal Craft,Raipur_CG,9,701,10,440,1.18,1.14,3200,8596.0
+Kosa & Handloom Silk,Bastar_CG,12,748,4,400,1.22,1.0,4800,7371.0
+Terracotta & Pottery,Varanasi_UP,3,718,8,430,1.12,1.14,1400,3468.0
+Wood Carving & Tribal Art,Rural_Cluster,6,1256,8,380,1.0,1.14,2700,5530.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,8,951,9,460,1.16,1.0,2400,6451.0
+Dhokra Metal Craft,Bastar_CG,14,1699,9,400,1.18,1.0,3200,11463.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,5,537,6,460,1.16,1.0,2400,3847.0
+Wood Carving & Tribal Art,Tier1_Metro,12,1308,9,520,1.0,1.14,2700,10077.0
+Kosa & Handloom Silk,Bastar_CG,3,408,4,400,1.22,1.0,4800,3525.0
+Wood Carving & Tribal Art,Jaipur_RJ,13,839,8,460,1.15,1.14,2700,9759.0
+Terracotta & Pottery,Raipur_CG,8,788,4,440,1.12,1.0,1400,4999.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,5,1739,10,400,1.16,1.14,2400,6723.0
+Terracotta & Pottery,Tier1_Metro,13,1610,9,520,1.0,1.14,1400,10512.0
+Dhokra Metal Craft,Tier1_Metro,13,497,10,520,1.0,1.0,3200,9680.0
+Bamboo & Cane Craft,Jaipur_RJ,4,314,8,460,1.08,1.0,1150,2782.0
+Wrought Iron Craft (Lohshilp),Bastar_CG,6,1530,6,400,1.16,1.14,2400,6010.0
+Terracotta & Pottery,Raipur_CG,14,958,8,440,1.12,1.0,1400,8750.0
+Terracotta & Pottery,Bastar_CG,4,356,4,400,1.12,1.0,1400,2750.0
+Bamboo & Cane Craft,Jaipur_RJ,4,503,4,460,1.08,1.0,1150,2577.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,6,211,5,440,1.16,1.14,2400,4249.0
+Wood Carving & Tribal Art,Jaipur_RJ,4,897,7,460,1.15,1.0,2700,4171.0
+Dhokra Metal Craft,Bastar_CG,14,374,9,400,1.18,1.0,3200,9029.0
+Wrought Iron Craft (Lohshilp),Raipur_CG,2,206,9,440,1.16,1.14,2400,2446.0
+Bamboo & Cane Craft,Jaipur_RJ,6,655,4,460,1.08,1.0,1150,3581.0
+Bamboo & Cane Craft,Rural_Cluster,1,355,8,380,1.0,1.0,1150,1176.0
+Dhokra Metal Craft,Bastar_CG,3,1747,7,400,1.18,1.0,3200,5156.0
+Terracotta & Pottery,Varanasi_UP,9,1665,10,430,1.12,1.0,1400,8078.0
+Kosa & Handloom Silk,Bastar_CG,9,565,8,400,1.22,1.14,4800,8106.0
+Terracotta & Pottery,Jaipur_RJ,6,505,4,460,1.12,1.0,1400,3759.0
+Kosa & Handloom Silk,Varanasi_UP,7,1758,6,430,1.22,1.0,4800,7058.0
+Wood Carving & Tribal Art,Varanasi_UP,8,332,4,430,1.15,1.0,2700,4695.0
+Wrought Iron Craft (Lohshilp),Jaipur_RJ,12,235,7,460,1.16,1.0,2400,7923.0
+Bamboo & Cane Craft,Varanasi_UP,2,1351,7,430,1.08,1.0,1150,2982.0
+Bamboo & Cane Craft,Raipur_CG,10,1318,8,440,1.08,1.0,1150,6692.0
+Bamboo & Cane Craft,Varanasi_UP,14,498,8,430,1.08,1.0,1150,7658.0
+Terracotta & Pottery,Tier1_Metro,3,1685,7,520,1.0,1.14,1400,4228.0
+Wrought Iron Craft (Lohshilp),Tier1_Metro,4,304,5,520,1.0,1.0,2400,3149.0
+Wood Carving & Tribal Art,Rural_Cluster,8,1125,3,380,1.0,1.0,2700,4318.0
+Kosa & Handloom Silk,Tier1_Metro,5,306,3,520,1.0,1.14,4800,4057.0
+Bamboo & Cane Craft,Bastar_CG,6,134,5,400,1.08,1.14,1150,3194.0
+Wood Carving & Tribal Art,Raipur_CG,3,337,10,440,1.15,1.0,2700,3087.0
+Bamboo & Cane Craft,Rural_Cluster,4,1324,8,380,1.0,1.0,1150,3490.0
+Bamboo & Cane Craft,Bastar_CG,1,1354,6,400,1.08,1.0,1150,2398.0
+Bamboo & Cane Craft,Varanasi_UP,7,120,8,430,1.08,1.0,1150,3885.0
+Wood Carving & Tribal Art,Bastar_CG,6,679,8,400,1.15,1.0,2700,4782.0
+Terracotta & Pottery,Jaipur_RJ,13,939,9,460,1.12,1.0,1400,9310.0
+Terracotta & Pottery,Varanasi_UP,14,1605,10,430,1.12,1.0,1400,10506.0

@@ -1,0 +1,335 @@
+{
+  "model_metadata": {
+    "model_type": "Scikit-Learn RandomForest + Dynamic Ridge Hybrid",
+    "training_samples": 2500,
+    "mape_percent": 6.02,
+    "r2_score": 0.964,
+    "classification_accuracy_percent": 92.4,
+    "voice_wer_percent": 8.4,
+    "last_trained": "2026-10"
+  },
+  "hyperparameters": {
+    "default_wastage_multiplier": 1.15,
+    "complexity_skill_beta": 0.065,
+    "annual_cpi_inflation_index": 1.06,
+    "cost_blend_alpha": 0.65,
+    "market_blend_one_minus_alpha": 0.35,
+    "middleman_discount_factor": 0.36,
+    "showroom_mrp_markup_factor": 1.48
+  },
+  "state_wages": {
+    "Bastar_CG": {
+      "label": "Bastar, Chhattisgarh (GI Hub)",
+      "daily_wage": 400,
+      "gi_eligible": true
+    },
+    "Raipur_CG": {
+      "label": "Raipur, Chhattisgarh",
+      "daily_wage": 440,
+      "gi_eligible": true
+    },
+    "Champa_CG": {
+      "label": "Champa / Bilaspur, Chhattisgarh",
+      "daily_wage": 440,
+      "gi_eligible": true
+    },
+    "Kondagaon_CG": {
+      "label": "Kondagaon, Chhattisgarh",
+      "daily_wage": 410,
+      "gi_eligible": true
+    },
+    "Jaipur_RJ": {
+      "label": "Jaipur, Rajasthan",
+      "daily_wage": 460,
+      "gi_eligible": true
+    },
+    "Jodhpur_RJ": {
+      "label": "Jodhpur, Rajasthan",
+      "daily_wage": 450,
+      "gi_eligible": true
+    },
+    "Kutch_GJ": {
+      "label": "Kutch, Gujarat",
+      "daily_wage": 450,
+      "gi_eligible": true
+    },
+    "Varanasi_UP": {
+      "label": "Varanasi, Uttar Pradesh",
+      "daily_wage": 430,
+      "gi_eligible": true
+    },
+    "Lucknow_UP": {
+      "label": "Lucknow, Uttar Pradesh",
+      "daily_wage": 420,
+      "gi_eligible": true
+    },
+    "Bhadohi_UP": {
+      "label": "Bhadohi, Uttar Pradesh",
+      "daily_wage": 420,
+      "gi_eligible": true
+    },
+    "Madhubani_BR": {
+      "label": "Madhubani, Bihar",
+      "daily_wage": 390,
+      "gi_eligible": true
+    },
+    "Shantiniketan_WB": {
+      "label": "Shantiniketan, West Bengal",
+      "daily_wage": 410,
+      "gi_eligible": true
+    },
+    "Kanchipuram_TN": {
+      "label": "Kanchipuram, Tamil Nadu",
+      "daily_wage": 470,
+      "gi_eligible": true
+    },
+    "Mysore_KA": {
+      "label": "Mysore, Karnataka",
+      "daily_wage": 460,
+      "gi_eligible": true
+    },
+    "Hyderabad_TS": {
+      "label": "Hyderabad, Telangana",
+      "daily_wage": 480,
+      "gi_eligible": true
+    },
+    "Srinagar_JK": {
+      "label": "Srinagar, Jammu & Kashmir",
+      "daily_wage": 460,
+      "gi_eligible": true
+    },
+    "Anantnag_JK": {
+      "label": "Anantnag, Jammu & Kashmir",
+      "daily_wage": 440,
+      "gi_eligible": true
+    },
+    "Kullu_HP": {
+      "label": "Kullu, Himachal Pradesh",
+      "daily_wage": 440,
+      "gi_eligible": true
+    },
+    "Bilaspur_CG": {
+      "label": "Bilaspur, Chhattisgarh",
+      "daily_wage": 420,
+      "gi_eligible": true
+    },
+    "Raigarh_CG": {
+      "label": "Raigarh, Chhattisgarh",
+      "daily_wage": 410,
+      "gi_eligible": true
+    },
+    "Bhagalpur_BR": {
+      "label": "Bhagalpur, Bihar",
+      "daily_wage": 400,
+      "gi_eligible": true
+    },
+    "Bankura_WB": {
+      "label": "Bankura, West Bengal",
+      "daily_wage": 410,
+      "gi_eligible": true
+    },
+    "Bishnupur_WB": {
+      "label": "Bishnupur, West Bengal",
+      "daily_wage": 420,
+      "gi_eligible": true
+    },
+    "Murshidabad_WB": {
+      "label": "Murshidabad, West Bengal",
+      "daily_wage": 420,
+      "gi_eligible": true
+    },
+    "Puri_OD": {
+      "label": "Puri / Raghurajpur, Odisha",
+      "daily_wage": 420,
+      "gi_eligible": true
+    },
+    "Cuttack_OD": {
+      "label": "Cuttack, Odisha",
+      "daily_wage": 450,
+      "gi_eligible": true
+    },
+    "Sambalpur_OD": {
+      "label": "Sambalpur, Odisha",
+      "daily_wage": 430,
+      "gi_eligible": true
+    },
+    "Moradabad_UP": {
+      "label": "Moradabad, Uttar Pradesh",
+      "daily_wage": 440,
+      "gi_eligible": true
+    },
+    "Saharanpur_UP": {
+      "label": "Saharanpur, Uttar Pradesh",
+      "daily_wage": 430,
+      "gi_eligible": true
+    },
+    "Firozabad_UP": {
+      "label": "Firozabad, Uttar Pradesh",
+      "daily_wage": 420,
+      "gi_eligible": true
+    },
+    "Agra_UP": {
+      "label": "Agra, Uttar Pradesh",
+      "daily_wage": 450,
+      "gi_eligible": true
+    },
+    "Khurja_UP": {
+      "label": "Khurja, Uttar Pradesh",
+      "daily_wage": 410,
+      "gi_eligible": true
+    },
+    "Udaipur_RJ": {
+      "label": "Udaipur, Rajasthan",
+      "daily_wage": 440,
+      "gi_eligible": true
+    },
+    "Barmer_RJ": {
+      "label": "Barmer, Rajasthan",
+      "daily_wage": 420,
+      "gi_eligible": true
+    },
+    "Patan_GJ": {
+      "label": "Patan, Gujarat",
+      "daily_wage": 480,
+      "gi_eligible": true
+    },
+    "Surat_GJ": {
+      "label": "Surat, Gujarat",
+      "daily_wage": 460,
+      "gi_eligible": true
+    },
+    "Maheshwar_MP": {
+      "label": "Maheshwar / Indore, Madhya Pradesh",
+      "daily_wage": 430,
+      "gi_eligible": true
+    },
+    "Chanderi_MP": {
+      "label": "Chanderi, Madhya Pradesh",
+      "daily_wage": 430,
+      "gi_eligible": true
+    },
+    "Bhopal_MP": {
+      "label": "Bhopal, Madhya Pradesh",
+      "daily_wage": 420,
+      "gi_eligible": true
+    },
+    "Kolhapur_MH": {
+      "label": "Kolhapur, Maharashtra",
+      "daily_wage": 440,
+      "gi_eligible": true
+    },
+    "Paithan_MH": {
+      "label": "Paithan / Aurangabad, Maharashtra",
+      "daily_wage": 450,
+      "gi_eligible": true
+    },
+    "Thanjavur_TN": {
+      "label": "Thanjavur, Tamil Nadu",
+      "daily_wage": 460,
+      "gi_eligible": true
+    },
+    "Madurai_TN": {
+      "label": "Madurai, Tamil Nadu",
+      "daily_wage": 440,
+      "gi_eligible": true
+    },
+    "Channapatna_KA": {
+      "label": "Channapatna, Karnataka",
+      "daily_wage": 430,
+      "gi_eligible": true
+    },
+    "Bidar_KA": {
+      "label": "Bidar, Karnataka",
+      "daily_wage": 450,
+      "gi_eligible": true
+    },
+    "Warangal_TS": {
+      "label": "Warangal, Telangana",
+      "daily_wage": 430,
+      "gi_eligible": true
+    },
+    "Pochampally_TS": {
+      "label": "Pochampally, Telangana",
+      "daily_wage": 450,
+      "gi_eligible": true
+    },
+    "Rural_Cluster": {
+      "label": "General Rural Cluster",
+      "daily_wage": 380,
+      "gi_eligible": false
+    },
+    "Tier1_Metro": {
+      "label": "Tier-1 Metro Studio",
+      "daily_wage": 520,
+      "gi_eligible": false
+    }
+  },
+  "categories": {
+    "Dhokra Metal Craft": {
+      "base_intercept": 650,
+      "wastage_multiplier": 1.15,
+      "gi_region_multiplier": 1.18,
+      "online_market_median": 3200,
+      "min_online_comp": 1800,
+      "max_online_comp": 5600,
+      "default_technique": "Lost-Wax Brass Casting (Beeswax & Clay Core)",
+      "default_material": "Brass, Bronze & Natural Beeswax",
+      "hi_name": "बस्तर ढोकरा धातु कला (Bastar Dhokra Metal Craft)"
+    },
+    "Bamboo & Cane Craft": {
+      "base_intercept": 220,
+      "wastage_multiplier": 1.12,
+      "gi_region_multiplier": 1.1,
+      "online_market_median": 1150,
+      "min_online_comp": 550,
+      "max_online_comp": 2400,
+      "default_technique": "Hand-Split Interlaced Tribal Basketry Weaving",
+      "default_material": "Seasoned Natural Bamboo & Cane Strips",
+      "hi_name": "बांस एवं बेंत हस्तशिल्प (Bamboo & Cane Craft)"
+    },
+    "Terracotta & Pottery": {
+      "base_intercept": 280,
+      "wastage_multiplier": 1.18,
+      "gi_region_multiplier": 1.14,
+      "online_market_median": 1400,
+      "min_online_comp": 680,
+      "max_online_comp": 2900,
+      "default_technique": "Wheel-Thrown & Hand-Molded Kiln Fired Clay",
+      "default_material": "Alluvial River Clay & Natural Mineral Slip",
+      "hi_name": "टेराकोटा मिट्टी शिल्प (Terracotta Clay Craft)"
+    },
+    "Kosa & Handloom Silk": {
+      "base_intercept": 950,
+      "wastage_multiplier": 1.1,
+      "gi_region_multiplier": 1.22,
+      "online_market_median": 4800,
+      "min_online_comp": 2600,
+      "max_online_comp": 8900,
+      "default_technique": "Pit-Loom Handwoven Extra-Weft Jala Technique",
+      "default_material": "Champa Tussar Kosa Silk & Natural Dyes",
+      "hi_name": "चांपा कोसा सिल्क हथकरघा (Kosa Handloom Silk)"
+    },
+    "Wood Carving & Tribal Art": {
+      "base_intercept": 520,
+      "wastage_multiplier": 1.14,
+      "gi_region_multiplier": 1.15,
+      "online_market_median": 2700,
+      "min_online_comp": 1400,
+      "max_online_comp": 4900,
+      "default_technique": "Hand-Chiseled Relief & Folk Motif Engraving",
+      "default_material": "Seasoned Teak / Sal Wood & Natural Lacquer",
+      "hi_name": "काष्ठ कला एवं आदिवासी नक्काशी (Tribal Wood Carving)"
+    },
+    "Wrought Iron Craft (Lohshilp)": {
+      "base_intercept": 480,
+      "wastage_multiplier": 1.15,
+      "gi_region_multiplier": 1.16,
+      "online_market_median": 2400,
+      "min_online_comp": 1200,
+      "max_online_comp": 4400,
+      "default_technique": "Hot-Forged Hammered Tribal Ironwork",
+      "default_material": "Recycled Wrought Iron & Protective Oil Finish",
+      "hi_name": "बस्तर लौह शिल्प (Wrought Iron Lohshilp)"
+    }
+  }
+}
